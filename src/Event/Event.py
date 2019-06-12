@@ -6,8 +6,3 @@ class Event:
         self.duration = duration
         self.time = time
         self.patient = patient
-
-    def run(self):
-        pass
-
-    

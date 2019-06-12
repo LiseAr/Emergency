@@ -1,5 +1,5 @@
 
-class EndOfRegistration(Event):
+class EndOfMedicalCare(Event):
 
     def __init__(self,  duration, time, patient, doctor):
         
