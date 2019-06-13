@@ -1,0 +1,3294 @@
+HORA: 2019-06-13 17:42:13.995604
+Tempo de Simulação: 10000.0
+Número de Secretários(as): 1
+Número de Enfermeiros(as): 1
+Número de Médicos(as): 1
+
+
+EVENT=EndOfArrival : Time=20.2168914982846, Duration=20.2168914982846, Patient=1 
+
+EVENT=EndOfRegistration : Time=37.498377525822306, Duration=17.281486027537706, Patient=1 Secretary=3
+
+EVENT=EndOfArrival : Time=42.144159131266, Duration=21.9272676329814, Patient=2 
+
+EVENT=EndOfScreening : Time=50.919081826017184, Duration=13.420704300194878, Patient=1 Nurse=2
+
+EVENT=EndOfRegistration : Time=59.651283147610535, Duration=17.507124016344534, Patient=2 Secretary=3
+
+EVENT=EndOfArrival : Time=62.155858590214976, Duration=20.01169945894898, Patient=3 
+
+EVENT=EndOfScreening : Time=70.51614030023673, Duration=10.864857152626188, Patient=2 Nurse=2
+
+EVENT=EndOfRegistration : Time=79.10250902640252, Duration=16.94665043618754, Patient=3 Secretary=3
+
+EVENT=EndOfArrival : Time=83.74883804394626, Duration=21.592979453731285, Patient=4 
+
+EVENT=EndOfScreening : Time=90.01406567449341, Duration=10.911556648090894, Patient=3 Nurse=2
+
+EVENT=EndOfRegistration : Time=100.20547251473013, Duration=16.45663447078386, Patient=4 Secretary=3
+
+EVENT=EndOfArrival : Time=104.00710405953917, Duration=20.258266015592913, Patient=5 
+
+EVENT=EndOfMedicalCare : Time=104.58876720586107, Duration=53.6696853798439, Patient=1 Doctor=1
+
+EVENT=EndOfScreening : Time=110.27536552438812, Duration=10.069893009657985, Patient=4 Nurse=2
+
+EVENT=EndOfRegistration : Time=120.39758126930585, Duration=16.39047720976668, Patient=5 Secretary=3
+
+EVENT=EndOfArrival : Time=126.81820165307957, Duration=22.811097593540392, Patient=6 
+
+EVENT=EndOfRegistration : Time=142.9835152040454, Duration=16.165313550965827, Patient=6 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=145.65736070705825, Duration=35.38199518267012, Patient=1 Nurse=2
+
+EVENT=EndOfArrival : Time=147.6220128153286, Duration=20.80381116224902, Patient=7 
+
+EVENT=EndOfMedicalCare : Time=155.08962115097802, Duration=50.50085394511695, Patient=2 Doctor=1
+
+EVENT=EndOfScreening : Time=158.23324006097477, Duration=12.575879353916516, Patient=6 Nurse=2
+
+EVENT=EndOfRegistration : Time=162.71433386647604, Duration=15.092321051147456, Patient=7 Secretary=3
+
+EVENT=EndOfArrival : Time=168.1238154267651, Duration=20.50180261143651, Patient=8 
+
+EVENT=EndOfRegistration : Time=184.2148622805257, Duration=16.091046853760584, Patient=8 Secretary=3
+
+EVENT=EndOfArrival : Time=189.10327920361468, Duration=20.979463776849578, Patient=9 
+
+EVENT=EndOfExamMedicine : Time=194.39543028019096, Duration=36.162190219216185, Patient=2 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=205.67671298213176, Duration=50.58709183115375, Patient=4 Doctor=1
+
+EVENT=EndOfScreening : Time=206.13062646762714, Duration=11.73519618743618, Patient=8 Nurse=2
+
+EVENT=EndOfArrival : Time=209.13590252598686, Duration=20.03262332237219, Patient=10 
+
+EVENT=EndOfRegistration : Time=210.05854274312665, Duration=20.955263539511968, Patient=9 Secretary=3
+
+EVENT=EndOfScreening : Time=220.08676572387773, Duration=10.02822298075107, Patient=9 Nurse=2
+
+EVENT=EndOfRegistration : Time=226.48973478148406, Duration=16.43119203835742, Patient=10 Secretary=3
+
+EVENT=EndOfArrival : Time=230.7022242095691, Duration=21.566321683582238, Patient=11 
+
+EVENT=EndOfScreening : Time=238.25405543700586, Duration=11.7643206555218, Patient=10 Nurse=2
+
+EVENT=EndOfRegistration : Time=246.77796969863596, Duration=16.075745489066875, Patient=11 Secretary=3
+
+EVENT=EndOfArrival : Time=251.2435521755986, Duration=20.5413279660295, Patient=12 
+
+EVENT=EndOfScreening : Time=256.8668764740078, Duration=10.088906775371875, Patient=11 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=259.4029418576446, Duration=53.726228875512795, Patient=6 Doctor=1
+
+EVENT=EndOfRegistration : Time=267.58455146834706, Duration=16.340999292748453, Patient=12 Secretary=3
+
+EVENT=EndOfArrival : Time=272.2774915955172, Duration=21.033939419918553, Patient=13 
+
+EVENT=EndOfRegistration : Time=287.7963850135822, Duration=15.518893418065053, Patient=13 Secretary=3
+
+EVENT=EndOfArrival : Time=292.9279694298484, Duration=20.650477834331213, Patient=14 
+
+EVENT=EndOfExamMedicine : Time=295.2719672432548, Duration=35.86902538561022, Patient=6 Nurse=2
+
+EVENT=EndOfScreening : Time=305.38774415794285, Duration=10.115776914688068, Patient=13 Nurse=2
+
+EVENT=EndOfRegistration : Time=308.76905065363843, Duration=15.841081223790026, Patient=14 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=311.07701386798453, Duration=51.67407201033995, Patient=9 Doctor=1
+
+EVENT=EndOfArrival : Time=313.70871190653463, Duration=20.78074247668621, Patient=15 
+
+EVENT=EndOfScreening : Time=317.4918047726948, Duration=12.104060614751997, Patient=12 Nurse=2
+
+EVENT=EndOfScreening : Time=329.94567192734996, Duration=12.453867154655121, Patient=14 Nurse=2
+
+EVENT=EndOfRegistration : Time=331.3562459728421, Duration=17.64753406630748, Patient=15 Secretary=3
+
+EVENT=EndOfArrival : Time=333.75671278465325, Duration=20.048000878118593, Patient=16 
+
+EVENT=EndOfRegistration : Time=348.8329305347658, Duration=15.076217750112558, Patient=16 Secretary=3
+
+EVENT=EndOfArrival : Time=354.9557545241697, Duration=21.19904173951646, Patient=17 
+
+EVENT=EndOfMedicalCare : Time=361.71683177995004, Duration=50.63981791196553, Patient=3 Doctor=1
+
+EVENT=EndOfExamMedicine : Time=366.83685235248055, Duration=36.89118042513057, Patient=9 Nurse=2
+
+EVENT=EndOfRegistration : Time=370.12668099550825, Duration=15.170926471338538, Patient=17 Secretary=3
+
+EVENT=EndOfArrival : Time=375.459670460096, Duration=20.50391593592629, Patient=18 
+
+EVENT=EndOfRegistration : Time=390.8695930305795, Duration=15.409922570483511, Patient=18 Secretary=3
+
+EVENT=EndOfArrival : Time=396.2532803513041, Duration=20.7936098912081, Patient=19 
+
+EVENT=EndOfExamMedicine : Time=402.0237515279081, Duration=35.18689917542755, Patient=3 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=411.7278459237914, Duration=50.01101414384137, Patient=8 Doctor=1
+
+EVENT=EndOfScreening : Time=412.13323587502134, Duration=10.10948434711326, Patient=18 Nurse=2
+
+EVENT=EndOfRegistration : Time=413.2122768696602, Duration=16.958996518356066, Patient=19 Secretary=3
+
+EVENT=EndOfArrival : Time=416.46947415054046, Duration=20.21619379923638, Patient=20 
+
+EVENT=EndOfScreening : Time=422.63144774233496, Duration=10.498211867313602, Patient=17 Nurse=2
+
+EVENT=EndOfRegistration : Time=431.5546614418307, Duration=15.085187291290243, Patient=20 Secretary=3
+
+EVENT=EndOfScreening : Time=432.698500541089, Duration=10.067052798754036, Patient=19 Nurse=2
+
+EVENT=EndOfArrival : Time=438.37789778057345, Duration=21.908423630032964, Patient=21 
+
+EVENT=EndOfScreening : Time=443.4907321366697, Duration=10.79223159558067, Patient=20 Nurse=2
+
+EVENT=EndOfRegistration : Time=455.0724657889222, Duration=16.69456800834878, Patient=21 Secretary=3
+
+EVENT=EndOfScreening : Time=457.38843381637116, Duration=13.897701679701472, Patient=16 Nurse=2
+
+EVENT=EndOfArrival : Time=458.5476268052568, Duration=20.169729024683374, Patient=22 
+
+EVENT=EndOfMedicalCare : Time=463.11216831831695, Duration=51.38432239452555, Patient=10 Doctor=1
+
+EVENT=EndOfScreening : Time=468.5935556394414, Duration=11.205121823070241, Patient=21 Nurse=2
+
+EVENT=EndOfRegistration : Time=474.3750039067, Duration=15.827377101443158, Patient=22 Secretary=3
+
+EVENT=EndOfArrival : Time=479.0149110284471, Duration=20.46728422319029, Patient=23 
+
+EVENT=EndOfRegistration : Time=494.8642788680051, Duration=15.849367839558022, Patient=23 Secretary=3
+
+EVENT=EndOfArrival : Time=501.43526187522116, Duration=22.42035084677407, Patient=24 
+
+EVENT=EndOfExamMedicine : Time=504.9112016206358, Duration=36.31764598119439, Patient=10 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=514.7722659063824, Duration=51.66009758806536, Patient=16 Doctor=1
+
+EVENT=EndOfRegistration : Time=516.4876671588636, Duration=15.052405283642452, Patient=24 Secretary=3
+
+EVENT=EndOfScreening : Time=519.0877713769154, Duration=14.176569756279644, Patient=23 Nurse=2
+
+EVENT=EndOfArrival : Time=521.9030365776702, Duration=20.467774702448995, Patient=25 
+
+EVENT=EndOfScreening : Time=530.5258150283465, Duration=11.438043651431144, Patient=24 Nurse=2
+
+EVENT=EndOfRegistration : Time=537.4722418032562, Duration=15.569205225586071, Patient=25 Secretary=3
+
+EVENT=EndOfScreening : Time=541.4428749161407, Duration=10.917059887794188, Patient=22 Nurse=2
+
+EVENT=EndOfArrival : Time=543.1805825228565, Duration=21.277545945186414, Patient=26 
+
+EVENT=EndOfRegistration : Time=560.163803482362, Duration=16.983220959505502, Patient=26 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=565.4504655685498, Duration=50.678199662167465, Patient=13 Doctor=1
+
+EVENT=EndOfArrival : Time=567.9126335919455, Duration=24.73205106908894, Patient=27 
+
+EVENT=EndOfExamMedicine : Time=577.9477702857856, Duration=36.50489536964491, Patient=16 Nurse=2
+
+EVENT=EndOfRegistration : Time=584.2785333787946, Duration=16.36589978684916, Patient=27 Secretary=3
+
+EVENT=EndOfArrival : Time=588.4872689986477, Duration=20.574635406702164, Patient=28 
+
+EVENT=EndOfScreening : Time=594.4774118238463, Duration=10.19887844505168, Patient=27 Nurse=2
+
+EVENT=EndOfRegistration : Time=607.4053028993839, Duration=18.918033900736216, Patient=28 Secretary=3
+
+EVENT=EndOfArrival : Time=608.5878039065248, Duration=20.100534907877048, Patient=29 
+
+EVENT=EndOfMedicalCare : Time=615.6603896239537, Duration=50.209924055403974, Patient=23 Doctor=1
+
+EVENT=EndOfScreening : Time=618.0031032029807, Duration=10.597800303596843, Patient=28 Nurse=2
+
+EVENT=EndOfRegistration : Time=624.9379720793631, Duration=16.350168172838323, Patient=29 Secretary=3
+
+EVENT=EndOfArrival : Time=628.7077906926675, Duration=20.119986786142693, Patient=30 
+
+EVENT=EndOfRegistration : Time=644.5821612823756, Duration=15.874370589708223, Patient=30 Secretary=3
+
+EVENT=EndOfArrival : Time=649.625969618084, Duration=20.91817892541654, Patient=31 
+
+EVENT=EndOfExamMedicine : Time=654.4863606544038, Duration=36.48325745142315, Patient=23 Nurse=2
+
+EVENT=EndOfScreening : Time=664.850441677999, Duration=10.364081023595148, Patient=30 Nurse=2
+
+EVENT=EndOfRegistration : Time=666.7479191422949, Duration=17.121949524210926, Patient=31 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=668.6039346644009, Duration=52.94354504044718, Patient=21 Doctor=1
+
+EVENT=EndOfArrival : Time=670.9270807134322, Duration=21.30111109534826, Patient=32 
+
+EVENT=EndOfScreening : Time=675.0815989788373, Duration=10.231157300838248, Patient=29 Nurse=2
+
+EVENT=EndOfScreening : Time=686.0245089571058, Duration=10.942909978268473, Patient=31 Nurse=2
+
+EVENT=EndOfRegistration : Time=686.0921847790487, Duration=15.165104065616397, Patient=32 Secretary=3
+
+EVENT=EndOfArrival : Time=691.5993867785324, Duration=20.672306065100173, Patient=33 
+
+EVENT=EndOfRegistration : Time=706.8917675436935, Duration=15.292380765161043, Patient=33 Secretary=3
+
+EVENT=EndOfArrival : Time=711.9022543140348, Duration=20.302867535502408, Patient=34 
+
+EVENT=EndOfMedicalCare : Time=719.2501416795093, Duration=50.64620701510839, Patient=22 Doctor=1
+
+EVENT=EndOfExamMedicine : Time=722.6965180886078, Duration=36.67200913150198, Patient=21 Nurse=2
+
+EVENT=EndOfRegistration : Time=727.0958693311184, Duration=15.193615017083482, Patient=34 Secretary=3
+
+EVENT=EndOfScreening : Time=733.010476269494, Duration=10.313958180886148, Patient=32 Nurse=2
+
+EVENT=EndOfArrival : Time=734.2164097426322, Duration=22.31415542859733, Patient=35 
+
+EVENT=EndOfScreening : Time=743.0817281289094, Duration=10.071251859415332, Patient=34 Nurse=2
+
+EVENT=EndOfRegistration : Time=749.3073777349905, Duration=15.090967992358344, Patient=35 Secretary=3
+
+EVENT=EndOfArrival : Time=754.4808551842558, Duration=20.264445441623558, Patient=36 
+
+EVENT=EndOfScreening : Time=760.5327172952321, Duration=11.225339560241627, Patient=35 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=770.0702482078938, Duration=50.820106528384486, Patient=29 Doctor=1
+
+EVENT=EndOfRegistration : Time=770.7571740095034, Duration=16.27631882524756, Patient=36 Secretary=3
+
+EVENT=EndOfArrival : Time=775.408689759009, Duration=20.92783457475325, Patient=37 
+
+EVENT=EndOfRegistration : Time=790.5819290415579, Duration=15.173239282548932, Patient=37 Secretary=3
+
+EVENT=EndOfArrival : Time=796.0046682534455, Duration=20.595978494436547, Patient=38 
+
+EVENT=EndOfExamMedicine : Time=807.6080024063156, Duration=37.5377541984218, Patient=29 Nurse=2
+
+EVENT=EndOfRegistration : Time=811.8664719721958, Duration=15.861803718750252, Patient=38 Secretary=3
+
+EVENT=EndOfArrival : Time=816.0803728926535, Duration=20.075704639208013, Patient=39 
+
+EVENT=EndOfScreening : Time=817.814299017117, Duration=10.20629661080152, Patient=37 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=820.6354681752821, Duration=50.56521996738828, Patient=31 Doctor=1
+
+EVENT=EndOfScreening : Time=827.8271991582864, Duration=10.012900141169341, Patient=38 Nurse=2
+
+EVENT=EndOfRegistration : Time=831.6503410438153, Duration=15.569968151161746, Patient=39 Secretary=3
+
+EVENT=EndOfArrival : Time=837.3439350067425, Duration=21.263562114089066, Patient=40 
+
+EVENT=EndOfScreening : Time=838.5825363836134, Duration=10.755337225326992, Patient=36 Nurse=2
+
+EVENT=EndOfScreening : Time=849.0926961180764, Duration=10.510159734463016, Patient=39 Nurse=2
+
+EVENT=EndOfRegistration : Time=853.3303686114766, Duration=15.98643360473404, Patient=40 Secretary=3
+
+EVENT=EndOfArrival : Time=859.6306666238444, Duration=22.286731617101815, Patient=41 
+
+EVENT=EndOfScreening : Time=863.4637996180174, Duration=10.133431006540874, Patient=40 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=872.6893102848222, Duration=52.05384210954019, Patient=37 Doctor=1
+
+EVENT=EndOfRegistration : Time=876.0072425399202, Duration=16.376575916075822, Patient=41 Secretary=3
+
+EVENT=EndOfArrival : Time=881.0809501225169, Duration=21.450283498672555, Patient=42 
+
+EVENT=EndOfRegistration : Time=896.9512323631672, Duration=15.870282240650216, Patient=42 Secretary=3
+
+EVENT=EndOfArrival : Time=901.0998085875754, Duration=20.018858465058386, Patient=43 
+
+EVENT=EndOfExamMedicine : Time=908.3568274215733, Duration=35.667517136751, Patient=37 Nurse=2
+
+EVENT=EndOfRegistration : Time=916.3200317101804, Duration=15.220223122605034, Patient=43 Secretary=3
+
+EVENT=EndOfArrival : Time=921.7997136518326, Duration=20.69990506425724, Patient=44 
+
+EVENT=EndOfScreening : Time=922.2270546875726, Duration=13.870227265999375, Patient=42 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=922.7652757285432, Duration=50.075965443720925, Patient=38 Doctor=1
+
+EVENT=EndOfScreening : Time=932.2605466945357, Duration=10.033492006963113, Patient=43 Nurse=2
+
+EVENT=EndOfRegistration : Time=937.1494732002598, Duration=15.349759548427162, Patient=44 Secretary=3
+
+EVENT=EndOfArrival : Time=942.2143435024512, Duration=20.414629850618645, Patient=45 
+
+EVENT=EndOfScreening : Time=942.4899304798006, Duration=10.229383785264918, Patient=41 Nurse=2
+
+EVENT=EndOfRegistration : Time=957.3721510851935, Duration=15.157807582742317, Patient=45 Secretary=3
+
+EVENT=EndOfArrival : Time=964.142216124603, Duration=21.927872622151767, Patient=46 
+
+EVENT=EndOfScreening : Time=968.4822463668504, Duration=11.110095281656822, Patient=45 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=975.1093628066416, Duration=52.34408707809832, Patient=32 Doctor=1
+
+EVENT=EndOfRegistration : Time=979.4613032710915, Duration=15.319087146488549, Patient=46 Secretary=3
+
+EVENT=EndOfArrival : Time=987.1089505808903, Duration=22.966734456287327, Patient=47 
+
+EVENT=EndOfScreening : Time=989.7468383986513, Duration=10.285535127559756, Patient=46 Nurse=2
+
+EVENT=EndOfRegistration : Time=1002.8884350652907, Duration=15.779484484400296, Patient=47 Secretary=3
+
+EVENT=EndOfArrival : Time=1007.3758934920861, Duration=20.266942911195756, Patient=48 
+
+EVENT=EndOfScreening : Time=1013.2430166382014, Duration=10.354581572910744, Patient=47 Nurse=2
+
+EVENT=EndOfRegistration : Time=1023.4018676018245, Duration=16.02597410973838, Patient=48 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=1026.362319887783, Duration=51.25295708114158, Patient=42 Doctor=1
+
+EVENT=EndOfArrival : Time=1027.5738640023508, Duration=20.19797051026465, Patient=49 
+
+EVENT=EndOfScreening : Time=1034.9840925701787, Duration=11.58222496835418, Patient=48 Nurse=2
+
+EVENT=EndOfRegistration : Time=1044.0964945260844, Duration=16.52263052373357, Patient=49 Secretary=3
+
+EVENT=EndOfArrival : Time=1047.875284508709, Duration=20.301420506358117, Patient=50 
+
+EVENT=EndOfRegistration : Time=1062.9543416317301, Duration=15.079057123021151, Patient=50 Secretary=3
+
+EVENT=EndOfArrival : Time=1068.8221549901757, Duration=20.946870481466743, Patient=51 
+
+EVENT=EndOfExamMedicine : Time=1071.8981218581694, Duration=36.914029287990665, Patient=42 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1077.0742223891239, Duration=50.711902501340745, Patient=46 Doctor=1
+
+EVENT=EndOfRegistration : Time=1083.963141029248, Duration=15.140986039072136, Patient=51 Secretary=3
+
+EVENT=EndOfScreening : Time=1085.5277908277974, Duration=13.62966896962806, Patient=50 Nurse=2
+
+EVENT=EndOfArrival : Time=1089.2541923260862, Duration=20.432037335910444, Patient=52 
+
+EVENT=EndOfRegistration : Time=1104.3063906328632, Duration=15.052198306777026, Patient=52 Secretary=3
+
+EVENT=EndOfArrival : Time=1110.0042813867851, Duration=20.750089060698937, Patient=53 
+
+EVENT=EndOfRegistration : Time=1125.7993459677796, Duration=15.795064580994357, Patient=53 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=1127.4857460880148, Duration=50.411523698891074, Patient=27 Doctor=1
+
+EVENT=EndOfArrival : Time=1130.4508232920161, Duration=20.44654190523097, Patient=54 
+
+EVENT=EndOfScreening : Time=1140.9748516299246, Duration=15.175505662145099, Patient=53 Nurse=2
+
+EVENT=EndOfRegistration : Time=1146.7375195303605, Duration=16.286696238344405, Patient=54 Secretary=3
+
+EVENT=EndOfArrival : Time=1151.0798557124742, Duration=20.629032420458067, Patient=55 
+
+EVENT=EndOfScreening : Time=1156.859622559315, Duration=10.122103028954527, Patient=54 Nurse=2
+
+EVENT=EndOfRegistration : Time=1167.0733933521035, Duration=15.993537639629377, Patient=55 Secretary=3
+
+EVENT=EndOfArrival : Time=1171.6419803832473, Duration=20.562124670773137, Patient=56 
+
+EVENT=EndOfScreening : Time=1177.3075830350822, Duration=10.234189682978773, Patient=55 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1178.303548069709, Duration=50.817801981694075, Patient=28 Doctor=1
+
+EVENT=EndOfRegistration : Time=1188.839346182751, Duration=17.197365799503498, Patient=56 Secretary=3
+
+EVENT=EndOfArrival : Time=1192.237201624178, Duration=20.59522124093056, Patient=57 
+
+EVENT=EndOfScreening : Time=1199.8956432909931, Duration=11.05629710824225, Patient=56 Nurse=2
+
+EVENT=EndOfRegistration : Time=1207.2596984774373, Duration=15.022496853259256, Patient=57 Secretary=3
+
+EVENT=EndOfArrival : Time=1216.5884207451818, Duration=24.35121912100377, Patient=58 
+
+EVENT=EndOfScreening : Time=1219.0465786193556, Duration=11.78688014191842, Patient=57 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1229.665589705488, Duration=51.36204163577891, Patient=53 Doctor=1
+
+EVENT=EndOfRegistration : Time=1233.0020211453404, Duration=16.41360040015862, Patient=58 Secretary=3
+
+EVENT=EndOfArrival : Time=1236.9502613546601, Duration=20.361840609478442, Patient=59 
+
+EVENT=EndOfRegistration : Time=1253.1706959277822, Duration=16.220434573121953, Patient=59 Secretary=3
+
+EVENT=EndOfArrival : Time=1257.38713764567, Duration=20.43687629100998, Patient=60 
+
+EVENT=EndOfExamMedicine : Time=1264.767752924736, Duration=35.10216321924803, Patient=53 Nurse=2
+
+EVENT=EndOfRegistration : Time=1272.5521404860185, Duration=15.165002840348542, Patient=60 Secretary=3
+
+EVENT=EndOfScreening : Time=1274.8301674592171, Duration=10.062414534481244, Patient=58 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1279.7369567676462, Duration=50.07136706215822, Patient=55 Doctor=1
+
+EVENT=EndOfArrival : Time=1280.6739445989176, Duration=23.28680695324756, Patient=61 
+
+EVENT=EndOfRegistration : Time=1295.7141878282541, Duration=15.040243229336436, Patient=61 Secretary=3
+
+EVENT=EndOfArrival : Time=1301.3246595440755, Duration=20.650714945157947, Patient=62 
+
+EVENT=EndOfExamMedicine : Time=1315.0980497513324, Duration=35.3610929836861, Patient=55 Nurse=2
+
+EVENT=EndOfRegistration : Time=1320.912516110578, Duration=19.58785656650258, Patient=62 Secretary=3
+
+EVENT=EndOfArrival : Time=1325.1456700260028, Duration=23.821010481927168, Patient=63 
+
+EVENT=EndOfScreening : Time=1326.7379011561834, Duration=11.639851404850923, Patient=61 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1330.8254435164408, Duration=51.0884867487945, Patient=56 Doctor=1
+
+EVENT=EndOfScreening : Time=1338.062381156762, Duration=11.324480000578665, Patient=62 Nurse=2
+
+EVENT=EndOfRegistration : Time=1340.6104210311669, Duration=15.464751005164157, Patient=63 Secretary=3
+
+EVENT=EndOfArrival : Time=1346.2045330824715, Duration=21.058863056468777, Patient=64 
+
+EVENT=EndOfScreening : Time=1351.656287108844, Duration=11.045866077677157, Patient=63 Nurse=2
+
+EVENT=EndOfRegistration : Time=1362.5311461155366, Duration=16.326613033064973, Patient=64 Secretary=3
+
+EVENT=EndOfArrival : Time=1366.380232471658, Duration=20.17569938918658, Patient=65 
+
+EVENT=EndOfScreening : Time=1374.7376216466903, Duration=12.206475531153623, Patient=64 Nurse=2
+
+EVENT=EndOfRegistration : Time=1383.2090962036636, Duration=16.828863732005566, Patient=65 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=1384.8701251313405, Duration=54.04468161489966, Patient=57 Doctor=1
+
+EVENT=EndOfArrival : Time=1387.0739022299654, Duration=20.69366975830732, Patient=66 
+
+EVENT=EndOfScreening : Time=1393.5990086951813, Duration=10.389912491517645, Patient=65 Nurse=2
+
+EVENT=EndOfRegistration : Time=1402.9160524276322, Duration=15.842150197666715, Patient=66 Secretary=3
+
+EVENT=EndOfArrival : Time=1407.2461950331856, Duration=20.172292803220106, Patient=67 
+
+EVENT=EndOfScreening : Time=1413.301332960999, Duration=10.385280533366748, Patient=66 Nurse=2
+
+EVENT=EndOfRegistration : Time=1422.5441478272069, Duration=15.297952794021203, Patient=67 Secretary=3
+
+EVENT=EndOfArrival : Time=1429.1212086127546, Duration=21.875013579569064, Patient=68 
+
+EVENT=EndOfScreening : Time=1435.1836331738643, Duration=12.639485346657379, Patient=67 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1435.659308228765, Duration=50.78918309742457, Patient=58 Doctor=1
+
+EVENT=EndOfRegistration : Time=1444.329037822713, Duration=15.207829209958486, Patient=68 Secretary=3
+
+EVENT=EndOfArrival : Time=1450.7724231712061, Duration=21.651214558451482, Patient=69 
+
+EVENT=EndOfRegistration : Time=1467.0445913641163, Duration=16.2721681929101, Patient=69 Secretary=3
+
+EVENT=EndOfArrival : Time=1471.682748927779, Duration=20.910325756572835, Patient=70 
+
+EVENT=EndOfMedicalCare : Time=1486.8521345718489, Duration=51.192826343083986, Patient=66 Doctor=1
+
+EVENT=EndOfRegistration : Time=1486.9047200485795, Duration=15.221971120800653, Patient=70 Secretary=3
+
+EVENT=EndOfArrival : Time=1491.8798113170735, Duration=20.19706238929455, Patient=71 
+
+EVENT=EndOfScreening : Time=1497.1455089218186, Duration=10.24078887323911, Patient=70 Nurse=2
+
+EVENT=EndOfRegistration : Time=1507.6049965749885, Duration=15.725185257915003, Patient=71 Secretary=3
+
+EVENT=EndOfArrival : Time=1511.9068782759584, Duration=20.02706695888481, Patient=72 
+
+EVENT=EndOfScreening : Time=1518.2579759900827, Duration=10.652979415094318, Patient=71 Nurse=2
+
+EVENT=EndOfRegistration : Time=1528.2047886585046, Duration=16.297910382546092, Patient=72 Secretary=3
+
+EVENT=EndOfArrival : Time=1533.788787588986, Duration=21.881909313027673, Patient=73 
+
+EVENT=EndOfMedicalCare : Time=1537.1725669652997, Duration=50.320432393450815, Patient=67 Doctor=1
+
+EVENT=EndOfScreening : Time=1539.0041666977677, Duration=10.799378039263141, Patient=72 Nurse=2
+
+EVENT=EndOfRegistration : Time=1548.871174043278, Duration=15.082386454291978, Patient=73 Secretary=3
+
+EVENT=EndOfArrival : Time=1553.8950669671376, Duration=20.106279378151687, Patient=74 
+
+EVENT=EndOfScreening : Time=1559.6859600240011, Duration=10.814785980723062, Patient=73 Nurse=2
+
+EVENT=EndOfRegistration : Time=1569.6504903725775, Duration=15.755423405439839, Patient=74 Secretary=3
+
+EVENT=EndOfArrival : Time=1575.5402009097938, Duration=21.6451339426563, Patient=75 
+
+EVENT=EndOfScreening : Time=1580.0132291583582, Duration=10.362738785780781, Patient=74 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1587.3550283485772, Duration=50.1824613832776, Patient=71 Doctor=1
+
+EVENT=EndOfRegistration : Time=1591.373275933081, Duration=15.833075023287192, Patient=75 Secretary=3
+
+EVENT=EndOfArrival : Time=1595.735632198363, Duration=20.195431288569146, Patient=76 
+
+EVENT=EndOfScreening : Time=1601.745810426854, Duration=10.372534493772912, Patient=75 Nurse=2
+
+EVENT=EndOfRegistration : Time=1611.2974795689508, Duration=15.561847370587996, Patient=76 Secretary=3
+
+EVENT=EndOfArrival : Time=1615.886673728941, Duration=20.151041530578173, Patient=77 
+
+EVENT=EndOfScreening : Time=1621.9889149864287, Duration=10.69143541747771, Patient=76 Nurse=2
+
+EVENT=EndOfRegistration : Time=1631.0472977900392, Duration=15.160624061098186, Patient=77 Secretary=3
+
+EVENT=EndOfArrival : Time=1635.943720514722, Duration=20.057046785780713, Patient=78 
+
+EVENT=EndOfMedicalCare : Time=1637.9567898257615, Duration=50.601761477184176, Patient=30 Doctor=1
+
+EVENT=EndOfScreening : Time=1641.471240752344, Duration=10.423942962304949, Patient=77 Nurse=2
+
+EVENT=EndOfRegistration : Time=1651.0396490289752, Duration=15.095928514253329, Patient=78 Secretary=3
+
+EVENT=EndOfArrival : Time=1656.471787853937, Duration=20.52806733921514, Patient=79 
+
+EVENT=EndOfRegistration : Time=1674.8157786474383, Duration=18.34399079350124, Patient=79 Secretary=3
+
+EVENT=EndOfArrival : Time=1676.9455955319243, Duration=20.47380767798731, Patient=80 
+
+EVENT=EndOfExamMedicine : Time=1678.3609262172422, Duration=36.88968546489816, Patient=30 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1688.8255341998172, Duration=50.86874437405565, Patient=76 Doctor=1
+
+EVENT=EndOfScreening : Time=1689.881886391758, Duration=11.520960174515718, Patient=79 Nurse=2
+
+EVENT=EndOfRegistration : Time=1692.054075762453, Duration=15.108480230528698, Patient=80 Secretary=3
+
+EVENT=EndOfArrival : Time=1700.9153156490877, Duration=23.969720117163476, Patient=81 
+
+EVENT=EndOfScreening : Time=1701.4873428308379, Duration=11.60545643907994, Patient=78 Nurse=2
+
+EVENT=EndOfScreening : Time=1712.0613875148317, Duration=10.574044683993788, Patient=80 Nurse=2
+
+EVENT=EndOfRegistration : Time=1715.9762200156358, Duration=15.060904366548195, Patient=81 Secretary=3
+
+EVENT=EndOfArrival : Time=1722.0989638099072, Duration=21.183648160819594, Patient=82 
+
+EVENT=EndOfRegistration : Time=1739.0435005487993, Duration=16.944536738892204, Patient=82 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=1739.39143405327, Duration=50.56589985345272, Patient=34 Doctor=1
+
+EVENT=EndOfArrival : Time=1743.4149511586015, Duration=21.315987348694417, Patient=83 
+
+EVENT=EndOfExamMedicine : Time=1747.1279677992172, Duration=35.06658028438545, Patient=76 Nurse=2
+
+EVENT=EndOfRegistration : Time=1759.9522550049874, Duration=16.537303846385925, Patient=83 Secretary=3
+
+EVENT=EndOfArrival : Time=1764.8788153101386, Duration=21.463864151537145, Patient=84 
+
+EVENT=EndOfRegistration : Time=1781.836892860257, Duration=16.95807755011843, Patient=84 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=1782.643117980433, Duration=35.51515018121587, Patient=34 Nurse=2
+
+EVENT=EndOfArrival : Time=1786.5662740867872, Duration=21.687458776648487, Patient=85 
+
+EVENT=EndOfMedicalCare : Time=1789.8757758836246, Duration=50.48434183035476, Patient=79 Doctor=1
+
+EVENT=EndOfScreening : Time=1794.5944351886828, Duration=11.951317208249804, Patient=84 Nurse=2
+
+EVENT=EndOfRegistration : Time=1802.0599768265374, Duration=15.493702739750228, Patient=85 Secretary=3
+
+EVENT=EndOfScreening : Time=1805.587511226251, Duration=10.993076037568155, Patient=83 Nurse=2
+
+EVENT=EndOfArrival : Time=1807.4071260703727, Duration=20.840851983585495, Patient=86 
+
+EVENT=EndOfScreening : Time=1816.3822354362135, Duration=10.794724209962434, Patient=85 Nurse=2
+
+EVENT=EndOfRegistration : Time=1823.1954154495572, Duration=15.788289379184622, Patient=86 Secretary=3
+
+EVENT=EndOfArrival : Time=1827.8777814639354, Duration=20.47065539356269, Patient=87 
+
+EVENT=EndOfScreening : Time=1833.7380839391656, Duration=10.542668489608365, Patient=86 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1840.8249884209883, Duration=50.949212537363685, Patient=80 Doctor=1
+
+EVENT=EndOfRegistration : Time=1843.3396171176992, Duration=15.46183565376378, Patient=87 Secretary=3
+
+EVENT=EndOfArrival : Time=1851.1912348319613, Duration=23.313453368025865, Patient=88 
+
+EVENT=EndOfScreening : Time=1855.51844020717, Duration=12.178823089470836, Patient=87 Nurse=2
+
+EVENT=EndOfRegistration : Time=1866.230717633879, Duration=15.039482801917766, Patient=88 Secretary=3
+
+EVENT=EndOfArrival : Time=1872.3166272957073, Duration=21.125392463746067, Patient=89 
+
+EVENT=EndOfScreening : Time=1876.3832249573582, Duration=10.15250732347906, Patient=88 Nurse=2
+
+EVENT=EndOfRegistration : Time=1888.944164591064, Duration=16.627537295356706, Patient=89 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=1891.0633820460016, Duration=50.23839362501333, Patient=83 Doctor=1
+
+EVENT=EndOfArrival : Time=1892.683473847279, Duration=20.36684655157169, Patient=90 
+
+EVENT=EndOfRegistration : Time=1907.9375340686213, Duration=15.254060221342282, Patient=90 Secretary=3
+
+EVENT=EndOfArrival : Time=1913.1256572963737, Duration=20.442183449094653, Patient=91 
+
+EVENT=EndOfExamMedicine : Time=1926.1216853702908, Duration=35.0583033242893, Patient=83 Nurse=2
+
+EVENT=EndOfRegistration : Time=1930.3358698867892, Duration=17.21021259041555, Patient=91 Secretary=3
+
+EVENT=EndOfArrival : Time=1933.3130848005205, Duration=20.187427504146935, Patient=92 
+
+EVENT=EndOfScreening : Time=1940.3593900911897, Duration=10.023520204400475, Patient=91 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1941.9157068125269, Duration=50.8523247665252, Patient=87 Doctor=1
+
+EVENT=EndOfRegistration : Time=1949.3499390597935, Duration=16.03685425927306, Patient=92 Secretary=3
+
+EVENT=EndOfArrival : Time=1953.465442728192, Duration=20.152357927671584, Patient=93 
+
+EVENT=EndOfRegistration : Time=1969.9531193957093, Duration=16.487676667517288, Patient=93 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=1977.350935463387, Duration=35.43522865086021, Patient=87 Nurse=2
+
+EVENT=EndOfArrival : Time=1978.5402671906777, Duration=25.074824462485687, Patient=94 
+
+EVENT=EndOfScreening : Time=1988.5609633405581, Duration=11.21002787717116, Patient=93 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=1992.4508074754422, Duration=50.5351006629154, Patient=88 Doctor=1
+
+EVENT=EndOfRegistration : Time=1995.765957392805, Duration=17.225690202127115, Patient=94 Secretary=3
+
+EVENT=EndOfArrival : Time=1999.319051150382, Duration=20.778783959704146, Patient=95 
+
+EVENT=EndOfScreening : Time=1999.8008931142776, Duration=11.23992977371946, Patient=92 Nurse=2
+
+EVENT=EndOfScreening : Time=2010.793500116882, Duration=10.992607002604268, Patient=94 Nurse=2
+
+EVENT=EndOfRegistration : Time=2014.396245187545, Duration=15.077194037162993, Patient=95 Secretary=3
+
+EVENT=EndOfArrival : Time=2019.6461069649333, Duration=20.327055814551297, Patient=96 
+
+EVENT=EndOfScreening : Time=2026.0517400623876, Duration=11.65549487484249, Patient=95 Nurse=2
+
+EVENT=EndOfRegistration : Time=2036.0762504437635, Duration=16.430143478830104, Patient=96 Secretary=3
+
+EVENT=EndOfArrival : Time=2040.0554727724307, Duration=20.409365807497423, Patient=97 
+
+EVENT=EndOfMedicalCare : Time=2042.540884114772, Duration=50.09007663933001, Patient=85 Doctor=1
+
+EVENT=EndOfScreening : Time=2046.2269283025844, Duration=10.150677858821018, Patient=96 Nurse=2
+
+EVENT=EndOfRegistration : Time=2056.9795728680597, Duration=16.924100095629214, Patient=97 Secretary=3
+
+EVENT=EndOfArrival : Time=2062.5462205762183, Duration=22.49074780378752, Patient=98 
+
+EVENT=EndOfRegistration : Time=2077.805673838712, Duration=15.25945326249403, Patient=98 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=2083.333838930071, Duration=37.106910627486855, Patient=85 Nurse=2
+
+EVENT=EndOfArrival : Time=2085.03471469891, Duration=22.488494122692003, Patient=99 
+
+EVENT=EndOfMedicalCare : Time=2092.690316774397, Duration=50.14943265962495, Patient=95 Doctor=1
+
+EVENT=EndOfScreening : Time=2093.5694847685595, Duration=10.235645838488425, Patient=98 Nurse=2
+
+EVENT=EndOfRegistration : Time=2101.3530051800763, Duration=16.318290481165953, Patient=99 Secretary=3
+
+EVENT=EndOfScreening : Time=2103.6180036560536, Duration=10.048518887494017, Patient=97 Nurse=2
+
+EVENT=EndOfArrival : Time=2105.3669049697137, Duration=20.332190270803267, Patient=100 
+
+EVENT=EndOfScreening : Time=2113.8374273390236, Duration=10.219423682970206, Patient=99 Nurse=2
+
+EVENT=EndOfRegistration : Time=2122.3277878045246, Duration=16.960882834811013, Patient=100 Secretary=3
+
+EVENT=EndOfArrival : Time=2125.6491777976885, Duration=20.282272827974893, Patient=101 
+
+EVENT=EndOfScreening : Time=2133.7655546124765, Duration=11.437766807951789, Patient=100 Nurse=2
+
+EVENT=EndOfRegistration : Time=2141.3530409311543, Duration=15.703863133465838, Patient=101 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=2143.6025929199013, Duration=50.9122761455043, Patient=36 Doctor=1
+
+EVENT=EndOfArrival : Time=2145.83056908525, Duration=20.181391287561414, Patient=102 
+
+EVENT=EndOfScreening : Time=2153.3609619180797, Duration=12.007920986925628, Patient=101 Nurse=2
+
+EVENT=EndOfRegistration : Time=2161.679844546163, Duration=15.849275460913324, Patient=102 Secretary=3
+
+EVENT=EndOfArrival : Time=2168.332439951215, Duration=22.501870865964907, Patient=103 
+
+EVENT=EndOfScreening : Time=2172.2985788174556, Duration=10.618734271292476, Patient=102 Nurse=2
+
+EVENT=EndOfRegistration : Time=2183.918635123995, Duration=15.586195172780249, Patient=103 Secretary=3
+
+EVENT=EndOfArrival : Time=2188.368924324403, Duration=20.036484373187953, Patient=104 
+
+EVENT=EndOfMedicalCare : Time=2193.7953139686506, Duration=50.192721048749235, Patient=43 Doctor=1
+
+EVENT=EndOfScreening : Time=2194.5458374155805, Duration=10.627202291585386, Patient=103 Nurse=2
+
+EVENT=EndOfRegistration : Time=2203.36926732074, Duration=15.000342996337285, Patient=104 Secretary=3
+
+EVENT=EndOfArrival : Time=2208.897305037935, Duration=20.528380713531813, Patient=105 
+
+EVENT=EndOfScreening : Time=2214.58774418319, Duration=11.21847686244953, Patient=104 Nurse=2
+
+EVENT=EndOfRegistration : Time=2225.102244104143, Duration=16.204939066208325, Patient=105 Secretary=3
+
+EVENT=EndOfArrival : Time=2229.875833782258, Duration=20.97852874432279, Patient=106 
+
+EVENT=EndOfScreening : Time=2236.2432767784157, Duration=11.141032674272449, Patient=105 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=2244.9384660919777, Duration=51.14315212332711, Patient=102 Doctor=1
+
+EVENT=EndOfRegistration : Time=2245.927416795896, Duration=16.051583013638187, Patient=106 Secretary=3
+
+EVENT=EndOfArrival : Time=2250.6752384407587, Duration=20.79940465850107, Patient=107 
+
+EVENT=EndOfScreening : Time=2257.619995839691, Duration=11.692579043795103, Patient=106 Nurse=2
+
+EVENT=EndOfRegistration : Time=2266.7444458271575, Duration=16.069207386398993, Patient=107 Secretary=3
+
+EVENT=EndOfArrival : Time=2271.456118843853, Duration=20.780880403094226, Patient=108 
+
+EVENT=EndOfRegistration : Time=2287.3230333881475, Duration=15.866914544294394, Patient=108 Secretary=3
+
+EVENT=EndOfArrival : Time=2292.582241715839, Duration=21.12612287198585, Patient=109 
+
+EVENT=EndOfMedicalCare : Time=2295.4148892232824, Duration=50.4764231313046, Patient=41 Doctor=1
+
+EVENT=EndOfScreening : Time=2300.1189473019404, Duration=12.795913913793058, Patient=108 Nurse=2
+
+EVENT=EndOfRegistration : Time=2307.942855070752, Duration=15.360613354913188, Patient=109 Secretary=3
+
+EVENT=EndOfArrival : Time=2313.008438069593, Duration=20.426196353754122, Patient=110 
+
+EVENT=EndOfRegistration : Time=2328.643867332153, Duration=15.635429262560097, Patient=110 Secretary=3
+
+EVENT=EndOfArrival : Time=2333.7713834948026, Duration=20.762945425209775, Patient=111 
+
+EVENT=EndOfExamMedicine : Time=2335.3305125226148, Duration=35.21156522067446, Patient=41 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=2345.565653424454, Duration=50.15076420117178, Patient=106 Doctor=1
+
+EVENT=EndOfScreening : Time=2346.4976544647293, Duration=11.167141942114531, Patient=110 Nurse=2
+
+EVENT=EndOfRegistration : Time=2349.7379288091856, Duration=15.966545314383142, Patient=111 Secretary=3
+
+EVENT=EndOfArrival : Time=2354.3082461876256, Duration=20.536862692822815, Patient=112 
+
+EVENT=EndOfScreening : Time=2357.924585474111, Duration=11.426931009381846, Patient=109 Nurse=2
+
+EVENT=EndOfScreening : Time=2368.5933579941866, Duration=10.668772520075592, Patient=111 Nurse=2
+
+EVENT=EndOfRegistration : Time=2371.6152026204213, Duration=17.306956432795474, Patient=112 Secretary=3
+
+EVENT=EndOfArrival : Time=2375.4678330624083, Duration=21.159586874782885, Patient=113 
+
+EVENT=EndOfRegistration : Time=2391.8764367078675, Duration=16.40860364545938, Patient=113 Secretary=3
+
+EVENT=EndOfArrival : Time=2395.619967392584, Duration=20.15213433017561, Patient=114 
+
+EVENT=EndOfMedicalCare : Time=2395.881106770804, Duration=50.315453346349614, Patient=45 Doctor=1
+
+EVENT=EndOfExamMedicine : Time=2404.0109874365035, Duration=35.41762944231669, Patient=106 Nurse=2
+
+EVENT=EndOfRegistration : Time=2411.9551353821394, Duration=16.335167989555245, Patient=114 Secretary=3
+
+EVENT=EndOfArrival : Time=2416.656021818654, Duration=21.036054426070027, Patient=115 
+
+EVENT=EndOfScreening : Time=2417.4184260162788, Duration=13.407438579775441, Patient=113 Nurse=2
+
+EVENT=EndOfScreening : Time=2427.894669266781, Duration=10.476243250502211, Patient=114 Nurse=2
+
+EVENT=EndOfRegistration : Time=2433.0472785197057, Duration=16.39125670105137, Patient=115 Secretary=3
+
+EVENT=EndOfArrival : Time=2437.3243289261504, Duration=20.668307107496236, Patient=116 
+
+EVENT=EndOfScreening : Time=2438.6630310998544, Duration=10.76836183307333, Patient=112 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=2446.489244124391, Duration=50.60813735358735, Patient=110 Doctor=1
+
+EVENT=EndOfScreening : Time=2449.9163324197707, Duration=11.253301319916435, Patient=115 Nurse=2
+
+EVENT=EndOfRegistration : Time=2452.907235641201, Duration=15.582906715050614, Patient=116 Secretary=3
+
+EVENT=EndOfArrival : Time=2458.142059231219, Duration=20.81773030506851, Patient=117 
+
+EVENT=EndOfScreening : Time=2463.284692742293, Duration=10.377457101091615, Patient=116 Nurse=2
+
+EVENT=EndOfRegistration : Time=2473.37371399529, Duration=15.231654764071008, Patient=117 Secretary=3
+
+EVENT=EndOfArrival : Time=2478.276471715107, Duration=20.13441248388836, Patient=118 
+
+EVENT=EndOfScreening : Time=2485.4916807353147, Duration=12.117966740024869, Patient=117 Nurse=2
+
+EVENT=EndOfRegistration : Time=2493.757227021652, Duration=15.480755306544596, Patient=118 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=2498.2041245281107, Duration=51.714880403719796, Patient=112 Doctor=1
+
+EVENT=EndOfArrival : Time=2498.9691295554094, Duration=20.692657840302115, Patient=119 
+
+EVENT=EndOfScreening : Time=2504.3868946196376, Duration=10.629667597985703, Patient=118 Nurse=2
+
+EVENT=EndOfRegistration : Time=2516.485720716715, Duration=17.51659116130581, Patient=119 Secretary=3
+
+EVENT=EndOfArrival : Time=2521.4046106269834, Duration=22.43548107157424, Patient=120 
+
+EVENT=EndOfScreening : Time=2528.14666338201, Duration=11.660942665294955, Patient=119 Nurse=2
+
+EVENT=EndOfRegistration : Time=2537.66032600336, Duration=16.255715376376564, Patient=120 Secretary=3
+
+EVENT=EndOfArrival : Time=2542.5828347215897, Duration=21.178224094606527, Patient=121 
+
+EVENT=EndOfScreening : Time=2548.788783547591, Duration=11.12845754423106, Patient=120 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=2548.914884546117, Duration=50.71076001800621, Patient=109 Doctor=1
+
+EVENT=EndOfRegistration : Time=2561.8458499601898, Duration=19.26301523860014, Patient=121 Secretary=3
+
+EVENT=EndOfArrival : Time=2564.835496844083, Duration=22.252662122493536, Patient=122 
+
+EVENT=EndOfScreening : Time=2572.0272046340447, Duration=10.18135467385477, Patient=121 Nurse=2
+
+EVENT=EndOfRegistration : Time=2581.151282098746, Duration=16.315785254662927, Patient=122 Secretary=3
+
+EVENT=EndOfArrival : Time=2585.60393139916, Duration=20.76843455507678, Patient=123 
+
+EVENT=EndOfScreening : Time=2591.4988667546027, Duration=10.347584655856698, Patient=122 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=2599.586872466582, Duration=50.67198792046504, Patient=114 Doctor=1
+
+EVENT=EndOfRegistration : Time=2600.915440466136, Duration=15.31150906697596, Patient=123 Secretary=3
+
+EVENT=EndOfArrival : Time=2606.7973802442225, Duration=21.193448845062395, Patient=124 
+
+EVENT=EndOfRegistration : Time=2621.8794340294985, Duration=15.08205378527606, Patient=124 Secretary=3
+
+EVENT=EndOfArrival : Time=2628.0318810544763, Duration=21.234500810253724, Patient=125 
+
+EVENT=EndOfExamMedicine : Time=2635.563032947337, Duration=35.976160480755084, Patient=114 Nurse=2
+
+EVENT=EndOfRegistration : Time=2643.6191843034494, Duration=15.587303248973218, Patient=125 Secretary=3
+
+EVENT=EndOfScreening : Time=2647.043698240472, Duration=11.480665293135003, Patient=124 Nurse=2
+
+EVENT=EndOfArrival : Time=2648.277043530938, Duration=20.245162476461505, Patient=126 
+
+EVENT=EndOfMedicalCare : Time=2649.8853490332995, Duration=50.298476566717476, Patient=48 Doctor=1
+
+EVENT=EndOfScreening : Time=2659.0931816473544, Duration=12.049483406882143, Patient=125 Nurse=2
+
+EVENT=EndOfRegistration : Time=2664.819695367008, Duration=16.542651836069904, Patient=126 Secretary=3
+
+EVENT=EndOfArrival : Time=2668.66249080902, Duration=20.385447278081827, Patient=127 
+
+EVENT=EndOfScreening : Time=2669.145598668659, Duration=10.052417021304617, Patient=123 Nurse=2
+
+EVENT=EndOfScreening : Time=2679.9042852699054, Duration=10.758686601246024, Patient=126 Nurse=2
+
+EVENT=EndOfRegistration : Time=2683.733310375703, Duration=15.070819566683026, Patient=127 Secretary=3
+
+EVENT=EndOfArrival : Time=2689.11206617975, Duration=20.449575370730024, Patient=128 
+
+EVENT=EndOfScreening : Time=2694.9453500954874, Duration=11.212039719784352, Patient=127 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=2699.8963196825316, Duration=50.01097064923198, Patient=124 Doctor=1
+
+EVENT=EndOfRegistration : Time=2707.2590212581517, Duration=18.146955078401646, Patient=128 Secretary=3
+
+EVENT=EndOfArrival : Time=2710.720143512029, Duration=21.608077332279333, Patient=129 
+
+EVENT=EndOfRegistration : Time=2727.0208029350097, Duration=16.300659422980544, Patient=129 Secretary=3
+
+EVENT=EndOfArrival : Time=2732.047239821683, Duration=21.327096309653857, Patient=130 
+
+EVENT=EndOfExamMedicine : Time=2736.8040311862233, Duration=36.90771150369173, Patient=124 Nurse=2
+
+EVENT=EndOfScreening : Time=2747.2942393800126, Duration=10.490208193789567, Patient=129 Nurse=2
+
+EVENT=EndOfRegistration : Time=2747.5686435632524, Duration=15.521403741569348, Patient=130 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=2750.7660186749486, Duration=50.86969899241672, Patient=123 Doctor=1
+
+EVENT=EndOfArrival : Time=2753.0216817646406, Duration=20.974441942957803, Patient=131 
+
+EVENT=EndOfScreening : Time=2757.4613889008956, Duration=10.167149520883008, Patient=128 Nurse=2
+
+EVENT=EndOfScreening : Time=2767.490044276235, Duration=10.02865537533936, Patient=130 Nurse=2
+
+EVENT=EndOfRegistration : Time=2769.1593315190025, Duration=16.13764975436198, Patient=131 Secretary=3
+
+EVENT=EndOfArrival : Time=2773.376774725198, Duration=20.35509296055773, Patient=132 
+
+EVENT=EndOfRegistration : Time=2789.909136850013, Duration=16.532362124814806, Patient=132 Secretary=3
+
+EVENT=EndOfArrival : Time=2795.401582332272, Duration=22.024807607073928, Patient=133 
+
+EVENT=EndOfMedicalCare : Time=2800.8667825643956, Duration=50.10076388944729, Patient=127 Doctor=1
+
+EVENT=EndOfExamMedicine : Time=2802.8183849670045, Duration=35.32834069076936, Patient=123 Nurse=2
+
+EVENT=EndOfRegistration : Time=2811.358268611528, Duration=15.956686279255988, Patient=133 Secretary=3
+
+EVENT=EndOfScreening : Time=2814.1498838571183, Duration=11.33149889011376, Patient=132 Nurse=2
+
+EVENT=EndOfArrival : Time=2816.4453888691787, Duration=21.043806536906846, Patient=134 
+
+EVENT=EndOfScreening : Time=2824.863032452301, Duration=10.71314859518275, Patient=133 Nurse=2
+
+EVENT=EndOfRegistration : Time=2833.3292992256434, Duration=16.883910356464607, Patient=134 Secretary=3
+
+EVENT=EndOfScreening : Time=2834.956985515524, Duration=10.093953063223024, Patient=131 Nurse=2
+
+EVENT=EndOfArrival : Time=2837.42052786348, Duration=20.97513899430126, Patient=135 
+
+EVENT=EndOfScreening : Time=2845.757333065714, Duration=10.800347550190127, Patient=134 Nurse=2
+
+EVENT=EndOfRegistration : Time=2852.8016677767155, Duration=15.381139913235502, Patient=135 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=2853.416471556887, Duration=52.549688992491085, Patient=129 Doctor=1
+
+EVENT=EndOfArrival : Time=2858.106074070141, Duration=20.685546206661094, Patient=136 
+
+EVENT=EndOfScreening : Time=2863.8591654581446, Duration=11.057497681429071, Patient=135 Nurse=2
+
+EVENT=EndOfRegistration : Time=2874.3533094453965, Duration=16.247235375255475, Patient=136 Secretary=3
+
+EVENT=EndOfArrival : Time=2878.26851707678, Duration=20.162443006638913, Patient=137 
+
+EVENT=EndOfRegistration : Time=2894.671441600879, Duration=16.40292452409915, Patient=137 Secretary=3
+
+EVENT=EndOfArrival : Time=2898.318050639972, Duration=20.04953356319223, Patient=138 
+
+EVENT=EndOfExamMedicine : Time=2900.074990348731, Duration=36.21582489058604, Patient=129 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=2903.725274334609, Duration=50.30880277772225, Patient=130 Doctor=1
+
+EVENT=EndOfScreening : Time=2910.510784942751, Duration=10.435794594020065, Patient=137 Nurse=2
+
+EVENT=EndOfRegistration : Time=2913.4011015700075, Duration=15.083050930035213, Patient=138 Secretary=3
+
+EVENT=EndOfArrival : Time=2919.6290433149484, Duration=21.310992674975992, Patient=139 
+
+EVENT=EndOfScreening : Time=2921.5919429956384, Duration=11.081158052887638, Patient=136 Nurse=2
+
+EVENT=EndOfScreening : Time=2932.1485108589527, Duration=10.556567863314088, Patient=138 Nurse=2
+
+EVENT=EndOfRegistration : Time=2937.425657227011, Duration=17.79661391206283, Patient=139 Secretary=3
+
+EVENT=EndOfArrival : Time=2940.140667994913, Duration=20.511624679964946, Patient=140 
+
+EVENT=EndOfMedicalCare : Time=2954.3279964920725, Duration=50.602722157463816, Patient=131 Doctor=1
+
+EVENT=EndOfRegistration : Time=2955.4854782200237, Duration=15.344810225110535, Patient=140 Secretary=3
+
+EVENT=EndOfArrival : Time=2961.1130426776913, Duration=20.972374682778202, Patient=141 
+
+EVENT=EndOfExamMedicine : Time=2967.4452076266257, Duration=35.296696767673176, Patient=130 Nurse=2
+
+EVENT=EndOfRegistration : Time=2977.47496583461, Duration=16.36192315691882, Patient=141 Secretary=3
+
+EVENT=EndOfArrival : Time=2981.4443166432275, Duration=20.331273965536294, Patient=142 
+
+EVENT=EndOfRegistration : Time=2996.854389365574, Duration=15.410072722346868, Patient=142 Secretary=3
+
+EVENT=EndOfArrival : Time=3003.097491816551, Duration=21.653175173323532, Patient=143 
+
+EVENT=EndOfExamMedicine : Time=3003.6906688427803, Duration=36.245461216154396, Patient=131 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=3007.2443520539396, Duration=52.916355561866915, Patient=134 Doctor=1
+
+EVENT=EndOfScreening : Time=3015.1212769190697, Duration=11.430608076289401, Patient=142 Nurse=2
+
+EVENT=EndOfRegistration : Time=3018.1030916341833, Duration=15.005599817632278, Patient=143 Secretary=3
+
+EVENT=EndOfArrival : Time=3023.1874940437606, Duration=20.090002227209425, Patient=144 
+
+EVENT=EndOfScreening : Time=3025.2444166027244, Duration=10.123139683654557, Patient=141 Nurse=2
+
+EVENT=EndOfScreening : Time=3036.4708452480745, Duration=11.226428645350076, Patient=143 Nurse=2
+
+EVENT=EndOfRegistration : Time=3039.4054540414754, Duration=16.217959997714967, Patient=144 Secretary=3
+
+EVENT=EndOfArrival : Time=3044.1162979190294, Duration=20.928803875268652, Patient=145 
+
+EVENT=EndOfScreening : Time=3049.087472903147, Duration=12.616627655072318, Patient=140 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=3057.3522346628247, Duration=50.10788260888508, Patient=137 Doctor=1
+
+EVENT=EndOfRegistration : Time=3059.2653130303406, Duration=15.149015111311416, Patient=145 Secretary=3
+
+EVENT=EndOfScreening : Time=3059.5242411450417, Duration=10.436768241894853, Patient=144 Nurse=2
+
+EVENT=EndOfArrival : Time=3065.394320133282, Duration=21.27802221425247, Patient=146 
+
+EVENT=EndOfScreening : Time=3071.6631322459225, Duration=12.138891100880535, Patient=145 Nurse=2
+
+EVENT=EndOfRegistration : Time=3080.873179347216, Duration=15.478859213934456, Patient=146 Secretary=3
+
+EVENT=EndOfArrival : Time=3087.743382568521, Duration=22.349062435239357, Patient=147 
+
+EVENT=EndOfRegistration : Time=3105.18043400421, Duration=17.437051435688964, Patient=147 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=3106.941262840685, Duration=35.27813059476259, Patient=134 Nurse=2
+
+EVENT=EndOfArrival : Time=3108.0463394140966, Duration=20.30295684557556, Patient=148 
+
+EVENT=EndOfMedicalCare : Time=3108.653418253633, Duration=51.30118359080816, Patient=142 Doctor=1
+
+EVENT=EndOfScreening : Time=3117.072675740456, Duration=10.131412899771057, Patient=147 Nurse=2
+
+EVENT=EndOfRegistration : Time=3125.365850167661, Duration=17.31951075356451, Patient=148 Secretary=3
+
+EVENT=EndOfArrival : Time=3128.1565724407315, Duration=20.11023302663467, Patient=149 
+
+EVENT=EndOfScreening : Time=3129.3801518051123, Duration=12.307476064656528, Patient=146 Nurse=2
+
+EVENT=EndOfScreening : Time=3139.6032557675603, Duration=10.223103962448173, Patient=148 Nurse=2
+
+EVENT=EndOfRegistration : Time=3147.9732166134886, Duration=19.816644172757112, Patient=149 Secretary=3
+
+EVENT=EndOfArrival : Time=3148.9666544029187, Duration=20.81008196218747, Patient=150 
+
+EVENT=EndOfMedicalCare : Time=3161.110472457472, Duration=52.45705420383913, Patient=61 Doctor=1
+
+EVENT=EndOfRegistration : Time=3164.505662769762, Duration=15.539008366843037, Patient=150 Secretary=3
+
+EVENT=EndOfArrival : Time=3169.040808948944, Duration=20.07415454602489, Patient=151 
+
+EVENT=EndOfExamMedicine : Time=3175.604467640893, Duration=36.001211873332394, Patient=142 Nurse=2
+
+EVENT=EndOfRegistration : Time=3184.0632643141907, Duration=15.022455365247072, Patient=151 Secretary=3
+
+EVENT=EndOfArrival : Time=3190.0537422301404, Duration=21.01293328119643, Patient=152 
+
+EVENT=EndOfRegistration : Time=3205.5235910765336, Duration=15.469848846393292, Patient=152 Secretary=3
+
+EVENT=EndOfArrival : Time=3210.25356622827, Duration=20.199823998129407, Patient=153 
+
+EVENT=EndOfMedicalCare : Time=3211.373033157461, Duration=50.26256069998915, Patient=147 Doctor=1
+
+EVENT=EndOfExamMedicine : Time=3211.9522039746216, Duration=36.34773633372879, Patient=61 Nurse=2
+
+EVENT=EndOfScreening : Time=3223.89161055621, Duration=11.939406581588216, Patient=152 Nurse=2
+
+EVENT=EndOfRegistration : Time=3225.3833986586505, Duration=15.129832430380803, Patient=153 Secretary=3
+
+EVENT=EndOfArrival : Time=3232.4581519230396, Duration=22.204585694769953, Patient=154 
+
+EVENT=EndOfScreening : Time=3237.5370455261973, Duration=13.645434969987344, Patient=151 Nurse=2
+
+EVENT=EndOfScreening : Time=3247.71048299321, Duration=10.173437467012862, Patient=153 Nurse=2
+
+EVENT=EndOfRegistration : Time=3251.375557331384, Duration=18.91740540834406, Patient=154 Secretary=3
+
+EVENT=EndOfArrival : Time=3252.652956339662, Duration=20.194804416622393, Patient=155 
+
+EVENT=EndOfScreening : Time=3258.8061409290085, Duration=11.095657935798455, Patient=149 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=3261.4461278832578, Duration=50.073094725796615, Patient=146 Doctor=1
+
+EVENT=EndOfRegistration : Time=3268.438140027411, Duration=15.78518368774872, Patient=155 Secretary=3
+
+EVENT=EndOfScreening : Time=3271.844298455373, Duration=13.03815752636475, Patient=154 Nurse=2
+
+EVENT=EndOfArrival : Time=3273.0099481031607, Duration=20.35699176349851, Patient=156 
+
+EVENT=EndOfScreening : Time=3284.1697461320464, Duration=12.325447676673136, Patient=155 Nurse=2
+
+EVENT=EndOfRegistration : Time=3289.4963333150604, Duration=16.486385211899783, Patient=156 Secretary=3
+
+EVENT=EndOfArrival : Time=3293.6674586577246, Duration=20.657510554563945, Patient=157 
+
+EVENT=EndOfScreening : Time=3299.9085611910905, Duration=10.412227876030162, Patient=156 Nurse=2
+
+EVENT=EndOfRegistration : Time=3309.276157068788, Duration=15.608698411063507, Patient=157 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=3311.4895236774805, Duration=50.04339579422285, Patient=153 Doctor=1
+
+EVENT=EndOfArrival : Time=3318.9409190909873, Duration=25.273460433262816, Patient=158 
+
+EVENT=EndOfRegistration : Time=3334.613097877133, Duration=15.672178786145821, Patient=158 Secretary=3
+
+EVENT=EndOfArrival : Time=3339.015077159928, Duration=20.074158068940303, Patient=159 
+
+EVENT=EndOfExamMedicine : Time=3352.059191408698, Duration=40.5696677312178, Patient=153 Nurse=2
+
+EVENT=EndOfRegistration : Time=3355.476824743623, Duration=16.461747583695384, Patient=159 Secretary=3
+
+EVENT=EndOfArrival : Time=3360.2979526557524, Duration=21.282875495824335, Patient=160 
+
+EVENT=EndOfMedicalCare : Time=3361.9308281629396, Duration=50.441304485459234, Patient=148 Doctor=1
+
+EVENT=EndOfScreening : Time=3362.866770421766, Duration=10.807579013067963, Patient=158 Nurse=2
+
+EVENT=EndOfScreening : Time=3373.1621117064783, Duration=10.295341284712448, Patient=159 Nurse=2
+
+EVENT=EndOfRegistration : Time=3376.8825294733906, Duration=16.584576817638094, Patient=160 Secretary=3
+
+EVENT=EndOfArrival : Time=3380.325448553246, Duration=20.027495897493697, Patient=161 
+
+EVENT=EndOfScreening : Time=3389.337541541993, Duration=12.455012068602176, Patient=160 Nurse=2
+
+EVENT=EndOfRegistration : Time=3395.960846178231, Duration=15.635397624984734, Patient=161 Secretary=3
+
+EVENT=EndOfArrival : Time=3401.7508382760698, Duration=21.425389722823816, Patient=162 
+
+EVENT=EndOfScreening : Time=3408.1064397403925, Duration=12.145593562161803, Patient=161 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=3414.1874286371212, Duration=52.256600474181404, Patient=151 Doctor=1
+
+EVENT=EndOfRegistration : Time=3419.0184987481093, Duration=17.267660472039424, Patient=162 Secretary=3
+
+EVENT=EndOfArrival : Time=3422.197520478353, Duration=20.446682202283178, Patient=163 
+
+EVENT=EndOfRegistration : Time=3438.523705770266, Duration=16.32618529191307, Patient=163 Secretary=3
+
+EVENT=EndOfArrival : Time=3442.792311767649, Duration=20.5947912892961, Patient=164 
+
+EVENT=EndOfExamMedicine : Time=3452.7661358621203, Duration=38.5787072249991, Patient=151 Nurse=2
+
+EVENT=EndOfRegistration : Time=3458.846008481134, Duration=16.053696713484925, Patient=164 Secretary=3
+
+EVENT=EndOfArrival : Time=3462.8861241799636, Duration=20.09381241231436, Patient=165 
+
+EVENT=EndOfScreening : Time=3462.94428808529, Duration=10.178152223169384, Patient=163 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=3465.5158367358786, Duration=51.32840809875731, Patient=159 Doctor=1
+
+EVENT=EndOfScreening : Time=3473.892470259259, Duration=10.948182173968922, Patient=164 Nurse=2
+
+EVENT=EndOfRegistration : Time=3477.921102427433, Duration=15.03497824746964, Patient=165 Secretary=3
+
+EVENT=EndOfScreening : Time=3484.3876437970553, Duration=10.495173537796356, Patient=162 Nurse=2
+
+EVENT=EndOfArrival : Time=3484.5824917957398, Duration=21.6963676157762, Patient=166 
+
+EVENT=EndOfScreening : Time=3494.9822853457285, Duration=10.59464154867345, Patient=165 Nurse=2
+
+EVENT=EndOfRegistration : Time=3499.838132771617, Duration=15.255640975877022, Patient=166 Secretary=3
+
+EVENT=EndOfArrival : Time=3505.3631536777975, Duration=20.780661882057576, Patient=167 
+
+EVENT=EndOfScreening : Time=3510.076254678209, Duration=10.238121906592104, Patient=166 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=3516.4711030810654, Duration=50.95526634518665, Patient=160 Doctor=1
+
+EVENT=EndOfRegistration : Time=3520.6953766535494, Duration=15.332222975751767, Patient=167 Secretary=3
+
+EVENT=EndOfArrival : Time=3525.5513347832743, Duration=20.188181105476627, Patient=168 
+
+EVENT=EndOfScreening : Time=3532.3703522303804, Duration=11.674975576830999, Patient=167 Nurse=2
+
+EVENT=EndOfRegistration : Time=3541.0249884360946, Duration=15.47365365282044, Patient=168 Secretary=3
+
+EVENT=EndOfArrival : Time=3545.8306691906746, Duration=20.279334407400274, Patient=169 
+
+EVENT=EndOfScreening : Time=3553.118561017912, Duration=12.093572581817018, Patient=168 Nurse=2
+
+EVENT=EndOfRegistration : Time=3561.351078087825, Duration=15.520408897150242, Patient=169 Secretary=3
+
+EVENT=EndOfArrival : Time=3565.867072110154, Duration=20.036402919479357, Patient=170 
+
+EVENT=EndOfMedicalCare : Time=3569.531551061046, Duration=53.060447979980346, Patient=164 Doctor=1
+
+EVENT=EndOfScreening : Time=3571.7712622479266, Duration=10.420184160101426, Patient=169 Nurse=2
+
+EVENT=EndOfRegistration : Time=3581.104003900129, Duration=15.236931789975255, Patient=170 Secretary=3
+
+EVENT=EndOfArrival : Time=3589.115761805252, Duration=23.24868969509837, Patient=171 
+
+EVENT=EndOfRegistration : Time=3605.3154587109407, Duration=16.199696905688807, Patient=171 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=3607.802414612436, Duration=36.031152364509644, Patient=164 Nurse=2
+
+EVENT=EndOfArrival : Time=3609.423281116437, Duration=20.307519311185057, Patient=172 
+
+EVENT=EndOfScreening : Time=3619.626173824798, Duration=11.823759212362079, Patient=171 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=3619.631699693896, Duration=50.10014863285022, Patient=165 Doctor=1
+
+EVENT=EndOfRegistration : Time=3624.7039549448, Duration=15.280673828362966, Patient=172 Secretary=3
+
+EVENT=EndOfArrival : Time=3630.29021412376, Duration=20.86693300732298, Patient=173 
+
+EVENT=EndOfScreening : Time=3630.4576671398554, Duration=10.831493315057365, Patient=170 Nurse=2
+
+EVENT=EndOfScreening : Time=3641.392761516153, Duration=10.935094376297327, Patient=172 Nurse=2
+
+EVENT=EndOfRegistration : Time=3646.2433442986057, Duration=15.95313017484582, Patient=173 Secretary=3
+
+EVENT=EndOfArrival : Time=3650.3297715675158, Duration=20.039557443755676, Patient=174 
+
+EVENT=EndOfScreening : Time=3656.279182018683, Duration=10.035837720077458, Patient=173 Nurse=2
+
+EVENT=EndOfRegistration : Time=3665.8893512466234, Duration=15.559579679107763, Patient=174 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=3669.6398437301923, Duration=50.00814403629649, Patient=155 Doctor=1
+
+EVENT=EndOfArrival : Time=3671.285518137656, Duration=20.95574657014011, Patient=175 
+
+EVENT=EndOfScreening : Time=3676.4172096139378, Duration=10.527858367314444, Patient=174 Nurse=2
+
+EVENT=EndOfRegistration : Time=3687.1400628131337, Duration=15.854544675477948, Patient=175 Secretary=3
+
+EVENT=EndOfArrival : Time=3693.372021099339, Duration=22.08650296168289, Patient=176 
+
+EVENT=EndOfRegistration : Time=3708.454699426174, Duration=15.08267832683553, Patient=176 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=3711.481172545525, Duration=35.06396293158754, Patient=155 Nurse=2
+
+EVENT=EndOfArrival : Time=3714.335941791623, Duration=20.96392069228422, Patient=177 
+
+EVENT=EndOfMedicalCare : Time=3721.0931378590194, Duration=51.45329412882732, Patient=173 Doctor=1
+
+EVENT=EndOfScreening : Time=3722.242291595411, Duration=10.761119049885856, Patient=176 Nurse=2
+
+EVENT=EndOfRegistration : Time=3729.435834032432, Duration=15.099892240808918, Patient=177 Secretary=3
+
+EVENT=EndOfScreening : Time=3733.2173173983924, Duration=10.975025802981456, Patient=175 Nurse=2
+
+EVENT=EndOfArrival : Time=3734.636723154867, Duration=20.30078136324411, Patient=178 
+
+EVENT=EndOfScreening : Time=3743.362085012277, Duration=10.14476761388451, Patient=177 Nurse=2
+
+EVENT=EndOfRegistration : Time=3750.8262077555114, Duration=16.189484600644374, Patient=178 Secretary=3
+
+EVENT=EndOfArrival : Time=3755.6302264441347, Duration=20.993503289267704, Patient=179 
+
+EVENT=EndOfMedicalCare : Time=3771.351761830926, Duration=50.258623971906474, Patient=174 Doctor=1
+
+EVENT=EndOfRegistration : Time=3771.5323255330422, Duration=15.902099088907494, Patient=179 Secretary=3
+
+EVENT=EndOfArrival : Time=3777.5362583882625, Duration=21.90603194412759, Patient=180 
+
+EVENT=EndOfScreening : Time=3782.2140587106037, Duration=10.681733177561647, Patient=179 Nurse=2
+
+EVENT=EndOfRegistration : Time=3792.7533668396713, Duration=15.21710845140871, Patient=180 Secretary=3
+
+EVENT=EndOfArrival : Time=3800.1542497538103, Duration=22.617991365547844, Patient=181 
+
+EVENT=EndOfRegistration : Time=3815.1999748307253, Duration=15.045725076914811, Patient=181 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=3821.3917913980913, Duration=50.04002956716528, Patient=176 Doctor=1
+
+EVENT=EndOfArrival : Time=3822.9904609231353, Duration=22.836211169324834, Patient=182 
+
+EVENT=EndOfScreening : Time=3826.987736607499, Duration=11.78776177677355, Patient=181 Nurse=2
+
+EVENT=EndOfRegistration : Time=3838.655926610555, Duration=15.665465687419585, Patient=182 Secretary=3
+
+EVENT=EndOfArrival : Time=3846.365082656428, Duration=23.3746217332926, Patient=183 
+
+EVENT=EndOfScreening : Time=3848.796823933832, Duration=10.140897323276977, Patient=182 Nurse=2
+
+EVENT=EndOfRegistration : Time=3861.435302161252, Duration=15.07021950482401, Patient=183 Secretary=3
+
+EVENT=EndOfArrival : Time=3868.2076630615743, Duration=21.8425804051461, Patient=184 
+
+EVENT=EndOfMedicalCare : Time=3872.9862873259463, Duration=51.59449592785487, Patient=175 Doctor=1
+
+EVENT=EndOfRegistration : Time=3883.7172599081628, Duration=15.509596846588453, Patient=184 Secretary=3
+
+EVENT=EndOfArrival : Time=3889.6151196432083, Duration=21.407456581633856, Patient=185 
+
+EVENT=EndOfScreening : Time=3896.2515541126722, Duration=12.534294204509294, Patient=184 Nurse=2
+
+EVENT=EndOfRegistration : Time=3905.3658970613374, Duration=15.750777418128843, Patient=185 Secretary=3
+
+EVENT=EndOfArrival : Time=3912.620027456531, Duration=23.004907813322397, Patient=186 
+
+EVENT=EndOfScreening : Time=3917.282472805393, Duration=11.916575744055464, Patient=185 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=3923.1084655045, Duration=50.12217817855369, Patient=163 Doctor=1
+
+EVENT=EndOfRegistration : Time=3928.603985498745, Duration=15.983958042214025, Patient=186 Secretary=3
+
+EVENT=EndOfArrival : Time=3932.898194546959, Duration=20.278167090428255, Patient=187 
+
+EVENT=EndOfRegistration : Time=3947.9185083167754, Duration=15.020313769816395, Patient=187 Secretary=3
+
+EVENT=EndOfArrival : Time=3952.9755975157664, Duration=20.07740296880721, Patient=188 
+
+EVENT=EndOfExamMedicine : Time=3958.4852749361035, Duration=35.37680943160317, Patient=163 Nurse=2
+
+EVENT=EndOfScreening : Time=3968.785206426372, Duration=10.299931490268635, Patient=187 Nurse=2
+
+EVENT=EndOfRegistration : Time=3971.2927469235374, Duration=18.317149407770856, Patient=188 Secretary=3
+
+EVENT=EndOfArrival : Time=3973.6434975489437, Duration=20.66790003317724, Patient=189 
+
+EVENT=EndOfMedicalCare : Time=3975.622771036829, Duration=52.514305532328976, Patient=167 Doctor=1
+
+EVENT=EndOfScreening : Time=3981.656142170886, Duration=10.363395247348677, Patient=188 Nurse=2
+
+EVENT=EndOfRegistration : Time=3988.6547789888195, Duration=15.011281439875752, Patient=189 Secretary=3
+
+EVENT=EndOfArrival : Time=3993.932347545038, Duration=20.288849996094118, Patient=190 
+
+EVENT=EndOfScreening : Time=4000.31800590566, Duration=11.663226916840145, Patient=189 Nurse=2
+
+EVENT=EndOfRegistration : Time=4009.04236490079, Duration=15.110017355751815, Patient=190 Secretary=3
+
+EVENT=EndOfArrival : Time=4014.000401131143, Duration=20.06805358610513, Patient=191 
+
+EVENT=EndOfScreening : Time=4019.3078130738063, Duration=10.26544817301643, Patient=190 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=4025.6779925915293, Duration=50.05522155470059, Patient=170 Doctor=1
+
+EVENT=EndOfRegistration : Time=4029.7755529745955, Duration=15.775151843452614, Patient=191 Secretary=3
+
+EVENT=EndOfArrival : Time=4035.8684619591486, Duration=21.86806082800574, Patient=192 
+
+EVENT=EndOfScreening : Time=4040.6575609924557, Duration=10.882008017860098, Patient=191 Nurse=2
+
+EVENT=EndOfRegistration : Time=4052.430848319752, Duration=16.56238636060329, Patient=192 Secretary=3
+
+EVENT=EndOfArrival : Time=4058.1579836288884, Duration=22.28952166973961, Patient=193 
+
+EVENT=EndOfScreening : Time=4063.048515560323, Duration=10.617667240570668, Patient=192 Nurse=2
+
+EVENT=EndOfRegistration : Time=4073.326454078843, Duration=15.168470449954665, Patient=193 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=4076.3883905479347, Duration=50.71039795640532, Patient=182 Doctor=1
+
+EVENT=EndOfArrival : Time=4079.3306586033905, Duration=21.17267497450223, Patient=194 
+
+EVENT=EndOfScreening : Time=4083.363787504935, Duration=10.03733342609172, Patient=193 Nurse=2
+
+EVENT=EndOfRegistration : Time=4094.7623804721416, Duration=15.43172186875089, Patient=194 Secretary=3
+
+EVENT=EndOfArrival : Time=4099.603374589935, Duration=20.27271598654487, Patient=195 
+
+EVENT=EndOfRegistration : Time=4115.67330384498, Duration=16.06992925504494, Patient=195 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=4118.940714509566, Duration=35.576927004630654, Patient=182 Nurse=2
+
+EVENT=EndOfArrival : Time=4121.5274891676745, Duration=21.924114577739193, Patient=196 
+
+EVENT=EndOfMedicalCare : Time=4128.736658542822, Duration=52.348267994886726, Patient=185 Doctor=1
+
+EVENT=EndOfScreening : Time=4129.624187992213, Duration=10.68347348264707, Patient=195 Nurse=2
+
+EVENT=EndOfRegistration : Time=4137.416064214136, Duration=15.888575046461828, Patient=196 Secretary=3
+
+EVENT=EndOfScreening : Time=4140.514291964274, Duration=10.890103972060905, Patient=194 Nurse=2
+
+EVENT=EndOfArrival : Time=4141.540252996285, Duration=20.012763828610087, Patient=197 
+
+EVENT=EndOfScreening : Time=4151.144368404632, Duration=10.630076440357403, Patient=196 Nurse=2
+
+EVENT=EndOfRegistration : Time=4156.850455407299, Duration=15.310202411013526, Patient=197 Secretary=3
+
+EVENT=EndOfArrival : Time=4161.796812669034, Duration=20.256559672749397, Patient=198 
+
+EVENT=EndOfRegistration : Time=4177.103612639419, Duration=15.30679997038495, Patient=198 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=4179.138331931006, Duration=50.40167338818436, Patient=193 Doctor=1
+
+EVENT=EndOfExamMedicine : Time=4186.444442932399, Duration=35.3000745277674, Patient=185 Nurse=2
+
+EVENT=EndOfArrival : Time=4186.9950373390775, Duration=25.19822467004327, Patient=199 
+
+EVENT=EndOfRegistration : Time=4203.736215587478, Duration=16.741178248400473, Patient=199 Secretary=3
+
+EVENT=EndOfArrival : Time=4207.303129063991, Duration=20.308091724913456, Patient=200 
+
+EVENT=EndOfExamMedicine : Time=4221.564168551241, Duration=35.1197256188416, Patient=193 Nurse=2
+
+EVENT=EndOfRegistration : Time=4222.787381115875, Duration=15.48425205188402, Patient=200 Secretary=3
+
+EVENT=EndOfArrival : Time=4228.199737414736, Duration=20.89660835074524, Patient=201 
+
+EVENT=EndOfMedicalCare : Time=4229.573918242948, Duration=50.43558631194209, Patient=196 Doctor=1
+
+EVENT=EndOfScreening : Time=4232.201271807646, Duration=10.637103256404691, Patient=199 Nurse=2
+
+EVENT=EndOfRegistration : Time=4243.424708671001, Duration=15.224971256265436, Patient=201 Secretary=3
+
+EVENT=EndOfScreening : Time=4244.636341140925, Duration=12.435069333279227, Patient=200 Nurse=2
+
+EVENT=EndOfArrival : Time=4250.75291382441, Duration=22.553176409673743, Patient=202 
+
+EVENT=EndOfScreening : Time=4255.3871578488115, Duration=10.750816707886733, Patient=201 Nurse=2
+
+EVENT=EndOfScreening : Time=4266.783376534331, Duration=11.396218685519639, Patient=198 Nurse=2
+
+EVENT=EndOfRegistration : Time=4266.964654678314, Duration=16.211740853904445, Patient=202 Secretary=3
+
+EVENT=EndOfArrival : Time=4271.652081093625, Duration=20.89916726921512, Patient=203 
+
+EVENT=EndOfScreening : Time=4278.199211295907, Duration=11.415834761575649, Patient=197 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=4279.724353875401, Duration=50.15043563245346, Patient=194 Doctor=1
+
+EVENT=EndOfRegistration : Time=4286.885260042932, Duration=15.233178949306245, Patient=203 Secretary=3
+
+EVENT=EndOfScreening : Time=4288.540000408017, Duration=10.34078911210987, Patient=202 Nurse=2
+
+EVENT=EndOfArrival : Time=4291.846086335119, Duration=20.194005241493517, Patient=204 
+
+EVENT=EndOfScreening : Time=4298.760021861799, Duration=10.22002145378263, Patient=203 Nurse=2
+
+EVENT=EndOfRegistration : Time=4308.438598066642, Duration=16.59251173152306, Patient=204 Secretary=3
+
+EVENT=EndOfArrival : Time=4313.396099223466, Duration=21.550012888346714, Patient=205 
+
+EVENT=EndOfMedicalCare : Time=4330.39489178419, Duration=50.67053790878914, Patient=199 Doctor=1
+
+EVENT=EndOfRegistration : Time=4332.719953742668, Duration=19.323854519201817, Patient=205 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=4334.132866778096, Duration=35.37284491629741, Patient=194 Nurse=2
+
+EVENT=EndOfArrival : Time=4335.323938540775, Duration=21.92783931730917, Patient=206 
+
+EVENT=EndOfRegistration : Time=4350.733604012366, Duration=15.409665471591666, Patient=206 Secretary=3
+
+EVENT=EndOfArrival : Time=4358.751630174277, Duration=23.427691633502146, Patient=207 
+
+EVENT=EndOfExamMedicine : Time=4371.45120503268, Duration=37.31833825458412, Patient=196 Nurse=2
+
+EVENT=EndOfRegistration : Time=4374.294774103641, Duration=15.543143929364195, Patient=207 Secretary=3
+
+EVENT=EndOfArrival : Time=4379.359218313978, Duration=20.60758813970102, Patient=208 
+
+EVENT=EndOfMedicalCare : Time=4380.777284202806, Duration=50.382392418615964, Patient=197 Doctor=1
+
+EVENT=EndOfScreening : Time=4381.505276771028, Duration=10.054071738347476, Patient=206 Nurse=2
+
+EVENT=EndOfScreening : Time=4393.4387178851175, Duration=11.933441114090098, Patient=207 Nurse=2
+
+EVENT=EndOfRegistration : Time=4394.737502480483, Duration=15.378284166505168, Patient=208 Secretary=3
+
+EVENT=EndOfArrival : Time=4399.820248661801, Duration=20.461030347822906, Patient=209 
+
+EVENT=EndOfScreening : Time=4406.525728272659, Duration=13.087010387541477, Patient=205 Nurse=2
+
+EVENT=EndOfRegistration : Time=4415.283788731128, Duration=15.463540069326623, Patient=209 Secretary=3
+
+EVENT=EndOfScreening : Time=4417.801685341437, Duration=11.27595706877852, Patient=208 Nurse=2
+
+EVENT=EndOfArrival : Time=4420.888796262124, Duration=21.06854760032237, Patient=210 
+
+EVENT=EndOfScreening : Time=4428.558920788689, Duration=10.75723544725113, Patient=209 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=4431.770973455064, Duration=50.99368925225817, Patient=63 Doctor=1
+
+EVENT=EndOfRegistration : Time=4437.345326598544, Duration=16.456530336419664, Patient=210 Secretary=3
+
+EVENT=EndOfArrival : Time=4442.583555494042, Duration=21.69475923191856, Patient=211 
+
+EVENT=EndOfRegistration : Time=4458.850117099899, Duration=16.266561605856648, Patient=211 Secretary=3
+
+EVENT=EndOfArrival : Time=4463.088332385489, Duration=20.504776891446735, Patient=212 
+
+EVENT=EndOfExamMedicine : Time=4465.037845821887, Duration=36.478925033198095, Patient=197 Nurse=2
+
+EVENT=EndOfRegistration : Time=4481.629960029635, Duration=18.541627644146793, Patient=212 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=4481.8077463600985, Duration=50.036772905034276, Patient=209 Doctor=1
+
+EVENT=EndOfArrival : Time=4483.571187804747, Duration=20.482855419257938, Patient=213 
+
+EVENT=EndOfRegistration : Time=4498.698315139157, Duration=15.127127334410327, Patient=213 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=4501.096594015869, Duration=36.05874819398246, Patient=63 Nurse=2
+
+EVENT=EndOfArrival : Time=4504.2876924887305, Duration=20.71650468398323, Patient=214 
+
+EVENT=EndOfScreening : Time=4511.184911610701, Duration=10.08831759483213, Patient=212 Nurse=2
+
+EVENT=EndOfRegistration : Time=4520.054269849117, Duration=15.766577360386632, Patient=214 Secretary=3
+
+EVENT=EndOfScreening : Time=4522.596350544403, Duration=11.41143893370229, Patient=211 Nurse=2
+
+EVENT=EndOfArrival : Time=4524.902005498629, Duration=20.614313009897785, Patient=215 
+
+EVENT=EndOfMedicalCare : Time=4532.2917502934915, Duration=50.48400393339348, Patient=207 Doctor=1
+
+EVENT=EndOfScreening : Time=4533.442364210501, Duration=10.846013666097889, Patient=214 Nurse=2
+
+EVENT=EndOfRegistration : Time=4539.974141869071, Duration=15.07213637044277, Patient=215 Secretary=3
+
+EVENT=EndOfScreening : Time=4543.594395598086, Duration=10.152031387584017, Patient=210 Nurse=2
+
+EVENT=EndOfArrival : Time=4548.380489168846, Duration=23.478483670217845, Patient=216 
+
+EVENT=EndOfScreening : Time=4554.188269183051, Duration=10.593873584964813, Patient=215 Nurse=2
+
+EVENT=EndOfRegistration : Time=4563.431697005336, Duration=15.05120783649035, Patient=216 Secretary=3
+
+EVENT=EndOfArrival : Time=4569.896202578254, Duration=21.515713409407553, Patient=217 
+
+EVENT=EndOfScreening : Time=4576.375620504016, Duration=12.943923498680563, Patient=216 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=4584.591800744584, Duration=52.300050451093156, Patient=208 Doctor=1
+
+EVENT=EndOfRegistration : Time=4591.4101947883855, Duration=21.51399221013144, Patient=217 Secretary=3
+
+EVENT=EndOfArrival : Time=4591.818489884588, Duration=21.922287306334642, Patient=218 
+
+EVENT=EndOfRegistration : Time=4609.223420018492, Duration=17.404930133903292, Patient=218 Secretary=3
+
+EVENT=EndOfArrival : Time=4612.130007574406, Duration=20.311517689817446, Patient=219 
+
+EVENT=EndOfExamMedicine : Time=4619.824018190746, Duration=35.23221744616167, Patient=208 Nurse=2
+
+EVENT=EndOfRegistration : Time=4627.625261788395, Duration=15.495254213988625, Patient=219 Secretary=3
+
+EVENT=EndOfScreening : Time=4631.6400064574245, Duration=11.815988266679057, Patient=218 Nurse=2
+
+EVENT=EndOfArrival : Time=4632.603846488813, Duration=20.47383891440782, Patient=220 
+
+EVENT=EndOfMedicalCare : Time=4637.023400498632, Duration=52.431599754047795, Patient=214 Doctor=1
+
+EVENT=EndOfScreening : Time=4642.281161027591, Duration=10.641154570166755, Patient=219 Nurse=2
+
+EVENT=EndOfRegistration : Time=4649.969463854573, Duration=17.365617365759686, Patient=220 Secretary=3
+
+EVENT=EndOfScreening : Time=4652.353128093522, Duration=10.071967065931208, Patient=217 Nurse=2
+
+EVENT=EndOfArrival : Time=4655.23575906934, Duration=22.63191258052666, Patient=221 
+
+EVENT=EndOfScreening : Time=4662.369133031199, Duration=10.016004937677277, Patient=220 Nurse=2
+
+EVENT=EndOfRegistration : Time=4670.90765984047, Duration=15.671900771129634, Patient=221 Secretary=3
+
+EVENT=EndOfArrival : Time=4676.490626225931, Duration=21.254867156590795, Patient=222 
+
+EVENT=EndOfScreening : Time=4681.306817699486, Duration=10.399157859015455, Patient=221 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=4687.615979317856, Duration=50.59257881922355, Patient=211 Doctor=1
+
+EVENT=EndOfRegistration : Time=4692.143998655, Duration=15.653372429069703, Patient=222 Secretary=3
+
+EVENT=EndOfArrival : Time=4696.560289767137, Duration=20.069663541205585, Patient=223 
+
+EVENT=EndOfScreening : Time=4702.498442011708, Duration=10.35444335670737, Patient=222 Nurse=2
+
+EVENT=EndOfRegistration : Time=4712.690317818119, Duration=16.130028050981835, Patient=223 Secretary=3
+
+EVENT=EndOfArrival : Time=4717.163893031171, Duration=20.6036032640342, Patient=224 
+
+EVENT=EndOfRegistration : Time=4736.534884529493, Duration=19.37099149832237, Patient=224 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=4738.076515516945, Duration=50.46053619908848, Patient=221 Doctor=1
+
+EVENT=EndOfArrival : Time=4739.283676135007, Duration=22.119783103835765, Patient=225 
+
+EVENT=EndOfScreening : Time=4747.727161574282, Duration=11.192277044789249, Patient=224 Nurse=2
+
+EVENT=EndOfRegistration : Time=4757.1083931686535, Duration=17.824717033646646, Patient=225 Secretary=3
+
+EVENT=EndOfArrival : Time=4759.341253187884, Duration=20.057577052876844, Patient=226 
+
+EVENT=EndOfScreening : Time=4770.605097556981, Duration=13.496704388327524, Patient=225 Nurse=2
+
+EVENT=EndOfRegistration : Time=4775.159244566825, Duration=15.817991378941173, Patient=226 Secretary=3
+
+EVENT=EndOfArrival : Time=4780.4320423288755, Duration=21.09078914099144, Patient=227 
+
+EVENT=EndOfScreening : Time=4786.156897167388, Duration=10.997652600563438, Patient=226 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=4788.276039508974, Duration=50.19952399202908, Patient=219 Doctor=1
+
+EVENT=EndOfRegistration : Time=4795.605107541677, Duration=15.173065212802006, Patient=227 Secretary=3
+
+EVENT=EndOfArrival : Time=4801.306319581039, Duration=20.874277252163587, Patient=228 
+
+EVENT=EndOfRegistration : Time=4816.476977774015, Duration=15.170658192975285, Patient=228 Secretary=3
+
+EVENT=EndOfArrival : Time=4821.607717104764, Duration=20.301397523724216, Patient=229 
+
+EVENT=EndOfExamMedicine : Time=4828.7833613439725, Duration=40.50732183499879, Patient=219 Nurse=2
+
+EVENT=EndOfRegistration : Time=4837.015608278283, Duration=15.40789117351962, Patient=229 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=4839.605051978548, Duration=51.32901246957445, Patient=224 Doctor=1
+
+EVENT=EndOfScreening : Time=4840.138821207296, Duration=11.355459863323771, Patient=228 Nurse=2
+
+EVENT=EndOfArrival : Time=4843.290978784863, Duration=21.683261680099623, Patient=230 
+
+EVENT=EndOfScreening : Time=4851.582398898329, Duration=11.443577691032752, Patient=229 Nurse=2
+
+EVENT=EndOfRegistration : Time=4860.98317593887, Duration=17.692197154007108, Patient=230 Secretary=3
+
+EVENT=EndOfScreening : Time=4861.668243470958, Duration=10.085844572629316, Patient=227 Nurse=2
+
+EVENT=EndOfArrival : Time=4864.0142150574275, Duration=20.723236272564776, Patient=231 
+
+EVENT=EndOfScreening : Time=4872.09677137905, Duration=10.428527908091457, Patient=230 Nurse=2
+
+EVENT=EndOfRegistration : Time=4879.70914202046, Duration=15.69492696303262, Patient=231 Secretary=3
+
+EVENT=EndOfArrival : Time=4887.0942982694705, Duration=23.080083212043366, Patient=232 
+
+EVENT=EndOfMedicalCare : Time=4891.139379080384, Duration=51.534327101836126, Patient=225 Doctor=1
+
+EVENT=EndOfScreening : Time=4892.539631913725, Duration=12.830489893265703, Patient=231 Nurse=2
+
+EVENT=EndOfRegistration : Time=4903.641304464761, Duration=16.547006195290013, Patient=232 Secretary=3
+
+EVENT=EndOfArrival : Time=4908.083912235992, Duration=20.989613966521663, Patient=233 
+
+EVENT=EndOfRegistration : Time=4926.687536508386, Duration=18.603624272394423, Patient=233 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=4927.660255041166, Duration=35.120623127440496, Patient=225 Nurse=2
+
+EVENT=EndOfArrival : Time=4928.7154437565405, Duration=20.63153152054827, Patient=234 
+
+EVENT=EndOfScreening : Time=4938.12517305052, Duration=10.464918009354236, Patient=233 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=4941.160009115724, Duration=50.02063003534059, Patient=227 Doctor=1
+
+EVENT=EndOfRegistration : Time=4943.796575817075, Duration=15.081132060534152, Patient=234 Secretary=3
+
+EVENT=EndOfScreening : Time=4948.757696703498, Duration=10.632523652978124, Patient=232 Nurse=2
+
+EVENT=EndOfArrival : Time=4949.998926242072, Duration=21.283482485532033, Patient=235 
+
+EVENT=EndOfScreening : Time=4958.978463573248, Duration=10.22076686974962, Patient=234 Nurse=2
+
+EVENT=EndOfRegistration : Time=4965.012098438268, Duration=15.013172196195718, Patient=235 Secretary=3
+
+EVENT=EndOfArrival : Time=4970.182429578398, Duration=20.183503336325586, Patient=236 
+
+EVENT=EndOfRegistration : Time=4985.55783957269, Duration=15.375409994291367, Patient=236 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=4992.51354870178, Duration=51.35353958605582, Patient=233 Doctor=1
+
+EVENT=EndOfArrival : Time=4992.526176489516, Duration=22.343746911117453, Patient=237 
+
+EVENT=EndOfExamMedicine : Time=4994.09080624558, Duration=35.11234267233244, Patient=227 Nurse=2
+
+EVENT=EndOfRegistration : Time=5007.745323942166, Duration=15.219147452649528, Patient=237 Secretary=3
+
+EVENT=EndOfArrival : Time=5012.944557635629, Duration=20.41838114611373, Patient=238 
+
+EVENT=EndOfRegistration : Time=5028.489601080191, Duration=15.545043444562149, Patient=238 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=5030.650928509004, Duration=36.560122263424326, Patient=233 Nurse=2
+
+EVENT=EndOfArrival : Time=5033.102545399879, Duration=20.157987764249707, Patient=239 
+
+EVENT=EndOfScreening : Time=5041.816660368887, Duration=11.16573185988261, Patient=238 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=5044.129773845374, Duration=51.616225143594185, Patient=65 Doctor=1
+
+EVENT=EndOfRegistration : Time=5049.690528629114, Duration=16.587983229234496, Patient=239 Secretary=3
+
+EVENT=EndOfScreening : Time=5052.256679498848, Duration=10.440019129960644, Patient=237 Nurse=2
+
+EVENT=EndOfArrival : Time=5054.055593149892, Duration=20.953047750012814, Patient=240 
+
+EVENT=EndOfScreening : Time=5062.631047501442, Duration=10.374368002593298, Patient=239 Nurse=2
+
+EVENT=EndOfRegistration : Time=5069.361957974224, Duration=15.306364824332604, Patient=240 Secretary=3
+
+EVENT=EndOfScreening : Time=5073.108079641038, Duration=10.477032139596373, Patient=235 Nurse=2
+
+EVENT=EndOfArrival : Time=5074.647183656222, Duration=20.591590506330082, Patient=241 
+
+EVENT=EndOfRegistration : Time=5089.812999356515, Duration=15.16581570029325, Patient=241 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=5095.4751564094, Duration=51.345382564026124, Patient=72 Doctor=1
+
+EVENT=EndOfArrival : Time=5095.514473053652, Duration=20.86728939743011, Patient=242 
+
+EVENT=EndOfScreening : Time=5100.14990065111, Duration=10.336901294595403, Patient=241 Nurse=2
+
+EVENT=EndOfRegistration : Time=5111.343882880522, Duration=15.829409826869654, Patient=242 Secretary=3
+
+EVENT=EndOfArrival : Time=5119.438853291854, Duration=23.92438023820191, Patient=243 
+
+EVENT=EndOfExamMedicine : Time=5135.81568517562, Duration=35.665784524509746, Patient=72 Nurse=2
+
+EVENT=EndOfRegistration : Time=5137.597329583811, Duration=18.15847629195761, Patient=243 Secretary=3
+
+EVENT=EndOfArrival : Time=5139.8023805655475, Duration=20.363527273693787, Patient=244 
+
+EVENT=EndOfScreening : Time=5146.384387333236, Duration=10.56870215761637, Patient=242 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=5146.845410540002, Duration=51.37025413060165, Patient=73 Doctor=1
+
+EVENT=EndOfScreening : Time=5157.0468581177065, Duration=10.662470784470106, Patient=243 Nurse=2
+
+EVENT=EndOfRegistration : Time=5158.406610540957, Duration=18.60422997540948, Patient=244 Secretary=3
+
+EVENT=EndOfArrival : Time=5160.544806266792, Duration=20.74242570124425, Patient=245 
+
+EVENT=EndOfScreening : Time=5169.936883109998, Duration=11.530272569041124, Patient=244 Nurse=2
+
+EVENT=EndOfRegistration : Time=5176.003594507081, Duration=15.458788240288987, Patient=245 Secretary=3
+
+EVENT=EndOfArrival : Time=5180.756655492959, Duration=20.211849226166684, Patient=246 
+
+EVENT=EndOfScreening : Time=5187.791507622865, Duration=11.787913115783176, Patient=245 Nurse=2
+
+EVENT=EndOfRegistration : Time=5197.439133371037, Duration=16.682477878077894, Patient=246 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=5197.448753344204, Duration=50.603342804202, Patient=242 Doctor=1
+
+EVENT=EndOfArrival : Time=5201.039810281451, Duration=20.283154788491405, Patient=247 
+
+EVENT=EndOfScreening : Time=5207.601213543964, Duration=10.162080172926904, Patient=246 Nurse=2
+
+EVENT=EndOfRegistration : Time=5216.795522410601, Duration=15.755712129150146, Patient=247 Secretary=3
+
+EVENT=EndOfArrival : Time=5221.712797423689, Duration=20.67298714223847, Patient=248 
+
+EVENT=EndOfScreening : Time=5227.588393172338, Duration=10.792870761737708, Patient=247 Nurse=2
+
+EVENT=EndOfRegistration : Time=5237.254489499547, Duration=15.541692075858045, Patient=248 Secretary=3
+
+EVENT=EndOfArrival : Time=5242.807940984192, Duration=21.09514356050329, Patient=249 
+
+EVENT=EndOfScreening : Time=5247.28251291865, Duration=10.028023419103537, Patient=248 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=5247.834297303303, Duration=50.385543959098634, Patient=244 Doctor=1
+
+EVENT=EndOfRegistration : Time=5258.297602287158, Duration=15.489661302966226, Patient=249 Secretary=3
+
+EVENT=EndOfArrival : Time=5262.980830975116, Duration=20.172889990923785, Patient=250 
+
+EVENT=EndOfScreening : Time=5270.766001647226, Duration=12.46839936006814, Patient=249 Nurse=2
+
+EVENT=EndOfRegistration : Time=5279.484853053946, Duration=16.50402207882984, Patient=250 Secretary=3
+
+EVENT=EndOfArrival : Time=5283.048704120852, Duration=20.067873145735454, Patient=251 
+
+EVENT=EndOfScreening : Time=5289.817498993115, Duration=10.33264593916932, Patient=250 Nurse=2
+
+EVENT=EndOfRegistration : Time=5298.77866537109, Duration=15.729961250238407, Patient=251 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=5300.615713210584, Duration=52.781415907280405, Patient=246 Doctor=1
+
+EVENT=EndOfArrival : Time=5304.278261659675, Duration=21.229557538822977, Patient=252 
+
+EVENT=EndOfScreening : Time=5309.540054538062, Duration=10.761389166971293, Patient=251 Nurse=2
+
+EVENT=EndOfRegistration : Time=5320.152923855539, Duration=15.874662195863895, Patient=252 Secretary=3
+
+EVENT=EndOfArrival : Time=5326.701193496289, Duration=22.42293183661417, Patient=253 
+
+EVENT=EndOfScreening : Time=5331.577848058473, Duration=11.42492420293448, Patient=252 Nurse=2
+
+EVENT=EndOfRegistration : Time=5342.839205971809, Duration=16.138012475519602, Patient=253 Secretary=3
+
+EVENT=EndOfArrival : Time=5346.833518493076, Duration=20.132324996786036, Patient=254 
+
+EVENT=EndOfMedicalCare : Time=5351.566569949789, Duration=50.95085673920486, Patient=74 Doctor=1
+
+EVENT=EndOfScreening : Time=5353.233306734095, Duration=10.394100762286138, Patient=253 Nurse=2
+
+EVENT=EndOfRegistration : Time=5362.5105597653555, Duration=15.677041272279876, Patient=254 Secretary=3
+
+EVENT=EndOfArrival : Time=5368.597576003957, Duration=21.76405751088126, Patient=255 
+
+EVENT=EndOfRegistration : Time=5384.565607119279, Duration=15.968031115321907, Patient=255 Secretary=3
+
+EVENT=EndOfArrival : Time=5389.0126753251825, Duration=20.415099321224886, Patient=256 
+
+EVENT=EndOfScreening : Time=5396.925559373522, Duration=12.359952254243261, Patient=255 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=5403.891051549214, Duration=52.324481599426036, Patient=251 Doctor=1
+
+EVENT=EndOfRegistration : Time=5404.359093554649, Duration=15.34641822946642, Patient=256 Secretary=3
+
+EVENT=EndOfArrival : Time=5412.202017959557, Duration=23.18934263437538, Patient=257 
+
+EVENT=EndOfScreening : Time=5414.716921314562, Duration=10.357827759912334, Patient=256 Nurse=2
+
+EVENT=EndOfRegistration : Time=5428.005321282318, Duration=15.80330332276047, Patient=257 Secretary=3
+
+EVENT=EndOfArrival : Time=5433.417484944698, Duration=21.21546698514071, Patient=258 
+
+EVENT=EndOfScreening : Time=5438.615735086747, Duration=10.610413804429328, Patient=257 Nurse=2
+
+EVENT=EndOfRegistration : Time=5448.507666792049, Duration=15.090181847350928, Patient=258 Secretary=3
+
+EVENT=EndOfArrival : Time=5453.9598210789745, Duration=20.542336134276297, Patient=259 
+
+EVENT=EndOfMedicalCare : Time=5456.379824045233, Duration=52.48877249601946, Patient=253 Doctor=1
+
+EVENT=EndOfRegistration : Time=5471.541701561457, Duration=17.581880482482298, Patient=259 Secretary=3
+
+EVENT=EndOfArrival : Time=5475.978213658625, Duration=22.018392579650158, Patient=260 
+
+EVENT=EndOfRegistration : Time=5491.9056962594495, Duration=15.927482600825172, Patient=260 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=5493.830794816107, Duration=37.45097077087412, Patient=253 Nurse=2
+
+EVENT=EndOfArrival : Time=5500.2260421787205, Duration=24.247828520096068, Patient=261 
+
+EVENT=EndOfScreening : Time=5504.458444403877, Duration=10.627649587770087, Patient=260 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=5509.172972474858, Duration=52.793148429624836, Patient=84 Doctor=1
+
+EVENT=EndOfScreening : Time=5514.502429594032, Duration=10.043985190154777, Patient=259 Nurse=2
+
+EVENT=EndOfRegistration : Time=5515.31810586733, Duration=15.092063688609427, Patient=261 Secretary=3
+
+EVENT=EndOfArrival : Time=5520.3521947540285, Duration=20.126152575307774, Patient=262 
+
+EVENT=EndOfRegistration : Time=5536.453136706074, Duration=16.100941952044963, Patient=262 Secretary=3
+
+EVENT=EndOfArrival : Time=5541.066193498785, Duration=20.71399874475651, Patient=263 
+
+EVENT=EndOfExamMedicine : Time=5549.682460361045, Duration=35.18003076701267, Patient=84 Nurse=2
+
+EVENT=EndOfRegistration : Time=5556.136421057464, Duration=15.070227558679326, Patient=263 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=5559.909194048112, Duration=50.736221573253836, Patient=86 Doctor=1
+
+EVENT=EndOfArrival : Time=5561.492499199041, Duration=20.42630570025642, Patient=264 
+
+EVENT=EndOfScreening : Time=5564.492879470917, Duration=14.810419109871882, Patient=262 Nurse=2
+
+EVENT=EndOfScreening : Time=5576.43354036328, Duration=11.940660892363837, Patient=263 Nurse=2
+
+EVENT=EndOfRegistration : Time=5576.766466060312, Duration=15.273966861271619, Patient=264 Secretary=3
+
+EVENT=EndOfArrival : Time=5581.763359792814, Duration=20.270860593773374, Patient=265 
+
+EVENT=EndOfScreening : Time=5586.912581734797, Duration=10.479041371516058, Patient=261 Nurse=2
+
+EVENT=EndOfScreening : Time=5598.023723745806, Duration=11.111142011009267, Patient=264 Nurse=2
+
+EVENT=EndOfRegistration : Time=5599.099611881301, Duration=17.336252088486297, Patient=265 Secretary=3
+
+EVENT=EndOfArrival : Time=5601.968930997903, Duration=20.205571205089026, Patient=266 
+
+EVENT=EndOfMedicalCare : Time=5611.798272454684, Duration=51.88907840657136, Patient=93 Doctor=1
+
+EVENT=EndOfRegistration : Time=5619.762394724672, Duration=17.79346372676887, Patient=266 Secretary=3
+
+EVENT=EndOfArrival : Time=5623.525958766805, Duration=21.557027768902284, Patient=267 
+
+EVENT=EndOfExamMedicine : Time=5633.551947579788, Duration=35.528223833982544, Patient=86 Nurse=2
+
+EVENT=EndOfRegistration : Time=5639.383878272188, Duration=15.857919505382817, Patient=267 Secretary=3
+
+EVENT=EndOfArrival : Time=5644.055712230643, Duration=20.529753463837867, Patient=268 
+
+EVENT=EndOfRegistration : Time=5659.056209815643, Duration=15.000497585000875, Patient=268 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=5662.315982515654, Duration=50.51771006096986, Patient=262 Doctor=1
+
+EVENT=EndOfArrival : Time=5667.264179098458, Duration=23.208466867815474, Patient=269 
+
+EVENT=EndOfExamMedicine : Time=5672.901579055026, Duration=39.349631475237324, Patient=93 Nurse=2
+
+EVENT=EndOfRegistration : Time=5683.418330587919, Duration=16.154151489460546, Patient=269 Secretary=3
+
+EVENT=EndOfScreening : Time=5683.900868241934, Duration=10.999289186908651, Patient=268 Nurse=2
+
+EVENT=EndOfArrival : Time=5689.824283453834, Duration=22.56010435537608, Patient=270 
+
+EVENT=EndOfScreening : Time=5693.933085960827, Duration=10.032217718892603, Patient=267 Nurse=2
+
+EVENT=EndOfScreening : Time=5704.036760897447, Duration=10.103674936619264, Patient=266 Nurse=2
+
+EVENT=EndOfRegistration : Time=5706.067682553561, Duration=16.243399099726645, Patient=270 Secretary=3
+
+EVENT=EndOfArrival : Time=5709.998554513339, Duration=20.17427105950443, Patient=271 
+
+EVENT=EndOfMedicalCare : Time=5713.7278515868165, Duration=51.41186907116274, Patient=263 Doctor=1
+
+EVENT=EndOfScreening : Time=5714.671686996821, Duration=10.634926099375082, Patient=265 Nurse=2
+
+EVENT=EndOfRegistration : Time=5725.676580523773, Duration=15.678026010434616, Patient=271 Secretary=3
+
+EVENT=EndOfScreening : Time=5727.103909141447, Duration=12.43222214462516, Patient=270 Nurse=2
+
+EVENT=EndOfArrival : Time=5730.3935687800695, Duration=20.39501426673052, Patient=272 
+
+EVENT=EndOfRegistration : Time=5746.732349896579, Duration=16.33878111650909, Patient=272 Secretary=3
+
+EVENT=EndOfArrival : Time=5750.433573677296, Duration=20.040004897226925, Patient=273 
+
+EVENT=EndOfExamMedicine : Time=5763.335515266688, Duration=36.231606125241626, Patient=263 Nurse=2
+
+EVENT=EndOfRegistration : Time=5765.93382563955, Duration=15.500251962254078, Patient=273 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=5766.688575099663, Duration=52.96072351284563, Patient=268 Doctor=1
+
+EVENT=EndOfArrival : Time=5773.452889405397, Duration=23.019315728101123, Patient=274 
+
+EVENT=EndOfScreening : Time=5773.906793933859, Duration=10.571278667171299, Patient=272 Nurse=2
+
+EVENT=EndOfScreening : Time=5785.034776249003, Duration=11.127982315143218, Patient=273 Nurse=2
+
+EVENT=EndOfRegistration : Time=5788.565383790798, Duration=15.11249438540014, Patient=274 Secretary=3
+
+EVENT=EndOfArrival : Time=5795.098591397731, Duration=21.645701992334043, Patient=275 
+
+EVENT=EndOfRegistration : Time=5811.269014922593, Duration=16.170423524861413, Patient=275 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=5816.722756453418, Duration=50.03418135375491, Patient=92 Doctor=1
+
+EVENT=EndOfArrival : Time=5817.169180874133, Duration=22.07058947640241, Patient=276 
+
+EVENT=EndOfExamMedicine : Time=5820.363024247608, Duration=35.32824799860572, Patient=268 Nurse=2
+
+EVENT=EndOfScreening : Time=5830.668187024569, Duration=10.305162776961089, Patient=274 Nurse=2
+
+EVENT=EndOfRegistration : Time=5832.441216449518, Duration=15.272035575384441, Patient=276 Secretary=3
+
+EVENT=EndOfArrival : Time=5837.784401360164, Duration=20.61522048603115, Patient=277 
+
+EVENT=EndOfRegistration : Time=5853.795322857143, Duration=16.010921496979098, Patient=277 Secretary=3
+
+EVENT=EndOfArrival : Time=5859.543054941962, Duration=21.758653581797216, Patient=278 
+
+EVENT=EndOfScreening : Time=5865.147228137671, Duration=11.351905280527827, Patient=277 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=5867.231521723433, Duration=50.50876527001478, Patient=272 Doctor=1
+
+EVENT=EndOfRegistration : Time=5874.897338314348, Duration=15.354283372386423, Patient=278 Secretary=3
+
+EVENT=EndOfArrival : Time=5880.1905790034025, Duration=20.647524061440503, Patient=279 
+
+EVENT=EndOfRegistration : Time=5895.7705455454125, Duration=15.579966542009721, Patient=279 Secretary=3
+
+EVENT=EndOfArrival : Time=5900.9604194339045, Duration=20.7698404305018, Patient=280 
+
+EVENT=EndOfExamMedicine : Time=5902.280021932637, Duration=35.04850020920432, Patient=272 Nurse=2
+
+EVENT=EndOfScreening : Time=5912.294872091709, Duration=10.014850159071992, Patient=279 Nurse=2
+
+EVENT=EndOfRegistration : Time=5916.24217223267, Duration=15.281752798765663, Patient=280 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=5917.515288872469, Duration=50.283767149035846, Patient=96 Doctor=1
+
+EVENT=EndOfArrival : Time=5922.275579724393, Duration=21.315160290488073, Patient=281 
+
+EVENT=EndOfScreening : Time=5925.866480224175, Duration=13.571608132465599, Patient=278 Nurse=2
+
+EVENT=EndOfScreening : Time=5937.04120566808, Duration=11.174725443905567, Patient=280 Nurse=2
+
+EVENT=EndOfRegistration : Time=5939.414270173754, Duration=17.138690449361278, Patient=281 Secretary=3
+
+EVENT=EndOfArrival : Time=5945.710722835663, Duration=23.435143111269568, Patient=282 
+
+EVENT=EndOfRegistration : Time=5961.073308201122, Duration=15.362585365459559, Patient=282 Secretary=3
+
+EVENT=EndOfArrival : Time=5967.304413390059, Duration=21.593690554397003, Patient=283 
+
+EVENT=EndOfMedicalCare : Time=5967.526598536219, Duration=50.011309663750545, Patient=279 Doctor=1
+
+EVENT=EndOfExamMedicine : Time=5972.717659348406, Duration=35.676453680326254, Patient=96 Nurse=2
+
+EVENT=EndOfRegistration : Time=5982.789336919508, Duration=15.484923529448535, Patient=283 Secretary=3
+
+EVENT=EndOfArrival : Time=5990.527160070309, Duration=23.222746680249454, Patient=284 
+
+EVENT=EndOfRegistration : Time=6006.766293143853, Duration=16.239133073543407, Patient=284 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=6008.788327762848, Duration=36.07066841444175, Patient=279 Nurse=2
+
+EVENT=EndOfArrival : Time=6011.289051004701, Duration=20.761890934392273, Patient=285 
+
+EVENT=EndOfMedicalCare : Time=6017.683849882197, Duration=50.15725134597748, Patient=278 Doctor=1
+
+EVENT=EndOfScreening : Time=6021.447787101715, Duration=12.659459338867556, Patient=284 Nurse=2
+
+EVENT=EndOfRegistration : Time=6026.716335756659, Duration=15.427284751957487, Patient=285 Secretary=3
+
+EVENT=EndOfScreening : Time=6031.853464771864, Duration=10.405677670148886, Patient=283 Nurse=2
+
+EVENT=EndOfArrival : Time=6036.285203133221, Duration=24.996152128520585, Patient=286 
+
+EVENT=EndOfScreening : Time=6041.891970553816, Duration=10.038505781951176, Patient=285 Nurse=2
+
+EVENT=EndOfScreening : Time=6052.4790995401045, Duration=10.587128986288569, Patient=282 Nurse=2
+
+EVENT=EndOfRegistration : Time=6053.316200761474, Duration=17.03099762825206, Patient=286 Secretary=3
+
+EVENT=EndOfArrival : Time=6058.912804249837, Duration=22.62760111661548, Patient=287 
+
+EVENT=EndOfScreening : Time=6064.004250379749, Duration=11.525150839644061, Patient=281 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6068.343018758596, Duration=50.65916887639962, Patient=97 Doctor=1
+
+EVENT=EndOfScreening : Time=6074.607383485054, Duration=10.603133105305396, Patient=286 Nurse=2
+
+EVENT=EndOfRegistration : Time=6074.644567697549, Duration=15.731763447712218, Patient=287 Secretary=3
+
+EVENT=EndOfArrival : Time=6079.254412464501, Duration=20.341608214664507, Patient=288 
+
+EVENT=EndOfScreening : Time=6085.899244905144, Duration=11.254677207594664, Patient=287 Nurse=2
+
+EVENT=EndOfRegistration : Time=6095.752037445128, Duration=16.4976249806264, Patient=288 Secretary=3
+
+EVENT=EndOfArrival : Time=6099.269856826893, Duration=20.015444362392465, Patient=289 
+
+EVENT=EndOfScreening : Time=6105.771331514761, Duration=10.019294069633688, Patient=288 Nurse=2
+
+EVENT=EndOfRegistration : Time=6114.49277047891, Duration=15.222913652016556, Patient=289 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=6119.013727149452, Duration=50.67070839085572, Patient=284 Doctor=1
+
+EVENT=EndOfArrival : Time=6122.984090259151, Duration=23.71423343225755, Patient=290 
+
+EVENT=EndOfScreening : Time=6124.715701845066, Duration=10.22293136615678, Patient=289 Nurse=2
+
+EVENT=EndOfRegistration : Time=6138.647868365117, Duration=15.663778105964875, Patient=290 Secretary=3
+
+EVENT=EndOfArrival : Time=6144.169761179585, Duration=21.185670920433655, Patient=291 
+
+EVENT=EndOfScreening : Time=6148.746127282305, Duration=10.098258917187934, Patient=290 Nurse=2
+
+EVENT=EndOfRegistration : Time=6159.567846269376, Duration=15.398085089790788, Patient=291 Secretary=3
+
+EVENT=EndOfArrival : Time=6164.712694684703, Duration=20.5429335051179, Patient=292 
+
+EVENT=EndOfMedicalCare : Time=6170.267497030706, Duration=51.25376988125393, Patient=283 Doctor=1
+
+EVENT=EndOfScreening : Time=6170.860467798859, Duration=11.292621529483291, Patient=291 Nurse=2
+
+EVENT=EndOfRegistration : Time=6180.093640727821, Duration=15.380946043118671, Patient=292 Secretary=3
+
+EVENT=EndOfArrival : Time=6185.010031488725, Duration=20.2973368040217, Patient=293 
+
+EVENT=EndOfScreening : Time=6191.844680511692, Duration=11.751039783870615, Patient=292 Nurse=2
+
+EVENT=EndOfRegistration : Time=6201.707042890726, Duration=16.697011402001483, Patient=293 Secretary=3
+
+EVENT=EndOfArrival : Time=6207.410073060087, Duration=22.400041571361854, Patient=294 
+
+EVENT=EndOfScreening : Time=6212.419119728644, Duration=10.71207683791715, Patient=293 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6222.078878715072, Duration=51.811381684366346, Patient=290 Doctor=1
+
+EVENT=EndOfRegistration : Time=6224.4756653174045, Duration=17.065592257317807, Patient=294 Secretary=3
+
+EVENT=EndOfArrival : Time=6227.512483656497, Duration=20.102410596410962, Patient=295 
+
+EVENT=EndOfRegistration : Time=6242.8272167309115, Duration=15.314733074414386, Patient=295 Secretary=3
+
+EVENT=EndOfArrival : Time=6248.106412777932, Duration=20.593929121434865, Patient=296 
+
+EVENT=EndOfScreening : Time=6253.20699520081, Duration=10.379778469898062, Patient=295 Nurse=2
+
+EVENT=EndOfRegistration : Time=6263.395318064199, Duration=15.288905286267603, Patient=296 Secretary=3
+
+EVENT=EndOfArrival : Time=6268.669814909745, Duration=20.56340213181268, Patient=297 
+
+EVENT=EndOfMedicalCare : Time=6272.286359062577, Duration=50.207480347503875, Patient=282 Doctor=1
+
+EVENT=EndOfScreening : Time=6276.048527050694, Duration=12.653208986495157, Patient=296 Nurse=2
+
+EVENT=EndOfRegistration : Time=6285.1081137889105, Duration=16.43829887916575, Patient=297 Secretary=3
+
+EVENT=EndOfArrival : Time=6288.951272690164, Duration=20.281457780419498, Patient=298 
+
+EVENT=EndOfScreening : Time=6295.36545245178, Duration=10.257338662868824, Patient=297 Nurse=2
+
+EVENT=EndOfRegistration : Time=6304.499340079152, Duration=15.548067388988148, Patient=298 Secretary=3
+
+EVENT=EndOfArrival : Time=6312.676765986142, Duration=23.725493295978136, Patient=299 
+
+EVENT=EndOfScreening : Time=6315.0354906103485, Duration=10.536150531196352, Patient=298 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6322.459628832968, Duration=50.17326977039101, Patient=292 Doctor=1
+
+EVENT=EndOfRegistration : Time=6327.98745693969, Duration=15.310690953547702, Patient=299 Secretary=3
+
+EVENT=EndOfArrival : Time=6333.268025978684, Duration=20.59125999254251, Patient=300 
+
+EVENT=EndOfRegistration : Time=6349.770693754463, Duration=16.502667775778914, Patient=300 Secretary=3
+
+EVENT=EndOfArrival : Time=6354.152883745609, Duration=20.884857766925492, Patient=301 
+
+EVENT=EndOfExamMedicine : Time=6358.492190910702, Duration=36.03256207773448, Patient=292 Nurse=2
+
+EVENT=EndOfScreening : Time=6368.576608986855, Duration=10.084418076152282, Patient=300 Nurse=2
+
+EVENT=EndOfRegistration : Time=6369.4349332719985, Duration=15.282049526389448, Patient=301 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=6372.591160864135, Duration=50.13153203116741, Patient=297 Doctor=1
+
+EVENT=EndOfArrival : Time=6374.300469073815, Duration=20.14758532820678, Patient=302 
+
+EVENT=EndOfScreening : Time=6379.43365684531, Duration=10.857047858454967, Patient=299 Nurse=2
+
+EVENT=EndOfScreening : Time=6389.578896609868, Duration=10.145239764558202, Patient=301 Nurse=2
+
+EVENT=EndOfRegistration : Time=6389.826921040885, Duration=15.526451967070443, Patient=302 Secretary=3
+
+EVENT=EndOfArrival : Time=6395.236405874974, Duration=20.935936801158498, Patient=303 
+
+EVENT=EndOfScreening : Time=6403.5799486287315, Duration=13.753027587846393, Patient=302 Nurse=2
+
+EVENT=EndOfRegistration : Time=6410.573711348041, Duration=15.337305473067733, Patient=303 Secretary=3
+
+EVENT=EndOfArrival : Time=6415.544122430222, Duration=20.30771655524902, Patient=304 
+
+EVENT=EndOfScreening : Time=6421.536352377058, Duration=10.962641029017925, Patient=303 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6422.8039541895, Duration=50.212793325363705, Patient=298 Doctor=1
+
+EVENT=EndOfRegistration : Time=6432.045782104321, Duration=16.50165967409901, Patient=304 Secretary=3
+
+EVENT=EndOfArrival : Time=6437.14555293707, Duration=21.60143050684746, Patient=305 
+
+EVENT=EndOfScreening : Time=6442.417256584199, Duration=10.371474479878197, Patient=304 Nurse=2
+
+EVENT=EndOfRegistration : Time=6452.960960317483, Duration=15.815407380413303, Patient=305 Secretary=3
+
+EVENT=EndOfArrival : Time=6457.84547712339, Duration=20.69992418632008, Patient=306 
+
+EVENT=EndOfScreening : Time=6463.648597231047, Duration=10.687636913563228, Patient=305 Nurse=2
+
+EVENT=EndOfRegistration : Time=6474.4052706217235, Duration=16.559793498333203, Patient=306 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=6474.474028337934, Duration=51.67007414843472, Patient=303 Doctor=1
+
+EVENT=EndOfArrival : Time=6480.241521773376, Duration=22.396044649986234, Patient=307 
+
+EVENT=EndOfScreening : Time=6489.183225185423, Duration=14.777954563699662, Patient=306 Nurse=2
+
+EVENT=EndOfRegistration : Time=6495.861305017751, Duration=15.619783244374833, Patient=307 Secretary=3
+
+EVENT=EndOfArrival : Time=6500.258952113668, Duration=20.017430340291618, Patient=308 
+
+EVENT=EndOfRegistration : Time=6515.324623858773, Duration=15.065671745104472, Patient=308 Secretary=3
+
+EVENT=EndOfArrival : Time=6520.701602532109, Duration=20.442650418441445, Patient=309 
+
+EVENT=EndOfExamMedicine : Time=6526.327105109596, Duration=37.143879924173376, Patient=303 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6526.4745598388345, Duration=52.00053150090054, Patient=300 Doctor=1
+
+EVENT=EndOfRegistration : Time=6536.898171484293, Duration=16.196568952183547, Patient=309 Secretary=3
+
+EVENT=EndOfScreening : Time=6538.160100372474, Duration=11.832995262877368, Patient=308 Nurse=2
+
+EVENT=EndOfArrival : Time=6540.904700054826, Duration=20.203097522716828, Patient=310 
+
+EVENT=EndOfScreening : Time=6548.602366773777, Duration=10.442266401304053, Patient=309 Nurse=2
+
+EVENT=EndOfRegistration : Time=6556.332861275394, Duration=15.428161220567699, Patient=310 Secretary=3
+
+EVENT=EndOfScreening : Time=6560.453876434021, Duration=11.85150966024384, Patient=307 Nurse=2
+
+EVENT=EndOfArrival : Time=6562.640594438952, Duration=21.73589438412589, Patient=311 
+
+EVENT=EndOfScreening : Time=6570.786481254423, Duration=10.332604820401892, Patient=310 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6577.394865649923, Duration=50.9203058110888, Patient=299 Doctor=1
+
+EVENT=EndOfRegistration : Time=6577.722413356422, Duration=15.081818917470859, Patient=311 Secretary=3
+
+EVENT=EndOfArrival : Time=6583.135106241727, Duration=20.494511802775627, Patient=312 
+
+EVENT=EndOfRegistration : Time=6600.236475835514, Duration=17.101369593787474, Patient=312 Secretary=3
+
+EVENT=EndOfArrival : Time=6603.205355485205, Duration=20.07024924347747, Patient=313 
+
+EVENT=EndOfExamMedicine : Time=6605.840044558065, Duration=35.05356330364149, Patient=300 Nurse=2
+
+EVENT=EndOfScreening : Time=6616.236852758153, Duration=10.396808200088788, Patient=312 Nurse=2
+
+EVENT=EndOfRegistration : Time=6619.4233213843645, Duration=16.217965899159537, Patient=313 Secretary=3
+
+EVENT=EndOfArrival : Time=6623.322352476868, Duration=20.11699699166398, Patient=314 
+
+EVENT=EndOfMedicalCare : Time=6627.895249613668, Duration=50.500383963744454, Patient=310 Doctor=1
+
+EVENT=EndOfScreening : Time=6628.990470416422, Duration=12.753617658268494, Patient=311 Nurse=2
+
+EVENT=EndOfScreening : Time=6640.080180771513, Duration=11.08971035509176, Patient=313 Nurse=2
+
+EVENT=EndOfRegistration : Time=6640.237419616292, Duration=16.91506713942371, Patient=314 Secretary=3
+
+EVENT=EndOfArrival : Time=6644.023300983938, Duration=20.700948507069143, Patient=315 
+
+EVENT=EndOfScreening : Time=6650.575413446452, Duration=10.33799383016054, Patient=314 Nurse=2
+
+EVENT=EndOfRegistration : Time=6661.804243582781, Duration=17.78094259884322, Patient=315 Secretary=3
+
+EVENT=EndOfArrival : Time=6668.124564140415, Duration=24.1012631564775, Patient=316 
+
+EVENT=EndOfScreening : Time=6671.833323926557, Duration=10.029080343775563, Patient=315 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6679.393949609283, Duration=51.49869999561415, Patient=304 Doctor=1
+
+EVENT=EndOfRegistration : Time=6683.753387027178, Duration=15.628822886763366, Patient=316 Secretary=3
+
+EVENT=EndOfArrival : Time=6688.244109545362, Duration=20.119545404947186, Patient=317 
+
+EVENT=EndOfRegistration : Time=6704.062607665708, Duration=15.818498120345957, Patient=317 Secretary=3
+
+EVENT=EndOfArrival : Time=6709.286817982439, Duration=21.042708437077106, Patient=318 
+
+EVENT=EndOfExamMedicine : Time=6714.545088837175, Duration=35.15113922789262, Patient=304 Nurse=2
+
+EVENT=EndOfRegistration : Time=6724.55887025436, Duration=15.272052271920613, Patient=318 Secretary=3
+
+EVENT=EndOfScreening : Time=6726.0381977176485, Duration=11.493108880473729, Patient=317 Nurse=2
+
+EVENT=EndOfArrival : Time=6729.553063832055, Duration=20.266245849615732, Patient=319 
+
+EVENT=EndOfMedicalCare : Time=6731.785692113597, Duration=52.39174250431464, Patient=315 Doctor=1
+
+EVENT=EndOfScreening : Time=6736.114715573358, Duration=10.07651785570922, Patient=318 Nurse=2
+
+EVENT=EndOfRegistration : Time=6745.9090846848885, Duration=16.356020852833286, Patient=319 Secretary=3
+
+EVENT=EndOfArrival : Time=6749.586855784472, Duration=20.03379195241684, Patient=320 
+
+EVENT=EndOfScreening : Time=6749.860172974512, Duration=13.745457401154413, Patient=316 Nurse=2
+
+EVENT=EndOfScreening : Time=6761.26826559891, Duration=11.408092624397412, Patient=319 Nurse=2
+
+EVENT=EndOfRegistration : Time=6764.957090352266, Duration=15.37023456779405, Patient=320 Secretary=3
+
+EVENT=EndOfArrival : Time=6770.34045295133, Duration=20.753597166857702, Patient=321 
+
+EVENT=EndOfScreening : Time=6777.585410263801, Duration=12.628319911535241, Patient=320 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6782.204024579396, Duration=50.41833246579924, Patient=317 Doctor=1
+
+EVENT=EndOfRegistration : Time=6785.61753079393, Duration=15.277077842599834, Patient=321 Secretary=3
+
+EVENT=EndOfArrival : Time=6790.509162046189, Duration=20.1687090948591, Patient=322 
+
+EVENT=EndOfScreening : Time=6796.753287015228, Duration=11.135756221297965, Patient=321 Nurse=2
+
+EVENT=EndOfRegistration : Time=6806.964790643106, Duration=16.455628596917197, Patient=322 Secretary=3
+
+EVENT=EndOfArrival : Time=6811.176610495644, Duration=20.66744844945486, Patient=323 
+
+EVENT=EndOfScreening : Time=6818.029483995183, Duration=11.064693352076825, Patient=322 Nurse=2
+
+EVENT=EndOfRegistration : Time=6828.058798705045, Duration=16.88218820940115, Patient=323 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=6832.6610691822825, Duration=50.45704460288663, Patient=318 Doctor=1
+
+EVENT=EndOfArrival : Time=6834.259736096374, Duration=23.083125600729616, Patient=324 
+
+EVENT=EndOfScreening : Time=6840.292509734106, Duration=12.233711029060762, Patient=323 Nurse=2
+
+EVENT=EndOfRegistration : Time=6849.5171534138835, Duration=15.257417317510297, Patient=324 Secretary=3
+
+EVENT=EndOfArrival : Time=6854.871274806359, Duration=20.611538709985055, Patient=325 
+
+EVENT=EndOfScreening : Time=6859.633845616902, Duration=10.116692203019205, Patient=324 Nurse=2
+
+EVENT=EndOfRegistration : Time=6870.612866764345, Duration=15.741591957986493, Patient=325 Secretary=3
+
+EVENT=EndOfArrival : Time=6875.315114945628, Duration=20.443840139269415, Patient=326 
+
+EVENT=EndOfScreening : Time=6881.000551414056, Duration=10.387684649710287, Patient=325 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=6884.007805187011, Duration=51.34673600472881, Patient=309 Doctor=1
+
+EVENT=EndOfRegistration : Time=6890.4784801728865, Duration=15.163365227258504, Patient=326 Secretary=3
+
+EVENT=EndOfArrival : Time=6896.909087534879, Duration=21.593972589251727, Patient=327 
+
+EVENT=EndOfScreening : Time=6900.969272657302, Duration=10.49079248441516, Patient=326 Nurse=2
+
+EVENT=EndOfRegistration : Time=6912.416481702783, Duration=15.50739416790374, Patient=327 Secretary=3
+
+EVENT=EndOfArrival : Time=6918.120057422006, Duration=21.210969887126694, Patient=328 
+
+EVENT=EndOfScreening : Time=6922.7549733444985, Duration=10.338491641715063, Patient=327 Nurse=2
+
+EVENT=EndOfRegistration : Time=6934.302159524528, Duration=16.1821021025226, Patient=328 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=6934.4672992411815, Duration=50.45949405417034, Patient=314 Doctor=1
+
+EVENT=EndOfArrival : Time=6938.136704063429, Duration=20.016646641423314, Patient=329 
+
+EVENT=EndOfScreening : Time=6944.589298130541, Duration=10.287138606012721, Patient=328 Nurse=2
+
+EVENT=EndOfRegistration : Time=6953.733965375519, Duration=15.597261312090005, Patient=329 Secretary=3
+
+EVENT=EndOfArrival : Time=6960.017952718576, Duration=21.88124865514762, Patient=330 
+
+EVENT=EndOfScreening : Time=6964.537972831961, Duration=10.804007456441932, Patient=329 Nurse=2
+
+EVENT=EndOfRegistration : Time=6975.156347027848, Duration=15.13839430927108, Patient=330 Secretary=3
+
+EVENT=EndOfArrival : Time=6981.176010027668, Duration=21.158057309091785, Patient=331 
+
+EVENT=EndOfMedicalCare : Time=6985.184544702074, Duration=50.717245460892535, Patient=327 Doctor=1
+
+EVENT=EndOfScreening : Time=6985.191575630253, Duration=10.035228602405002, Patient=330 Nurse=2
+
+EVENT=EndOfRegistration : Time=6997.309015440911, Duration=16.13300541324322, Patient=331 Secretary=3
+
+EVENT=EndOfArrival : Time=7001.422075994099, Duration=20.246065966430898, Patient=332 
+
+EVENT=EndOfScreening : Time=7008.097148994602, Duration=10.788133553691043, Patient=331 Nurse=2
+
+EVENT=EndOfRegistration : Time=7016.6642803654795, Duration=15.242204371380867, Patient=332 Secretary=3
+
+EVENT=EndOfArrival : Time=7022.312378578731, Duration=20.890302584632, Patient=333 
+
+EVENT=EndOfScreening : Time=7026.699314130368, Duration=10.035033764888855, Patient=332 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7036.91490578836, Duration=51.730361086285875, Patient=328 Doctor=1
+
+EVENT=EndOfRegistration : Time=7039.561073410172, Duration=17.24869483144049, Patient=333 Secretary=3
+
+EVENT=EndOfArrival : Time=7042.379052942191, Duration=20.06667436346054, Patient=334 
+
+EVENT=EndOfScreening : Time=7049.625971598509, Duration=10.064898188337315, Patient=333 Nurse=2
+
+EVENT=EndOfRegistration : Time=7060.711082831644, Duration=18.332029889452706, Patient=334 Secretary=3
+
+EVENT=EndOfArrival : Time=7063.798016401821, Duration=21.41896345962988, Patient=335 
+
+EVENT=EndOfScreening : Time=7076.066798843943, Duration=15.355716012299048, Patient=334 Nurse=2
+
+EVENT=EndOfRegistration : Time=7079.211213401379, Duration=15.41319699955761, Patient=335 Secretary=3
+
+EVENT=EndOfArrival : Time=7085.877226437242, Duration=22.079210035420687, Patient=336 
+
+EVENT=EndOfMedicalCare : Time=7087.549215758453, Duration=50.634309970093184, Patient=331 Doctor=1
+
+EVENT=EndOfScreening : Time=7090.151459233428, Duration=10.94024583204883, Patient=335 Nurse=2
+
+EVENT=EndOfRegistration : Time=7100.942387246653, Duration=15.065160809410962, Patient=336 Secretary=3
+
+EVENT=EndOfArrival : Time=7106.101851084893, Duration=20.22462464765048, Patient=337 
+
+EVENT=EndOfRegistration : Time=7122.201467734897, Duration=16.09961665000451, Patient=337 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=7127.539000817855, Duration=37.387541584426955, Patient=331 Nurse=2
+
+EVENT=EndOfArrival : Time=7127.7368260454205, Duration=21.634974960527916, Patient=338 
+
+EVENT=EndOfScreening : Time=7137.63370303095, Duration=10.09470221309523, Patient=337 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7139.144299324218, Duration=51.59508356576479, Patient=316 Doctor=1
+
+EVENT=EndOfRegistration : Time=7142.913015860607, Duration=15.1761898151861, Patient=338 Secretary=3
+
+EVENT=EndOfArrival : Time=7148.1616899352475, Duration=20.424863889827026, Patient=339 
+
+EVENT=EndOfRegistration : Time=7163.188504881499, Duration=15.026814946251331, Patient=339 Secretary=3
+
+EVENT=EndOfArrival : Time=7168.186643197433, Duration=20.02495326218602, Patient=340 
+
+EVENT=EndOfExamMedicine : Time=7176.5240101587, Duration=37.37971083448177, Patient=316 Nurse=2
+
+EVENT=EndOfRegistration : Time=7184.829092607552, Duration=16.642449410119106, Patient=340 Secretary=3
+
+EVENT=EndOfScreening : Time=7186.7585545122565, Duration=10.234544353557071, Patient=339 Nurse=2
+
+EVENT=EndOfArrival : Time=7188.928373387554, Duration=20.741730190120386, Patient=341 
+
+EVENT=EndOfMedicalCare : Time=7189.7183775258545, Duration=50.57407820163656, Patient=319 Doctor=1
+
+EVENT=EndOfScreening : Time=7197.745176788908, Duration=10.986622276651541, Patient=340 Nurse=2
+
+EVENT=EndOfRegistration : Time=7204.020083121942, Duration=15.091709734387702, Patient=341 Secretary=3
+
+EVENT=EndOfScreening : Time=7208.103448502226, Duration=10.358271713317324, Patient=338 Nurse=2
+
+EVENT=EndOfArrival : Time=7211.042770512069, Duration=22.114397124515943, Patient=342 
+
+EVENT=EndOfScreening : Time=7218.346389306629, Duration=10.242940804403588, Patient=341 Nurse=2
+
+EVENT=EndOfRegistration : Time=7226.21743248968, Duration=15.174661977610354, Patient=342 Secretary=3
+
+EVENT=EndOfArrival : Time=7233.306163965408, Duration=22.263393453339127, Patient=343 
+
+EVENT=EndOfMedicalCare : Time=7240.7401072778575, Duration=51.02172975200283, Patient=320 Doctor=1
+
+EVENT=EndOfRegistration : Time=7249.745011718613, Duration=16.43884775320482, Patient=343 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=7253.434281670838, Duration=35.0878923642081, Patient=319 Nurse=2
+
+EVENT=EndOfArrival : Time=7254.54057367503, Duration=21.23440970962165, Patient=344 
+
+EVENT=EndOfRegistration : Time=7270.533844551575, Duration=15.99327087654586, Patient=344 Secretary=3
+
+EVENT=EndOfArrival : Time=7275.105501442055, Duration=20.56492776702505, Patient=345 
+
+EVENT=EndOfExamMedicine : Time=7289.315058989131, Duration=35.88077731829315, Patient=320 Nurse=2
+
+EVENT=EndOfRegistration : Time=7290.12059925928, Duration=15.0150978172249, Patient=345 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=7292.027439484293, Duration=51.2873322064356, Patient=322 Doctor=1
+
+EVENT=EndOfArrival : Time=7295.872805246586, Duration=20.76730380453075, Patient=346 
+
+EVENT=EndOfScreening : Time=7301.166979826784, Duration=11.851920837653235, Patient=344 Nurse=2
+
+EVENT=EndOfScreening : Time=7311.626716355573, Duration=10.459736528788842, Patient=345 Nurse=2
+
+EVENT=EndOfRegistration : Time=7311.848391425172, Duration=15.975586178586365, Patient=346 Secretary=3
+
+EVENT=EndOfArrival : Time=7316.226276930301, Duration=20.353471683714364, Patient=347 
+
+EVENT=EndOfScreening : Time=7322.31694530186, Duration=10.690228946287052, Patient=343 Nurse=2
+
+EVENT=EndOfRegistration : Time=7331.636374627735, Duration=15.410097697434182, Patient=347 Secretary=3
+
+EVENT=EndOfScreening : Time=7332.727007340677, Duration=10.410062038816726, Patient=346 Nurse=2
+
+EVENT=EndOfArrival : Time=7337.809449973671, Duration=21.58317304337031, Patient=348 
+
+EVENT=EndOfMedicalCare : Time=7343.65953024968, Duration=51.632090765387574, Patient=326 Doctor=1
+
+EVENT=EndOfScreening : Time=7344.299337994688, Duration=11.572330654011042, Patient=347 Nurse=2
+
+EVENT=EndOfRegistration : Time=7354.216149772954, Duration=16.406699799283032, Patient=348 Secretary=3
+
+EVENT=EndOfScreening : Time=7355.077190908761, Duration=10.777852914072106, Patient=342 Nurse=2
+
+EVENT=EndOfArrival : Time=7358.726153536253, Duration=20.916703562582573, Patient=349 
+
+EVENT=EndOfScreening : Time=7365.186693074877, Duration=10.109502166116826, Patient=348 Nurse=2
+
+EVENT=EndOfRegistration : Time=7374.241486344373, Duration=15.515332808119691, Patient=349 Secretary=3
+
+EVENT=EndOfArrival : Time=7379.992988719119, Duration=21.266835182865705, Patient=350 
+
+EVENT=EndOfMedicalCare : Time=7393.757364792402, Duration=50.09783454272232, Patient=344 Doctor=1
+
+EVENT=EndOfRegistration : Time=7395.659214113167, Duration=15.66622539404732, Patient=350 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=7400.510686841268, Duration=35.323993766390394, Patient=326 Nurse=2
+
+EVENT=EndOfArrival : Time=7401.3617205297, Duration=21.368731810580748, Patient=351 
+
+EVENT=EndOfRegistration : Time=7416.366401825881, Duration=15.004681296181447, Patient=351 Secretary=3
+
+EVENT=EndOfArrival : Time=7422.939438737857, Duration=21.57771820815723, Patient=352 
+
+EVENT=EndOfExamMedicine : Time=7436.077048452006, Duration=35.56636161073877, Patient=322 Nurse=2
+
+EVENT=EndOfRegistration : Time=7438.34002600007, Duration=15.400587262213126, Patient=352 Secretary=3
+
+EVENT=EndOfArrival : Time=7443.258902604218, Duration=20.31946386636086, Patient=353 
+
+EVENT=EndOfMedicalCare : Time=7444.3661652543005, Duration=50.60880046189849, Patient=346 Doctor=1
+
+EVENT=EndOfScreening : Time=7447.6318069332765, Duration=11.554758481270321, Patient=351 Nurse=2
+
+EVENT=EndOfScreening : Time=7458.764094390274, Duration=11.132287456998245, Patient=352 Nurse=2
+
+EVENT=EndOfRegistration : Time=7459.005669381603, Duration=15.746766777385481, Patient=353 Secretary=3
+
+EVENT=EndOfArrival : Time=7463.980481189043, Duration=20.72157858482456, Patient=354 
+
+EVENT=EndOfScreening : Time=7469.094283923591, Duration=10.330189533316718, Patient=350 Nurse=2
+
+EVENT=EndOfScreening : Time=7479.668031186456, Duration=10.57374726286439, Patient=353 Nurse=2
+
+EVENT=EndOfRegistration : Time=7479.6791492083485, Duration=15.698668019306082, Patient=354 Secretary=3
+
+EVENT=EndOfArrival : Time=7484.097002667409, Duration=20.116521478365986, Patient=355 
+
+EVENT=EndOfScreening : Time=7489.839434196665, Duration=10.171403010209751, Patient=349 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7497.248977613765, Duration=52.88281235946474, Patient=330 Doctor=1
+
+EVENT=EndOfRegistration : Time=7499.142872497976, Duration=15.045869830567796, Patient=355 Secretary=3
+
+EVENT=EndOfScreening : Time=7499.897112375831, Duration=10.057678179165796, Patient=354 Nurse=2
+
+EVENT=EndOfArrival : Time=7506.045499002024, Duration=21.94849633461581, Patient=356 
+
+EVENT=EndOfRegistration : Time=7521.420994909003, Duration=15.375495906978134, Patient=356 Secretary=3
+
+EVENT=EndOfArrival : Time=7528.152701957655, Duration=22.107202955630807, Patient=357 
+
+EVENT=EndOfExamMedicine : Time=7535.223315065948, Duration=35.326202690116546, Patient=330 Nurse=2
+
+EVENT=EndOfRegistration : Time=7544.27491006751, Duration=16.122208109854956, Patient=357 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=7547.458301765738, Duration=50.2093241519724, Patient=351 Doctor=1
+
+EVENT=EndOfArrival : Time=7549.058994945109, Duration=20.906292987453664, Patient=358 
+
+EVENT=EndOfRegistration : Time=7564.197476141157, Duration=15.138481196048165, Patient=358 Secretary=3
+
+EVENT=EndOfArrival : Time=7571.02339500722, Duration=21.96440006211098, Patient=359 
+
+EVENT=EndOfExamMedicine : Time=7571.346158962391, Duration=36.12284389644313, Patient=346 Nurse=2
+
+EVENT=EndOfScreening : Time=7581.765727112935, Duration=10.41956815054329, Patient=358 Nurse=2
+
+EVENT=EndOfRegistration : Time=7586.891639939906, Duration=15.868244932685908, Patient=359 Secretary=3
+
+EVENT=EndOfArrival : Time=7591.966683301517, Duration=20.94328829429718, Patient=360 
+
+EVENT=EndOfScreening : Time=7596.305508074786, Duration=14.539780961851584, Patient=357 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7597.576783743982, Duration=50.11848197824409, Patient=354 Doctor=1
+
+EVENT=EndOfScreening : Time=7607.64174152368, Duration=11.336233448893909, Patient=359 Nurse=2
+
+EVENT=EndOfRegistration : Time=7608.011154590661, Duration=16.044471289143626, Patient=360 Secretary=3
+
+EVENT=EndOfArrival : Time=7612.923309660746, Duration=20.956626359229162, Patient=361 
+
+EVENT=EndOfScreening : Time=7619.6350988929125, Duration=11.993357369232506, Patient=356 Nurse=2
+
+EVENT=EndOfRegistration : Time=7628.485478597137, Duration=15.562168936391902, Patient=361 Secretary=3
+
+EVENT=EndOfScreening : Time=7630.801700011726, Duration=11.16660111881334, Patient=360 Nurse=2
+
+EVENT=EndOfArrival : Time=7633.318590372472, Duration=20.395280711725327, Patient=362 
+
+EVENT=EndOfScreening : Time=7642.721696909117, Duration=11.91999689739098, Patient=361 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7648.283131438648, Duration=50.70634769466594, Patient=337 Doctor=1
+
+EVENT=EndOfRegistration : Time=7649.528846824297, Duration=16.210256451825177, Patient=362 Secretary=3
+
+EVENT=EndOfArrival : Time=7653.808373997014, Duration=20.489783624542735, Patient=363 
+
+EVENT=EndOfScreening : Time=7661.071593336504, Duration=11.542746512206485, Patient=362 Nurse=2
+
+EVENT=EndOfRegistration : Time=7668.942510696448, Duration=15.134136699433608, Patient=363 Secretary=3
+
+EVENT=EndOfArrival : Time=7674.665428030157, Duration=20.857054033142536, Patient=364 
+
+EVENT=EndOfRegistration : Time=7689.795726073903, Duration=15.130298043745963, Patient=364 Secretary=3
+
+EVENT=EndOfArrival : Time=7697.066804201884, Duration=22.40137617172693, Patient=365 
+
+EVENT=EndOfScreening : Time=7703.036326175792, Duration=13.240600101889218, Patient=364 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7703.050410375957, Duration=54.76727893730903, Patient=360 Doctor=1
+
+EVENT=EndOfRegistration : Time=7712.925433540525, Duration=15.858629338640984, Patient=365 Secretary=3
+
+EVENT=EndOfArrival : Time=7717.193995153975, Duration=20.127190952090874, Patient=366 
+
+EVENT=EndOfRegistration : Time=7733.033645469129, Duration=15.83965031515387, Patient=366 Secretary=3
+
+EVENT=EndOfArrival : Time=7737.944867373188, Duration=20.75087221921246, Patient=367 
+
+EVENT=EndOfExamMedicine : Time=7738.674614626763, Duration=35.624204250806656, Patient=360 Nurse=2
+
+EVENT=EndOfScreening : Time=7748.937387795959, Duration=10.26277316919526, Patient=366 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7754.278919944636, Duration=51.22850956867952, Patient=339 Doctor=1
+
+EVENT=EndOfRegistration : Time=7754.582402736695, Duration=16.637535363507304, Patient=367 Secretary=3
+
+EVENT=EndOfArrival : Time=7758.181714126647, Duration=20.236846753459833, Patient=368 
+
+EVENT=EndOfScreening : Time=7761.055429818688, Duration=12.118042022729234, Patient=365 Nurse=2
+
+EVENT=EndOfScreening : Time=7772.676617936103, Duration=11.621188117415157, Patient=367 Nurse=2
+
+EVENT=EndOfRegistration : Time=7774.830082612394, Duration=16.648368485746836, Patient=368 Secretary=3
+
+EVENT=EndOfArrival : Time=7778.254393917455, Duration=20.07267979080699, Patient=369 
+
+EVENT=EndOfScreening : Time=7786.793227822887, Duration=11.963145210493558, Patient=368 Nurse=2
+
+EVENT=EndOfRegistration : Time=7795.101190080589, Duration=16.846796163134393, Patient=369 Secretary=3
+
+EVENT=EndOfArrival : Time=7798.3715327403615, Duration=20.117138822907197, Patient=370 
+
+EVENT=EndOfScreening : Time=7805.115370140917, Duration=10.01418006032824, Patient=369 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7805.386321232438, Duration=51.107401287801714, Patient=345 Doctor=1
+
+EVENT=EndOfRegistration : Time=7813.53472283025, Duration=15.163190089887912, Patient=370 Secretary=3
+
+EVENT=EndOfArrival : Time=7819.674128812221, Duration=21.302596071859476, Patient=371 
+
+EVENT=EndOfRegistration : Time=7836.447682013512, Duration=16.77355320129162, Patient=371 Secretary=3
+
+EVENT=EndOfArrival : Time=7840.147825688017, Duration=20.47369687579641, Patient=372 
+
+EVENT=EndOfExamMedicine : Time=7840.560764181354, Duration=35.174442948916436, Patient=345 Nurse=2
+
+EVENT=EndOfScreening : Time=7852.270794805526, Duration=11.710030624171967, Patient=371 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7856.532979802532, Duration=51.14665857009429, Patient=367 Doctor=1
+
+EVENT=EndOfRegistration : Time=7857.6793497083145, Duration=17.53152402029684, Patient=372 Secretary=3
+
+EVENT=EndOfScreening : Time=7865.2940462951165, Duration=13.023251489590681, Patient=370 Nurse=2
+
+EVENT=EndOfArrival : Time=7867.442805941356, Duration=27.294980253338743, Patient=373 
+
+EVENT=EndOfScreening : Time=7876.435736397851, Duration=11.141690102733852, Patient=372 Nurse=2
+
+EVENT=EndOfRegistration : Time=7882.552930534278, Duration=15.110124592921707, Patient=373 Secretary=3
+
+EVENT=EndOfArrival : Time=7889.072516964299, Duration=21.62971102294328, Patient=374 
+
+EVENT=EndOfScreening : Time=7892.755249775357, Duration=10.202319241078836, Patient=373 Nurse=2
+
+EVENT=EndOfRegistration : Time=7904.226369540463, Duration=15.153852576163619, Patient=374 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=7906.888434168581, Duration=50.35545436604876, Patient=371 Doctor=1
+
+EVENT=EndOfArrival : Time=7909.402249165171, Duration=20.329732200872247, Patient=375 
+
+EVENT=EndOfScreening : Time=7916.064417605061, Duration=11.838048064598096, Patient=374 Nurse=2
+
+EVENT=EndOfRegistration : Time=7925.027267535542, Duration=15.625018370370428, Patient=375 Secretary=3
+
+EVENT=EndOfArrival : Time=7929.662337093549, Duration=20.2600879283772, Patient=376 
+
+EVENT=EndOfRegistration : Time=7945.745641444907, Duration=16.083304351358464, Patient=376 Secretary=3
+
+EVENT=EndOfArrival : Time=7950.247804488028, Duration=20.58546739447945, Patient=377 
+
+EVENT=EndOfExamMedicine : Time=7951.19735491959, Duration=35.13293731452939, Patient=371 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=7957.0190793383845, Duration=50.13064516980402, Patient=342 Doctor=1
+
+EVENT=EndOfScreening : Time=7961.458531242848, Duration=10.26117632325782, Patient=376 Nurse=2
+
+EVENT=EndOfRegistration : Time=7965.9366096701615, Duration=15.68880518213345, Patient=377 Secretary=3
+
+EVENT=EndOfScreening : Time=7971.959884255072, Duration=10.501353012224287, Patient=375 Nurse=2
+
+EVENT=EndOfArrival : Time=7972.743477353628, Duration=22.49567286559998, Patient=378 
+
+EVENT=EndOfScreening : Time=7984.291746368094, Duration=12.331862113022227, Patient=377 Nurse=2
+
+EVENT=EndOfRegistration : Time=7991.185394068231, Duration=18.441916714603327, Patient=378 Secretary=3
+
+EVENT=EndOfArrival : Time=7993.005460374432, Duration=20.261983020804166, Patient=379 
+
+EVENT=EndOfScreening : Time=8003.386682406884, Duration=12.201288338652375, Patient=378 Nurse=2
+
+EVENT=EndOfRegistration : Time=8009.140627163005, Duration=16.13516678857304, Patient=379 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=8009.339875443454, Duration=52.32079610506943, Patient=350 Doctor=1
+
+EVENT=EndOfArrival : Time=8013.344222279517, Duration=20.33876190508536, Patient=380 
+
+EVENT=EndOfScreening : Time=8019.643543134635, Duration=10.502915971630129, Patient=379 Nurse=2
+
+EVENT=EndOfRegistration : Time=8028.616759899946, Duration=15.272537620428963, Patient=380 Secretary=3
+
+EVENT=EndOfArrival : Time=8034.268943216604, Duration=20.924720937087375, Patient=381 
+
+EVENT=EndOfScreening : Time=8038.855383681242, Duration=10.23862378129547, Patient=380 Nurse=2
+
+EVENT=EndOfRegistration : Time=8050.260733347718, Duration=15.991790131113758, Patient=381 Secretary=3
+
+EVENT=EndOfArrival : Time=8054.401875771883, Duration=20.13293255527868, Patient=382 
+
+EVENT=EndOfMedicalCare : Time=8059.886649593388, Duration=50.54677414993457, Patient=377 Doctor=1
+
+EVENT=EndOfRegistration : Time=8069.490405042055, Duration=15.088529270171776, Patient=382 Secretary=3
+
+EVENT=EndOfArrival : Time=8074.766789726338, Duration=20.3649139544551, Patient=383 
+
+EVENT=EndOfRegistration : Time=8091.155276392472, Duration=16.388486666134135, Patient=383 Secretary=3
+
+EVENT=EndOfArrival : Time=8095.241524216423, Duration=20.474734490085414, Patient=384 
+
+EVENT=EndOfExamMedicine : Time=8096.272962233248, Duration=36.38631263986017, Patient=377 Nurse=2
+
+EVENT=EndOfScreening : Time=8107.129626770772, Duration=10.856664537524301, Patient=383 Nurse=2
+
+EVENT=EndOfRegistration : Time=8110.59511334292, Duration=15.353589126495999, Patient=384 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=8110.622936892234, Duration=50.736287298845994, Patient=379 Doctor=1
+
+EVENT=EndOfArrival : Time=8116.91035194149, Duration=21.668827725066492, Patient=385 
+
+EVENT=EndOfScreening : Time=8117.97951509119, Duration=10.849888320417291, Patient=382 Nurse=2
+
+EVENT=EndOfScreening : Time=8129.871526764668, Duration=11.89201167347838, Patient=384 Nurse=2
+
+EVENT=EndOfRegistration : Time=8132.160958949003, Duration=15.250607007512029, Patient=385 Secretary=3
+
+EVENT=EndOfArrival : Time=8138.156920365534, Duration=21.24656842404298, Patient=386 
+
+EVENT=EndOfScreening : Time=8143.434807679931, Duration=11.273848730928414, Patient=385 Nurse=2
+
+EVENT=EndOfRegistration : Time=8153.8523059431345, Duration=15.695385577601346, Patient=386 Secretary=3
+
+EVENT=EndOfArrival : Time=8158.968508895927, Duration=20.811588530393628, Patient=387 
+
+EVENT=EndOfMedicalCare : Time=8162.683542020277, Duration=52.060605128042496, Patient=380 Doctor=1
+
+EVENT=EndOfScreening : Time=8163.970917639643, Duration=10.118611696507894, Patient=386 Nurse=2
+
+EVENT=EndOfRegistration : Time=8175.59992027796, Duration=16.631411382033377, Patient=387 Secretary=3
+
+EVENT=EndOfArrival : Time=8181.734453119077, Duration=22.76594422315052, Patient=388 
+
+EVENT=EndOfRegistration : Time=8196.775775833386, Duration=15.041322714308757, Patient=388 Secretary=3
+
+EVENT=EndOfArrival : Time=8201.994555583478, Duration=20.26010246440108, Patient=389 
+
+EVENT=EndOfScreening : Time=8207.068134569587, Duration=10.292358736199642, Patient=388 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=8216.458326424554, Duration=53.77478440427633, Patient=349 Doctor=1
+
+EVENT=EndOfRegistration : Time=8218.121808677737, Duration=16.12725309425899, Patient=389 Secretary=3
+
+EVENT=EndOfArrival : Time=8225.107547012623, Duration=23.112991429145566, Patient=390 
+
+EVENT=EndOfScreening : Time=8228.921620277364, Duration=10.799811599626892, Patient=389 Nurse=2
+
+EVENT=EndOfRegistration : Time=8240.932467707069, Duration=15.824920694445073, Patient=390 Secretary=3
+
+EVENT=EndOfArrival : Time=8246.574263767137, Duration=21.466716754514266, Patient=391 
+
+EVENT=EndOfScreening : Time=8251.403822271119, Duration=10.471354564049259, Patient=390 Nurse=2
+
+EVENT=EndOfRegistration : Time=8261.711491677193, Duration=15.137227910055168, Patient=391 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=8266.630520020253, Duration=50.1721935957002, Patient=364 Doctor=1
+
+EVENT=EndOfArrival : Time=8268.112992072722, Duration=21.538728305583458, Patient=392 
+
+EVENT=EndOfRegistration : Time=8285.653485118606, Duration=17.540493045884926, Patient=392 Secretary=3
+
+EVENT=EndOfArrival : Time=8290.034246725003, Duration=21.921254652281647, Patient=393 
+
+EVENT=EndOfExamMedicine : Time=8302.03409364725, Duration=35.403573626996014, Patient=364 Nurse=2
+
+EVENT=EndOfRegistration : Time=8306.90634513305, Duration=16.87209840804596, Patient=393 Secretary=3
+
+EVENT=EndOfArrival : Time=8310.454805746655, Duration=20.420559021652416, Patient=394 
+
+EVENT=EndOfScreening : Time=8313.653647987448, Duration=11.619554340198702, Patient=392 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=8322.66433834194, Duration=56.03381832168558, Patient=383 Doctor=1
+
+EVENT=EndOfScreening : Time=8324.453646480446, Duration=10.799998492996718, Patient=393 Nurse=2
+
+EVENT=EndOfRegistration : Time=8326.43722817207, Duration=15.982422425414388, Patient=394 Secretary=3
+
+EVENT=EndOfArrival : Time=8331.069013273027, Duration=20.614207526372496, Patient=395 
+
+EVENT=EndOfScreening : Time=8338.433584568926, Duration=11.996356396855585, Patient=394 Nurse=2
+
+EVENT=EndOfRegistration : Time=8347.651765051523, Duration=16.582751778496814, Patient=395 Secretary=3
+
+EVENT=EndOfArrival : Time=8351.407289363817, Duration=20.338276090789105, Patient=396 
+
+EVENT=EndOfScreening : Time=8357.822098251218, Duration=10.170333199693623, Patient=395 Nurse=2
+
+EVENT=EndOfRegistration : Time=8366.45171604428, Duration=15.044426680461736, Patient=396 Secretary=3
+
+EVENT=EndOfArrival : Time=8372.60335891338, Duration=21.19606954956329, Patient=397 
+
+EVENT=EndOfMedicalCare : Time=8373.197026583604, Duration=50.53268824166531, Patient=382 Doctor=1
+
+EVENT=EndOfScreening : Time=8376.923106861237, Duration=10.471390816958673, Patient=396 Nurse=2
+
+EVENT=EndOfRegistration : Time=8388.974297681583, Duration=16.370938768203214, Patient=397 Secretary=3
+
+EVENT=EndOfArrival : Time=8392.928634001406, Duration=20.325275088026373, Patient=398 
+
+EVENT=EndOfRegistration : Time=8408.131638263687, Duration=15.203004262280546, Patient=398 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=8412.762456846216, Duration=35.83934998497842, Patient=382 Nurse=2
+
+EVENT=EndOfArrival : Time=8413.213799290848, Duration=20.285165289441487, Patient=399 
+
+EVENT=EndOfScreening : Time=8423.56056115101, Duration=10.798104304793467, Patient=398 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=8423.690682257109, Duration=50.49365567350405, Patient=394 Doctor=1
+
+EVENT=EndOfRegistration : Time=8428.971380642028, Duration=15.757581351179237, Patient=399 Secretary=3
+
+EVENT=EndOfArrival : Time=8433.32207385163, Duration=20.108274560781677, Patient=400 
+
+EVENT=EndOfScreening : Time=8433.742672835562, Duration=10.182111684553607, Patient=397 Nurse=2
+
+EVENT=EndOfScreening : Time=8444.432484698405, Duration=10.68981186284411, Patient=399 Nurse=2
+
+EVENT=EndOfRegistration : Time=8449.30009079145, Duration=15.978016939819955, Patient=400 Secretary=3
+
+EVENT=EndOfArrival : Time=8453.394205205379, Duration=20.072131353749377, Patient=401 
+
+EVENT=EndOfRegistration : Time=8468.585169677981, Duration=15.190964472601769, Patient=401 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=8474.351941122719, Duration=50.661258865610144, Patient=396 Doctor=1
+
+EVENT=EndOfScreening : Time=8479.46895190463, Duration=10.88378222664808, Patient=401 Nurse=2
+
+EVENT=EndOfArrival : Time=8480.065821352086, Duration=26.671616146706164, Patient=402 
+
+EVENT=EndOfRegistration : Time=8495.54729965131, Duration=15.48147829922547, Patient=402 Secretary=3
+
+EVENT=EndOfArrival : Time=8500.383874181827, Duration=20.31805282974169, Patient=403 
+
+EVENT=EndOfScreening : Time=8506.192464106774, Duration=10.6451644554627, Patient=402 Nurse=2
+
+EVENT=EndOfRegistration : Time=8516.543914976777, Duration=16.160040794949065, Patient=403 Secretary=3
+
+EVENT=EndOfArrival : Time=8521.021462367578, Duration=20.637588185751788, Patient=404 
+
+EVENT=EndOfMedicalCare : Time=8525.11128555175, Duration=50.75934442903137, Patient=390 Doctor=1
+
+EVENT=EndOfScreening : Time=8527.448212424011, Duration=10.90429744723492, Patient=403 Nurse=2
+
+EVENT=EndOfRegistration : Time=8537.061423526067, Duration=16.039961158489113, Patient=404 Secretary=3
+
+EVENT=EndOfArrival : Time=8541.693891566329, Duration=20.67242919875065, Patient=405 
+
+EVENT=EndOfScreening : Time=8547.725564555722, Duration=10.664141029653782, Patient=404 Nurse=2
+
+EVENT=EndOfRegistration : Time=8557.213001023809, Duration=15.519109457480397, Patient=405 Secretary=3
+
+EVENT=EndOfArrival : Time=8561.911810577467, Duration=20.217919011138534, Patient=406 
+
+EVENT=EndOfScreening : Time=8568.682347441189, Duration=11.469346417380619, Patient=405 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=8575.587641421065, Duration=50.47635586931593, Patient=401 Doctor=1
+
+EVENT=EndOfRegistration : Time=8580.64407632886, Duration=18.732265751393157, Patient=406 Secretary=3
+
+EVENT=EndOfArrival : Time=8581.96447104807, Duration=20.052660470603183, Patient=407 
+
+EVENT=EndOfRegistration : Time=8597.663342187894, Duration=15.69887113982499, Patient=407 Secretary=3
+
+EVENT=EndOfArrival : Time=8602.215019634361, Duration=20.250548586291146, Patient=408 
+
+EVENT=EndOfScreening : Time=8607.70227595005, Duration=10.038933762156786, Patient=407 Nurse=2
+
+EVENT=EndOfRegistration : Time=8618.258449787541, Duration=16.043430153180875, Patient=408 Secretary=3
+
+EVENT=EndOfArrival : Time=8623.547884173733, Duration=21.332864539372956, Patient=409 
+
+EVENT=EndOfMedicalCare : Time=8626.485131253039, Duration=50.89748983197415, Patient=101 Doctor=1
+
+EVENT=EndOfRegistration : Time=8640.039958141057, Duration=16.492073967322966, Patient=409 Secretary=3
+
+EVENT=EndOfArrival : Time=8643.743706184152, Duration=20.195822010419075, Patient=410 
+
+EVENT=EndOfRegistration : Time=8659.5804998674, Duration=15.836793683247024, Patient=410 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=8661.81562392568, Duration=35.33049267264115, Patient=101 Nurse=2
+
+EVENT=EndOfArrival : Time=8665.17682149521, Duration=21.433115311058614, Patient=411 
+
+EVENT=EndOfScreening : Time=8672.018103269264, Duration=10.202479343582391, Patient=410 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=8676.801996795934, Duration=50.31686554289514, Patient=103 Doctor=1
+
+EVENT=EndOfRegistration : Time=8680.248659035151, Duration=15.071837539941304, Patient=411 Secretary=3
+
+EVENT=EndOfArrival : Time=8686.980315920058, Duration=21.80349442484905, Patient=412 
+
+EVENT=EndOfRegistration : Time=8702.749535753012, Duration=15.769219832953333, Patient=412 Secretary=3
+
+EVENT=EndOfArrival : Time=8707.863598509479, Duration=20.883282589420975, Patient=413 
+
+EVENT=EndOfExamMedicine : Time=8712.863512986965, Duration=36.0615161910311, Patient=103 Nurse=2
+
+EVENT=EndOfScreening : Time=8724.457634710461, Duration=11.59412172349574, Patient=412 Nurse=2
+
+EVENT=EndOfRegistration : Time=8724.521444186215, Duration=16.65784567673721, Patient=413 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=8728.263225619281, Duration=51.46122882334752, Patient=410 Doctor=1
+
+EVENT=EndOfArrival : Time=8728.789762011822, Duration=20.9261635023427, Patient=414 
+
+EVENT=EndOfScreening : Time=8735.027630216287, Duration=10.506186030072937, Patient=413 Nurse=2
+
+EVENT=EndOfRegistration : Time=8745.675282833843, Duration=16.885520822020467, Patient=414 Secretary=3
+
+EVENT=EndOfArrival : Time=8748.915453834794, Duration=20.12569182297147, Patient=415 
+
+EVENT=EndOfRegistration : Time=8764.821586600854, Duration=15.906132766059896, Patient=415 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=8770.756124171143, Duration=35.72849395485571, Patient=410 Nurse=2
+
+EVENT=EndOfArrival : Time=8771.492360586908, Duration=22.576906752113626, Patient=416 
+
+EVENT=EndOfMedicalCare : Time=8779.936501432692, Duration=51.67327581341154, Patient=104 Doctor=1
+
+EVENT=EndOfScreening : Time=8781.799524490005, Duration=11.043400318862878, Patient=415 Nurse=2
+
+EVENT=EndOfRegistration : Time=8786.695551745855, Duration=15.203191158947922, Patient=416 Secretary=3
+
+EVENT=EndOfArrival : Time=8793.815230407994, Duration=22.322869821086062, Patient=417 
+
+EVENT=EndOfScreening : Time=8793.857672228907, Duration=12.058147738902985, Patient=414 Nurse=2
+
+EVENT=EndOfScreening : Time=8804.62745790506, Duration=10.769785676153985, Patient=416 Nurse=2
+
+EVENT=EndOfRegistration : Time=8811.340599945534, Duration=17.52536953753996, Patient=417 Secretary=3
+
+EVENT=EndOfArrival : Time=8814.016847509394, Duration=20.201617101399528, Patient=418 
+
+EVENT=EndOfScreening : Time=8821.908757697682, Duration=10.568157752149062, Patient=417 Nurse=2
+
+EVENT=EndOfRegistration : Time=8829.450055421326, Duration=15.433207911931866, Patient=418 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=8830.1789189827, Duration=50.242417550006856, Patient=413 Doctor=1
+
+EVENT=EndOfArrival : Time=8836.019985191138, Duration=22.003137681743894, Patient=419 
+
+EVENT=EndOfScreening : Time=8839.6593487593, Duration=10.209293337973953, Patient=418 Nurse=2
+
+EVENT=EndOfRegistration : Time=8853.938726079565, Duration=17.918740888425585, Patient=419 Secretary=3
+
+EVENT=EndOfArrival : Time=8857.596842978366, Duration=21.576857787228512, Patient=420 
+
+EVENT=EndOfScreening : Time=8864.36657543182, Duration=10.427849352255901, Patient=419 Nurse=2
+
+EVENT=EndOfRegistration : Time=8872.689997981706, Duration=15.09315500333949, Patient=420 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=8880.562984789436, Duration=50.38406580673735, Patient=414 Doctor=1
+
+EVENT=EndOfArrival : Time=8881.086200320618, Duration=23.489357342251722, Patient=421 
+
+EVENT=EndOfRegistration : Time=8899.005387667728, Duration=17.91918734711026, Patient=421 Secretary=3
+
+EVENT=EndOfArrival : Time=8902.911429331822, Duration=21.825229011203728, Patient=422 
+
+EVENT=EndOfScreening : Time=8910.386839524608, Duration=11.381451856879606, Patient=421 Nurse=2
+
+EVENT=EndOfRegistration : Time=8918.297504594086, Duration=15.386075262263818, Patient=422 Secretary=3
+
+EVENT=EndOfArrival : Time=8923.619800588618, Duration=20.708371256795587, Patient=423 
+
+EVENT=EndOfMedicalCare : Time=8931.581574478878, Duration=51.01858968944236, Patient=419 Doctor=1
+
+EVENT=EndOfRegistration : Time=8938.830894084997, Duration=15.211093496377988, Patient=423 Secretary=3
+
+EVENT=EndOfArrival : Time=8948.236504603874, Duration=24.616704015255156, Patient=424 
+
+EVENT=EndOfRegistration : Time=8965.398524414395, Duration=17.162019810520782, Patient=424 Secretary=3
+
+EVENT=EndOfArrival : Time=8968.582602400053, Duration=20.346097796178334, Patient=425 
+
+EVENT=EndOfScreening : Time=8975.958818550927, Duration=10.560294136533178, Patient=424 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=8981.855696815792, Duration=50.27412233691375, Patient=115 Doctor=1
+
+EVENT=EndOfRegistration : Time=8985.039641183426, Duration=16.45703878337291, Patient=425 Secretary=3
+
+EVENT=EndOfArrival : Time=8989.578643731984, Duration=20.996041331932208, Patient=426 
+
+EVENT=EndOfRegistration : Time=9005.05796039975, Duration=15.479316667767108, Patient=426 Secretary=3
+
+EVENT=EndOfArrival : Time=9010.49215122878, Duration=20.9135074967957, Patient=427 
+
+EVENT=EndOfExamMedicine : Time=9017.105603718897, Duration=35.24990690310501, Patient=115 Nurse=2
+
+EVENT=EndOfRegistration : Time=9027.573927642114, Duration=17.081776413333376, Patient=427 Secretary=3
+
+EVENT=EndOfScreening : Time=9027.583335907015, Duration=10.477732188118082, Patient=426 Nurse=2
+
+EVENT=EndOfArrival : Time=9030.529586969566, Duration=20.037435740785547, Patient=428 
+
+EVENT=EndOfMedicalCare : Time=9032.573783640344, Duration=50.718086824552124, Patient=116 Doctor=1
+
+EVENT=EndOfScreening : Time=9038.125761950992, Duration=10.542426043978168, Patient=427 Nurse=2
+
+EVENT=EndOfRegistration : Time=9046.661311840015, Duration=16.131724870449876, Patient=428 Secretary=3
+
+EVENT=EndOfScreening : Time=9049.025539227152, Duration=10.899777276158934, Patient=425 Nurse=2
+
+EVENT=EndOfArrival : Time=9050.839928296427, Duration=20.310341326862623, Patient=429 
+
+EVENT=EndOfScreening : Time=9060.602170785918, Duration=11.576631558766357, Patient=428 Nurse=2
+
+EVENT=EndOfRegistration : Time=9067.477587318719, Duration=16.637659022292585, Patient=429 Secretary=3
+
+EVENT=EndOfArrival : Time=9071.954418776679, Duration=21.114490480251416, Patient=430 
+
+EVENT=EndOfScreening : Time=9077.941755838394, Duration=10.464168519675113, Patient=429 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9083.30148847505, Duration=50.72770483470526, Patient=118 Doctor=1
+
+EVENT=EndOfRegistration : Time=9087.05847006996, Duration=15.10405129328066, Patient=430 Secretary=3
+
+EVENT=EndOfArrival : Time=9092.22450683474, Duration=20.27008805806104, Patient=431 
+
+EVENT=EndOfScreening : Time=9097.181854360239, Duration=10.12338429027839, Patient=430 Nurse=2
+
+EVENT=EndOfRegistration : Time=9107.7754660026, Duration=15.550959167860686, Patient=431 Secretary=3
+
+EVENT=EndOfArrival : Time=9116.026098002145, Duration=23.8015911674039, Patient=432 
+
+EVENT=EndOfScreening : Time=9118.367199118298, Duration=10.591733115698686, Patient=431 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9133.77392236668, Duration=50.47243389162873, Patient=425 Doctor=1
+
+EVENT=EndOfRegistration : Time=9135.092863767872, Duration=19.066765765726576, Patient=432 Secretary=3
+
+EVENT=EndOfArrival : Time=9136.479635705367, Duration=20.45353770322181, Patient=433 
+
+EVENT=EndOfRegistration : Time=9153.495764018884, Duration=17.016128313515996, Patient=433 Secretary=3
+
+EVENT=EndOfArrival : Time=9157.541859176996, Duration=21.062223471627536, Patient=434 
+
+EVENT=EndOfExamMedicine : Time=9169.633860032043, Duration=35.859937665363944, Patient=425 Nurse=2
+
+EVENT=EndOfRegistration : Time=9172.70202202927, Duration=15.160162852275663, Patient=434 Secretary=3
+
+EVENT=EndOfArrival : Time=9177.930156082199, Duration=20.3882969052033, Patient=435 
+
+EVENT=EndOfScreening : Time=9180.80537350344, Duration=11.171513471395304, Patient=433 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9185.499700064256, Duration=51.725777697576355, Patient=429 Doctor=1
+
+EVENT=EndOfScreening : Time=9191.175217524658, Duration=10.369844021218473, Patient=434 Nurse=2
+
+EVENT=EndOfRegistration : Time=9193.172735951966, Duration=15.24257986976703, Patient=435 Secretary=3
+
+EVENT=EndOfArrival : Time=9199.154760198015, Duration=21.224604115816106, Patient=436 
+
+EVENT=EndOfScreening : Time=9201.709756707201, Duration=10.534539182542181, Patient=432 Nurse=2
+
+EVENT=EndOfScreening : Time=9211.724933757641, Duration=10.015177050439238, Patient=435 Nurse=2
+
+EVENT=EndOfRegistration : Time=9214.574581224268, Duration=15.419821026252963, Patient=436 Secretary=3
+
+EVENT=EndOfArrival : Time=9219.36349407277, Duration=20.208733874754248, Patient=437 
+
+EVENT=EndOfRegistration : Time=9235.232223757197, Duration=15.868729684427375, Patient=437 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=9235.796308422385, Duration=50.29660835812945, Patient=119 Doctor=1
+
+EVENT=EndOfArrival : Time=9240.599664512805, Duration=21.236170440034588, Patient=438 
+
+EVENT=EndOfExamMedicine : Time=9246.751002362727, Duration=35.026068605086515, Patient=429 Nurse=2
+
+EVENT=EndOfRegistration : Time=9255.71741576221, Duration=15.117751249404156, Patient=438 Secretary=3
+
+EVENT=EndOfScreening : Time=9256.85753496902, Duration=10.106532606293268, Patient=437 Nurse=2
+
+EVENT=EndOfArrival : Time=9262.00668613545, Duration=21.407021622644987, Patient=439 
+
+EVENT=EndOfScreening : Time=9269.233483557855, Duration=12.375948588835385, Patient=438 Nurse=2
+
+EVENT=EndOfScreening : Time=9279.30531874744, Duration=10.071835189585132, Patient=436 Nurse=2
+
+EVENT=EndOfRegistration : Time=9279.783761886589, Duration=17.777075751138845, Patient=439 Secretary=3
+
+EVENT=EndOfArrival : Time=9284.180693033983, Duration=22.174006898533246, Patient=440 
+
+EVENT=EndOfMedicalCare : Time=9286.99860525745, Duration=51.20229683506472, Patient=432 Doctor=1
+
+EVENT=EndOfScreening : Time=9290.045298823667, Duration=10.261536937077643, Patient=439 Nurse=2
+
+EVENT=EndOfRegistration : Time=9301.268643690952, Duration=17.087950656969124, Patient=440 Secretary=3
+
+EVENT=EndOfArrival : Time=9304.191801092355, Duration=20.011108058371807, Patient=441 
+
+EVENT=EndOfRegistration : Time=9320.397636076556, Duration=16.205834984200663, Patient=441 Secretary=3
+
+EVENT=EndOfArrival : Time=9324.201530006412, Duration=20.009728914057337, Patient=442 
+
+EVENT=EndOfExamMedicine : Time=9326.93787329878, Duration=36.89257447511405, Patient=432 Nurse=2
+
+EVENT=EndOfScreening : Time=9339.222715693797, Duration=12.284842395015778, Patient=441 Nurse=2
+
+EVENT=EndOfRegistration : Time=9340.004226686004, Duration=15.802696679591392, Patient=442 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=9340.445648865343, Duration=53.447043607893285, Patient=437 Doctor=1
+
+EVENT=EndOfArrival : Time=9344.372889203552, Duration=20.171359197140845, Patient=443 
+
+EVENT=EndOfScreening : Time=9349.71733385077, Duration=10.494618156971981, Patient=440 Nurse=2
+
+EVENT=EndOfScreening : Time=9360.296080689039, Duration=10.578746838269874, Patient=442 Nurse=2
+
+EVENT=EndOfRegistration : Time=9361.45517025392, Duration=17.08228105036775, Patient=443 Secretary=3
+
+EVENT=EndOfArrival : Time=9365.565241236194, Duration=21.19235203264151, Patient=444 
+
+EVENT=EndOfScreening : Time=9373.708901214113, Duration=12.253730960194789, Patient=443 Nurse=2
+
+EVENT=EndOfRegistration : Time=9381.446066491859, Duration=15.880825255665137, Patient=444 Secretary=3
+
+EVENT=EndOfArrival : Time=9386.12805528822, Duration=20.56281405202489, Patient=445 
+
+EVENT=EndOfMedicalCare : Time=9391.390514266657, Duration=50.94486540131328, Patient=438 Doctor=1
+
+EVENT=EndOfScreening : Time=9391.829461795007, Duration=10.383395303147923, Patient=444 Nurse=2
+
+EVENT=EndOfRegistration : Time=9401.31981231475, Duration=15.19175702652997, Patient=445 Secretary=3
+
+EVENT=EndOfArrival : Time=9407.038449096584, Duration=20.910393808365043, Patient=446 
+
+EVENT=EndOfScreening : Time=9414.265516254562, Duration=12.945703939810514, Patient=445 Nurse=2
+
+EVENT=EndOfRegistration : Time=9422.97907132336, Duration=15.9406222267749, Patient=446 Secretary=3
+
+EVENT=EndOfArrival : Time=9428.875272971449, Duration=21.836823874864184, Patient=447 
+
+EVENT=EndOfScreening : Time=9434.650408792251, Duration=11.671337468891318, Patient=446 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9443.665426082338, Duration=52.27491181568055, Patient=439 Doctor=1
+
+EVENT=EndOfRegistration : Time=9443.967548072207, Duration=15.092275100758949, Patient=447 Secretary=3
+
+EVENT=EndOfArrival : Time=9450.144689642895, Duration=21.26941667144608, Patient=448 
+
+EVENT=EndOfRegistration : Time=9465.381086144202, Duration=15.236396501305926, Patient=448 Secretary=3
+
+EVENT=EndOfArrival : Time=9471.015847885037, Duration=20.871158242142062, Patient=449 
+
+EVENT=EndOfExamMedicine : Time=9479.04174286733, Duration=35.37631678499245, Patient=439 Nurse=2
+
+EVENT=EndOfRegistration : Time=9486.267828485226, Duration=15.25198060018926, Patient=449 Secretary=3
+
+EVENT=EndOfScreening : Time=9489.906429166675, Duration=10.864686299344276, Patient=448 Nurse=2
+
+EVENT=EndOfArrival : Time=9492.524491504537, Duration=21.508643619500234, Patient=450 
+
+EVENT=EndOfMedicalCare : Time=9494.255735974402, Duration=50.590309892063914, Patient=440 Doctor=1
+
+EVENT=EndOfScreening : Time=9501.731275282575, Duration=11.824846115899309, Patient=449 Nurse=2
+
+EVENT=EndOfRegistration : Time=9507.830035107996, Duration=15.305543603458592, Patient=450 Secretary=3
+
+EVENT=EndOfScreening : Time=9512.671343028269, Duration=10.940067745694492, Patient=447 Nurse=2
+
+EVENT=EndOfArrival : Time=9513.413693568567, Duration=20.88920206403091, Patient=451 
+
+EVENT=EndOfRegistration : Time=9532.450389584867, Duration=19.03669601629923, Patient=451 Secretary=3
+
+EVENT=EndOfArrival : Time=9533.97397830499, Duration=20.56028473642168, Patient=452 
+
+EVENT=EndOfScreening : Time=9545.097684210847, Duration=12.647294625980674, Patient=451 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9545.32931153331, Duration=51.07357555890766, Patient=445 Doctor=1
+
+EVENT=EndOfRegistration : Time=9550.10258914793, Duration=16.128610842939214, Patient=452 Secretary=3
+
+EVENT=EndOfArrival : Time=9556.059723294627, Duration=22.085744989637828, Patient=453 
+
+EVENT=EndOfRegistration : Time=9571.279799571996, Duration=15.220076277369081, Patient=453 Secretary=3
+
+EVENT=EndOfArrival : Time=9576.208937888916, Duration=20.149214594287535, Patient=454 
+
+EVENT=EndOfExamMedicine : Time=9580.390147114551, Duration=35.06083558123974, Patient=445 Nurse=2
+
+EVENT=EndOfScreening : Time=9590.573726710863, Duration=10.183579596313363, Patient=453 Nurse=2
+
+EVENT=EndOfRegistration : Time=9591.215410126602, Duration=15.006472237685923, Patient=454 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=9595.396437597356, Duration=50.06712606404558, Patient=447 Doctor=1
+
+EVENT=EndOfArrival : Time=9596.351052792372, Duration=20.142114903456587, Patient=455 
+
+EVENT=EndOfScreening : Time=9602.874412316973, Duration=12.300685606109779, Patient=452 Nurse=2
+
+EVENT=EndOfRegistration : Time=9612.09858858115, Duration=15.74753578877718, Patient=455 Secretary=3
+
+EVENT=EndOfScreening : Time=9613.488306739555, Duration=10.613894422582609, Patient=454 Nurse=2
+
+EVENT=EndOfArrival : Time=9616.64334403655, Duration=20.292291244179083, Patient=456 
+
+EVENT=EndOfScreening : Time=9623.54970415924, Duration=10.061397419686667, Patient=455 Nurse=2
+
+EVENT=EndOfRegistration : Time=9632.203652593853, Duration=15.560308557302298, Patient=456 Secretary=3
+
+EVENT=EndOfArrival : Time=9638.551573298007, Duration=21.908229261456714, Patient=457 
+
+EVENT=EndOfScreening : Time=9644.515842969482, Duration=12.312190375629065, Patient=456 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9645.893560924525, Duration=50.49712332716931, Patient=451 Doctor=1
+
+EVENT=EndOfRegistration : Time=9654.11711140915, Duration=15.565538111141946, Patient=457 Secretary=3
+
+EVENT=EndOfArrival : Time=9662.819191775443, Duration=24.267618477435736, Patient=458 
+
+EVENT=EndOfScreening : Time=9664.151733824214, Duration=10.034622415063192, Patient=457 Nurse=2
+
+EVENT=EndOfRegistration : Time=9677.948483465383, Duration=15.129291689941043, Patient=458 Secretary=3
+
+EVENT=EndOfArrival : Time=9685.872420022048, Duration=23.05322824660476, Patient=459 
+
+EVENT=EndOfScreening : Time=9687.967988494893, Duration=10.019505029509007, Patient=458 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9696.290238808866, Duration=50.396677884341145, Patient=453 Doctor=1
+
+EVENT=EndOfRegistration : Time=9701.259294004905, Duration=15.386873982857557, Patient=459 Secretary=3
+
+EVENT=EndOfArrival : Time=9707.983976071762, Duration=22.111556049714718, Patient=460 
+
+EVENT=EndOfScreening : Time=9712.596000754584, Duration=11.336706749678505, Patient=459 Nurse=2
+
+EVENT=EndOfRegistration : Time=9725.156674440213, Duration=17.17269836845116, Patient=460 Secretary=3
+
+EVENT=EndOfArrival : Time=9728.700598684605, Duration=20.716622612843636, Patient=461 
+
+EVENT=EndOfScreening : Time=9737.058277343296, Duration=11.901602903083058, Patient=460 Nurse=2
+
+EVENT=EndOfRegistration : Time=9745.704905104052, Duration=17.004306419447133, Patient=461 Secretary=3
+
+EVENT=EndOfMedicalCare : Time=9746.862914328534, Duration=50.572675519668444, Patient=442 Doctor=1
+
+EVENT=EndOfArrival : Time=9749.195672805758, Duration=20.49507412115297, Patient=462 
+
+EVENT=EndOfScreening : Time=9756.417519863217, Duration=10.712614759164827, Patient=461 Nurse=2
+
+EVENT=EndOfRegistration : Time=9764.31910010444, Duration=15.123427298681548, Patient=462 Secretary=3
+
+EVENT=EndOfArrival : Time=9769.338048707257, Duration=20.14237590149988, Patient=463 
+
+EVENT=EndOfScreening : Time=9774.796312810413, Duration=10.477212705972965, Patient=462 Nurse=2
+
+EVENT=EndOfRegistration : Time=9784.760800413502, Duration=15.422751706243767, Patient=463 Secretary=3
+
+EVENT=EndOfArrival : Time=9790.43396825475, Duration=21.095919547492915, Patient=464 
+
+EVENT=EndOfScreening : Time=9795.586888514721, Duration=10.82608810121851, Patient=463 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9798.145258255483, Duration=51.28234392694835, Patient=444 Doctor=1
+
+EVENT=EndOfRegistration : Time=9805.503979191775, Duration=15.070010937024525, Patient=464 Secretary=3
+
+EVENT=EndOfArrival : Time=9810.48174648975, Duration=20.0477782349994, Patient=465 
+
+EVENT=EndOfRegistration : Time=9827.1414607536, Duration=16.65971426385137, Patient=465 Secretary=3
+
+EVENT=EndOfArrival : Time=9832.064897955082, Duration=21.583151465333373, Patient=466 
+
+EVENT=EndOfExamMedicine : Time=9833.562751169928, Duration=35.41749291444396, Patient=444 Nurse=2
+
+EVENT=EndOfScreening : Time=9844.86325042849, Duration=11.30049925856297, Patient=465 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9848.202501623997, Duration=50.057243368513056, Patient=461 Doctor=1
+
+EVENT=EndOfRegistration : Time=9849.11186883513, Duration=17.046970880047617, Patient=466 Secretary=3
+
+EVENT=EndOfArrival : Time=9853.029948324905, Duration=20.965050369823757, Patient=467 
+
+EVENT=EndOfScreening : Time=9855.445114300373, Duration=10.581863871882078, Patient=464 Nurse=2
+
+EVENT=EndOfRegistration : Time=9868.12015440887, Duration=15.090206083966207, Patient=467 Secretary=3
+
+EVENT=EndOfArrival : Time=9873.853870203615, Duration=20.823921878709065, Patient=468 
+
+EVENT=EndOfScreening : Time=9878.435518579678, Duration=10.315364170807094, Patient=467 Nurse=2
+
+EVENT=EndOfRegistration : Time=9889.33609418239, Duration=15.482223978774647, Patient=468 Secretary=3
+
+EVENT=EndOfArrival : Time=9894.56286213426, Duration=20.708991930645443, Patient=469 
+
+EVENT=EndOfMedicalCare : Time=9900.4270523286, Duration=52.22455070460352, Patient=465 Doctor=1
+
+EVENT=EndOfScreening : Time=9901.562315248506, Duration=12.226221066116361, Patient=468 Nurse=2
+
+EVENT=EndOfRegistration : Time=9909.821611552223, Duration=15.258749417962932, Patient=469 Secretary=3
+
+EVENT=EndOfArrival : Time=9915.7132756908, Duration=21.15041355654003, Patient=470 
+
+EVENT=EndOfRegistration : Time=9933.944395814346, Duration=18.231120123546873, Patient=470 Secretary=3
+
+EVENT=EndOfExamMedicine : Time=9937.379463382993, Duration=35.81714813448622, Patient=465 Nurse=2
+
+EVENT=EndOfArrival : Time=9937.406289879214, Duration=21.693014188415592, Patient=471 
+
+EVENT=EndOfScreening : Time=9947.983462320764, Duration=10.603998937771552, Patient=470 Nurse=2
+
+EVENT=EndOfMedicalCare : Time=9951.221066260125, Duration=50.794013931525754, Patient=464 Doctor=1
+
+EVENT=EndOfRegistration : Time=9952.57347878005, Duration=15.167188900835168, Patient=471 Secretary=3
+
+EVENT=EndOfArrival : Time=9958.45328350213, Duration=21.046993622915373, Patient=472 
+
+EVENT=EndOfScreening : Time=9958.470130401924, Duration=10.486668081158495, Patient=469 Nurse=2
+
+EVENT=EndOfScreening : Time=9970.02926187594, Duration=11.55913147401515, Patient=471 Nurse=2
+
+EVENT=EndOfRegistration : Time=9974.087311582127, Duration=15.634028079998012, Patient=472 Secretary=3
+
+EVENT=EndOfArrival : Time=9978.591261187514, Duration=20.137977685384634, Patient=473 
+
+EVENT=EndOfRegistration : Time=9995.746219341272, Duration=17.154958153758088, Patient=473 Secretary=3

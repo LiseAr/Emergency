@@ -11,7 +11,6 @@ def read_config(file_name):
                     config[param] = {}
                 list = line.split('\n')[0].split(' ')
                 desc = list[1]
-                config[param][desc] = [float(x) for x in list[2:]]
+                config[param][desc] = list[2:]
 
     return config
-
