@@ -74,13 +74,10 @@ class Emergency:
         
         local_time = 0
         id = 0
-
         while local_time < self.simulation_time:
-            
             duration = get_dist_num(self.config['T']['CHE'])
             exam_medicine = get_exam_medicine(self.config['P']['PRO'])
             priority = get_priority(self.config['P']['PRI'])
-            
             id += 1
             local_time += duration
             patient = Patient(id, priority, exam_medicine)
@@ -107,6 +104,24 @@ class Emergency:
 
     def next_event(self):
         return self.event_queue.next()
+
+    def add_queue(self, queue, entity):
+        if not entity.priority:
+            queue.insert(entity)
+            queue.save_size()
+        else:
+            queue.insert(entity, self.count)
+            self.count += 1
+        entity.joined_queue = self.current_time
+        queue.save_size()
+        
+    def rmv_queue(self, queue):
+        patient = queue.next()
+        queue.time.append(self.current_time - patient.joined_queue)
+        patient.joined_queue = 0
+        queue.save_size()
+        return patient
+                
 
     def free_resources(self):
         while not self.event_queue.empty:
@@ -160,8 +175,7 @@ class Emergency:
                 e.add_event(Emergency.EndOfRegistration(duration, execution_time, 
                                                     self.patient, secretary))
             else:
-                e.registration_queue.insert(self.patient)
-                self.patient.joined_queue = e.current_time
+                e.add_queue(e.registration_queue, self.patient)
 
     class EndOfRegistration():
 
@@ -180,9 +194,7 @@ class Emergency:
 
             if not e.registration_queue.empty:
                 duration = get_dist_num(e.config['T']['CAD'])
-                patient = e.registration_queue.next()
-                e.registration_queue.time.append(e.current_time - patient.joined_queue)
-                patient.joined_queue = 0
+                patient = e.rmv_queue(e.registration_queue)
                 execution_time = e.current_time + duration
                 e.add_event(Emergency.EndOfRegistration(duration, execution_time, 
                                             patient, self.secretary))
@@ -197,9 +209,7 @@ class Emergency:
                     e.add_event(Emergency.EndOfMedicalCare(duration, execution_time, 
                                                     self.patient, doctor))
                 else: 
-                    e.medical_care_queue.insert(self.patient, e.count)
-                    e.increment_count()
-                    self.patient.joined_queue = e.current_time
+                    e.add_queue(e.medical_care_queue, self.patient)
             else:
                 if len(e.nurses) > 0:
                     nurse = e.nurses.pop()
@@ -208,8 +218,7 @@ class Emergency:
                     e.add_event(Emergency.EndOfScreening(duration, execution_time,
                                                     self.patient, nurse))
                 else:
-                    e.screening_queue.insert(self.patient)
-                    self.patient.joined_queue = e.current_time
+                    e.add_queue(e.screening_queue, self.patient)
 
     class EndOfScreening():
 
@@ -229,19 +238,14 @@ class Emergency:
             if not e.screening_queue.empty:
                 duration = get_dist_num(e.config['T']['TRI'])
                 execution_time = e.current_time + duration
-                patient = e.screening_queue.next()
-                e.screening_queue.time.append(e.current_time - patient.joined_queue)
-                patient.joined_queue = 0
+                patient = e.rmv_queue(e.screening_queue)
                 e.add_event(Emergency.EndOfScreening(duration, execution_time, patient,
                                         self.nurse))
-
             else:
                 if not e.exam_medicine_queue.empty:
                     duration = get_dist_num(e.config['T']['EXA'])
                     execution_time = e.current_time + duration
-                    patient = e.exam_medicine_queue.next()
-                    e.exam_medicine_queue.time.append(e.current_time - patient.joined_queue)
-                    patient.joined_queue = 0
+                    patient = e.rmv_queue(e.exam_medicine_queue)
                     e.add_event(Emergency.EndOfExamMedicine(duration, execution_time,
                                                 patient, self.nurse))
                 else:
@@ -254,10 +258,7 @@ class Emergency:
                 e.add_event(Emergency.EndOfMedicalCare(duration, execution_time,
                                             self.patient, doctor))
             else:
-                e.medical_care_queue.insert(self.patient, e.count)
-                e.increment_count()
-                self.patient.joined_queue = e.current_time
-                                    
+                e.add_queue(e.medical_care_queue, self.patient)
 
     class EndOfExamMedicine():
 
@@ -277,18 +278,14 @@ class Emergency:
             if not e.exam_medicine_queue.empty:
                 duration = get_dist_num(e.config['T']['EXA'])
                 execution_time = e.current_time + duration
-                patient = e.exam_medicine_queue.next()
-                e.exam_medicine_queue.time.append(e.current_time - patient.joined_queue)
-                patient.joined_queue = 0
+                patient = e.rmv_queue(e.exam_medicine_queue)
                 e.add_event(Emergency.EndOfExamMedicine(duration, execution_time,
                                             patient, self.nurse))
             else:
                 if not e.screening_queue.empty:
                     duration = get_dist_num(e.config['T']['TRI'])
                     execution_time = e.current_time + duration
-                    patient = e.screening_queue.next()
-                    e.screening_queue.time.append(e.current_time - patient.joined_queue)
-                    patient.joined_queue = 0
+                    patient = e.rmv_queue(e.screening_queue)
                     e.add_event(Emergency.EndOfScreening(duration, execution_time, patient,
                                             self.nurse))
                 else:
@@ -310,9 +307,7 @@ class Emergency:
             self.doctor.working_time += self.duration
 
             if not e.medical_care_queue.empty:
-                patient = e.medical_care_queue.next()
-                e.medical_care_queue.time.append(e.current_time - patient.joined_queue)
-                patient.joined_queue = 0
+                patient = e.rmv_queue(e.medical_care_queue)
                 duration = get_dist_num(e.config['T']['ATE'])
                 execution_time = e.current_time + duration
                 e.add_event(Emergency.EndOfMedicalCare(duration, execution_time, patient,
@@ -328,9 +323,7 @@ class Emergency:
                     e.add_event(Emergency.EndOfExamMedicine(duration, execution_time, 
                                                 self.patient, nurse))
                 else:
-                    e.exam_medicine_queue.insert(self.patient)
-                    self.patient.joined_queue = e.current_time
-
+                    e.add_queue(e.exam_medicine_queue, self.patient)
 
 if __name__ == '__main__':
     Emergency('docs/dados.txt')

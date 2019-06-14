@@ -20,7 +20,7 @@
 
 # Tempo maximo de simulacao, em minutos. O valor abaixo 
 # corresponde a x dias * x horas * x minutos.
-T TTS 10000
+T TTS 86400
 
 ############################################################
 #                                                          #
@@ -41,13 +41,13 @@ P PRI 10 25 30 15 20
 ############################################################
 
 # Quantidade de médicos.
-Q MED 1
+Q MED 3
 
 # Quantidade de enfermeiras.
-Q ENF 1
+Q ENF 2
 
 # Quantidade de atendentes.
-Q ATD 1
+Q ATD 2
 
 ############################################################
 #                                                          #
@@ -73,16 +73,16 @@ Q ATD 1
 # OBS.: Os parâmetros não utilizados devem ser iguais a zero.
 #
 # Tempo de chegada do paciente.
-T CHE EXP 20 1
+T CHE EXP 20 15
 
 # Tempo de cadastro.
-T CAD EXP 15 1
+T CAD EXP 15 10
 
 # Tempo de triagem.
-T TRI EXP 10 1
+T TRI EXP 10 5
 
 # Tempo de atendimento.
-T ATE EXP 50 1
+T ATE EXP 50 10
 
 # Tempo de exames/medicamentos.
-T EXA EXP 35 1
+T EXA EXP 35 15

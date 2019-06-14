@@ -7,6 +7,7 @@ class Queue():
         self.priority = priority
         self.queue = []
         self.time = [] # guarda tempo em fila de cada paciente que entra nessa fila
+        self.size = [] # guarda tamanho da fila toda vez que alguém entra ou
 
     @property
     def empty(self):
@@ -33,4 +34,7 @@ class Queue():
     def add_priority_queue(self, priority, count, entry):
         entry = [priority, count, entry]
         heappush(self.queue, entry)
+
+    def save_size(self):
+        self.size.append(len(self.queue))
         

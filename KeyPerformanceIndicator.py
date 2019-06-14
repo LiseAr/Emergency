@@ -3,7 +3,7 @@ import csv
 class KeyPerformanceIndicator:
 
     def __init__(self):
-        self.result = [['EXE','OCM','OCE','OCS','TER','TET','TEA','TEE']]    
+        self.result = [['EXE','OCM','OCE','OCS','TER','TET','TEA','TEE','TAR','TAT','TAA','TAE']]    
         
 
     def calculate(self, e, i):
@@ -14,7 +14,11 @@ class KeyPerformanceIndicator:
                             '{:.4f}'.format(self.mean_time_queue(e.registration_queue)),
                             '{:.4f}'.format(self.mean_time_queue(e.screening_queue)),
                             '{:.4f}'.format(self.mean_time_queue(e.medical_care_queue)),
-                            '{:.4f}'.format(self.mean_time_queue(e.exam_medicine_queue))])
+                            '{:.4f}'.format(self.mean_time_queue(e.exam_medicine_queue)),
+                            '{:.4f}'.format(self.mean_size_queue(e.registration_queue)),
+                            '{:.4f}'.format(self.mean_size_queue(e.screening_queue)),
+                            '{:.4f}'.format(self.mean_size_queue(e.medical_care_queue)),
+                            '{:.4f}'.format(self.mean_size_queue(e.exam_medicine_queue))])
 
         self.write()
         self.result = []
@@ -33,6 +37,11 @@ class KeyPerformanceIndicator:
         if queue.empty:
             return 0
         return sum(queue.time)/len(queue.time)
+
+    def mean_size_queue(self, queue):
+        if queue.empty:
+            return 0
+        return sum(queue.size)/len(queue.size)
 
 
     def write(self):
