@@ -5,12 +5,13 @@ def read_config(file_name):
     
     with open(file_name) as file:
         for line in file:
-            param = line[0]
-            if not (param in ('#','\n')):
+            line = line.split('#')[0]
+            if line not in ('','\n'):
+                line = line.split()
+                param = line[0]
                 if param not in config:
                     config[param] = {}
-                list = line.split('\n')[0].split(' ')
-                desc = list[1]
-                config[param][desc] = list[2:]
+                desc = line[1]
+                config[param][desc] = line[2:]
 
     return config

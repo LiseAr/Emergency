@@ -1,16 +1,16 @@
-from KeyPerformanceIndicator import KeyPerformanceIndicator
+from sys import argv
+
 from Emergency import Emergency
 
 class Simulation:
 
-    def __init__(self):
-        self.kpi = KeyPerformanceIndicator()
-        self.run()
+    def __init__(self, args):
+        self.run(args)
 
-    def run(self):
-        for i in range(100):
-            e = Emergency('docs/dados.txt')
-            self.kpi.calculate(e, i)
+    def run(self,config):
+        runs = int(config[1]) if len(config) > 1 else 50
+        for _ in range(runs):
+            Emergency('docs/config.txt')
 
 if __name__ == '__main__':
-    Simulation()
+    Simulation(argv)

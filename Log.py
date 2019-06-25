@@ -14,7 +14,7 @@ class Log:
 
     def insert(self, log):
         name, event = log
-        self.log += '\n\nEVENT={} : Time={}, Duration={}, '.format(name, event.time,
+        self.log += '\n\nEVENT={} : Time={:.4f}, Duration={:.4f}, '.format(name, event.time,
                                                        event.duration) + \
                     'Patient={} '.format(event.patient.id)
         if name == 'EndOfRegistration':

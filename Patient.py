@@ -6,4 +6,5 @@ class Patient:
         self.exam_medicine = exam_medicine
         self.age = 0
         self.joined_queue = 0.0
+        self.waiting_time = 0
 
