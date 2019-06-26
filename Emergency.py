@@ -25,6 +25,7 @@ class Emergency:
         self.nurses = set()
         self.doctors = set()
         self.secretaries = set()
+        self.patients = set()
 
         # priority queues
         self.event_queue = Queue(priority=True)
@@ -125,7 +126,7 @@ class Emergency:
         patient = queue.next()
         time_in_queue = self.current_time - patient.joined_queue
         queue.update_info_time(time_in_queue)
-        patient.waiting_time += (time_in_queue)
+        patient.waiting_time += time_in_queue
         patient.joined_queue = 0
         return patient
 
@@ -153,6 +154,23 @@ class Emergency:
                     event.doctor.working_time += \
                         (self.simulation_time - self.current_time)
                 self.doctors.add(event.doctor)
+
+        for p in self.registration_queue.queue:
+            p.waiting_time += self.simulation_time - p.joined_queue
+            self.patients.add(p)
+
+        for p in self.screening_queue.queue:
+            p.waiting_time += self.simulation_time - p.joined_queue
+            self.patients.add(p)
+
+        for entry in self.medical_care_queue.queue:
+            p = entry[2]
+            p.waiting_time += self.simulation_time - p.joined_queue
+            self.patients.add(p)
+
+        for p in self.exam_medicine_queue.queue:
+            p.waiting_time += self.simulation_time - p.joined_queue
+            self.patients.add(p)
 
     def increment_count(self):
         self.count += 1
@@ -310,6 +328,8 @@ class Emergency:
                 else:
                     e.nurses.add(self.nurse)
 
+            e.patients.add(self.patient)
+
     class EndOfMedicalCare():
 
         def __init__(self,  duration, time, patient, doctor):
@@ -346,6 +366,8 @@ class Emergency:
                                                 self.patient, nurse))
                 else:
                     e.add_queue(e.exam_medicine_queue, self.patient)
+            else:
+                e.patients.add(self.patient)
 
 # =================================================================
 # KPIs
@@ -353,17 +375,27 @@ class Emergency:
 
     def calculate_kpis(self):
         result = []
-        if not os.path.isfile('docs/kpi.csv'):
+
+        filename = 'docs/kpi_s{}_n{}_d{}_t{}m.csv'.format(len(self.secretaries), 
+            len(self.nurses), len(self.doctors), self.simulation_time)
+
+        if not os.path.isfile(filename):
             result = [[
                     'mean_idle_time',
                     'mean_idle_time-Secretary',
                     'mean_idle_time-Nurse',
                     'mean_idle_time-Doctor',
                     'mean_waiting_time',
+                    'mean_waiting_time-1',
+                    'mean_waiting_time-2',
+                    'mean_waiting_time-3',
+                    'mean_waiting_time-4',
+                    'mean_waiting_time-5',
                     'mean_waiting_time-Registration',
                     'mean_waiting_time-Screening',
                     'mean_waiting_time-Medical_Care',
                     'mean_waiting_time-Exam_Medicine',
+                    'mean_size_queue',
                     'mean_size_queue-Registration',
                     'mean_size_queue-Screening',
                     'mean_size_queue-Medical_Care',
@@ -373,39 +405,89 @@ class Emergency:
         nurses_idleness = self.idleness_time(self.nurses)
         doctors_idleness = self.idleness_time(self.doctors)
         total_idleness = (secretaries_idleness + nurses_idleness + doctors_idleness)/3
+
+        mean_waiting_time_1 = 0
+        mean_waiting_time_2 = 0
+        mean_waiting_time_3 = 0
+        mean_waiting_time_4 = 0
+        mean_waiting_time_5 = 0
         
+
+        count_1 = 0
+        count_2 = 0
+        count_3 = 0
+        count_4 = 0
+        count_5 = 0
+
+        for p in self.patients:
+            if p.original_priority == 1:
+                mean_waiting_time_5 += p.waiting_time
+                count_5 += 1
+            if p.original_priority == 2:
+                mean_waiting_time_4 += p.waiting_time
+                count_4 += 1
+            if p.original_priority == 3:
+                mean_waiting_time_3 += p.waiting_time
+                count_3 += 1
+            if p.original_priority == 4:
+                mean_waiting_time_2 += p.waiting_time
+                count_2 += 1
+            if p.original_priority == 5:
+                mean_waiting_time_1 += p.waiting_time
+                count_1 += 1
+
+        count = count_1 + count_2 + count_3 + count_4 + count_5 
+        mean_waiting_time_total = (mean_waiting_time_1 +
+            mean_waiting_time_2 + mean_waiting_time_3 + 
+            mean_waiting_time_4 + mean_waiting_time_5) / count
+
+        mean_waiting_time_1 = mean_waiting_time_1/count_1
+        mean_waiting_time_2 = mean_waiting_time_2/count_2
+        mean_waiting_time_3 = mean_waiting_time_3/count_3
+        mean_waiting_time_4 = mean_waiting_time_4/count_4
+        mean_waiting_time_5 = mean_waiting_time_5/count_5
+
         mean_waiting_time_register_queue = self.registration_queue.mean_time()
         mean_waiting_time_screening_queue = self.screening_queue.mean_time()
         mean_waiting_time_medical_care_queue = self.medical_care_queue.mean_time()
         mean_waiting_time_exam_medicine_queue = self.exam_medicine_queue.mean_time()
-        mean_waiting_time_queue = (mean_waiting_time_register_queue +
-                             mean_waiting_time_screening_queue +
-                             mean_waiting_time_medical_care_queue +
-                             mean_waiting_time_exam_medicine_queue) / 4
-
+        
         mean_size_registration_queue = self.registration_queue.mean_size(self.simulation_time)
         mean_size_screening_queue = self.screening_queue.mean_size(self.simulation_time)
         mean_size_medical_care_queue = self.medical_care_queue.mean_size(self.simulation_time)
         mean_size_exam_medicine_queue = self.exam_medicine_queue.mean_size(self.simulation_time)
         
+        mean_size_queue = (mean_size_registration_queue +
+                           mean_size_screening_queue + 
+                           mean_size_medical_care_queue +
+                           mean_size_exam_medicine_queue)/4
+
         result.append([
                         '{:.2f}'.format(total_idleness),
                         '{:.2f}'.format(secretaries_idleness),
                         '{:.2f}'.format(nurses_idleness),
                         '{:.2f}'.format(doctors_idleness),
 
-                        '{:.2f}'.format(mean_waiting_time_queue),
+                        '{:.2f}'.format(mean_waiting_time_total),
+                        
+                        '{:.2f}'.format(mean_waiting_time_1),
+                        '{:.2f}'.format(mean_waiting_time_2),
+                        '{:.2f}'.format(mean_waiting_time_3),
+                        '{:.2f}'.format(mean_waiting_time_4),
+                        '{:.2f}'.format(mean_waiting_time_5),
+
                         '{:.2f}'.format(mean_waiting_time_register_queue),
                         '{:.2f}'.format(mean_waiting_time_screening_queue),
                         '{:.2f}'.format(mean_waiting_time_medical_care_queue),
                         '{:.2f}'.format(mean_waiting_time_exam_medicine_queue),
 
+                        '{:.2f}'.format(mean_size_queue),
                         '{:.2f}'.format(mean_size_registration_queue),
                         '{:.2f}'.format(mean_size_screening_queue),
                         '{:.2f}'.format(mean_size_medical_care_queue),
                         '{:.2f}'.format(mean_size_exam_medicine_queue)])
 
-        with open('docs/kpi.csv','a') as f:
+        with open(filename,'a') as f:
             csv.writer(f).writerows(result)
 
     def idleness_time(self, entitys):

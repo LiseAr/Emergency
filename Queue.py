@@ -67,6 +67,7 @@ class Queue():
             if (e[2].age == 5) and (e[2].priority != 1):
                 entry = self.queue.pop(i)
                 entry[2].priority -= 1
+                entry[2].age = 0
                 heappush(self.queue, entry)
             else:
                 e[2].age += 1
